@@ -1,0 +1,3080 @@
+{
+  "schema_version": 1,
+  "generated_from": "data/project-quilt.json",
+  "node_count": 150,
+  "edge_count": 152,
+  "nodes": [
+    {
+      "id": "PUB-113",
+      "label": "AshFallen",
+      "full_name": "joshualparris/AshFallen",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshualparris/AshFallen",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "ashfaller-lineage"
+      ]
+    },
+    {
+      "id": "PUB-115",
+      "label": "Buckland Blocks Demo",
+      "full_name": "joshualparris/buckland-blocks-demo",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshualparris/buckland-blocks-demo",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "buckland-blocks-lineage"
+      ]
+    },
+    {
+      "id": "PUB-111",
+      "label": "Cheap PCs & Laptops",
+      "full_name": "joshualparris/Cheappcslaptops",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/joshualparris/Cheappcslaptops",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-116",
+      "label": "HealthLens",
+      "full_name": "joshualparris/HealthLens",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/joshualparris/HealthLens",
+      "region": "Health",
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "family_ids": [
+        "healthlens-lineage"
+      ]
+    },
+    {
+      "id": "PUB-110",
+      "label": "JoshHub",
+      "full_name": "joshualparris/JoshHub",
+      "type": "hub",
+      "live_url": "https://josh-hub-two.vercel.app/games",
+      "repo_url": "https://github.com/joshualparris/JoshHub",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "hub"
+      ],
+      "family_ids": [
+        "joshhub-lineage"
+      ]
+    },
+    {
+      "id": "PUB-117",
+      "label": "JoshMemory",
+      "full_name": "joshualparris/JoshMemory",
+      "type": "archive",
+      "live_url": "https://joshualparris.github.io/JoshMemory/",
+      "repo_url": "https://github.com/joshualparris/JoshMemory",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "archive",
+        "memory"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-118",
+      "label": "Josh Tap App",
+      "full_name": "joshualparris/JoshTapApp",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/joshualparris/JoshTapApp",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": [
+        "josh-tap-lineage"
+      ]
+    },
+    {
+      "id": "PUB-109",
+      "label": "Paul Roe",
+      "full_name": "joshualparris/Paul-Roe",
+      "type": "archive",
+      "live_url": null,
+      "repo_url": "https://github.com/joshualparris/Paul-Roe",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-114",
+      "label": "Sylvie Phonetics",
+      "full_name": "joshualparris/SylviePhonetics",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/joshualparris/SylviePhonetics",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-112",
+      "label": "The Consultancy Beneath",
+      "full_name": "joshualparris/the-consultancy-beneath",
+      "type": "game",
+      "live_url": "https://joshualparris.github.io/the-consultancy-beneath/",
+      "repo_url": "https://github.com/joshualparris/the-consultancy-beneath",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "consultancy-beneath-lineage"
+      ]
+    },
+    {
+      "id": "PUB-108",
+      "label": "Whispering Wilds (original)",
+      "full_name": "joshualparris/Whispering-Wilds",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshualparris/Whispering-Wilds",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ]
+    },
+    {
+      "id": "PUB-139",
+      "label": "ideas",
+      "full_name": "joshuaparris-max/ideas",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparris-max/ideas",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-138",
+      "label": "JoshOS",
+      "full_name": "joshuaparris-max/JoshOS",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparris-max/JoshOS",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": [
+        "josh-os-lineage"
+      ]
+    },
+    {
+      "id": "PUB-128",
+      "label": "BucklandGame",
+      "full_name": "joshuaparrisdadlan-stack/BucklandGame",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/BucklandGame",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "buckland-blocks-lineage"
+      ]
+    },
+    {
+      "id": "PUB-134",
+      "label": "campaign-copilot",
+      "full_name": "joshuaparrisdadlan-stack/campaign-copilot",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/campaign-copilot",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": [
+        "campaign-copilot-lineage"
+      ]
+    },
+    {
+      "id": "PUB-131",
+      "label": "DCSCompanion",
+      "full_name": "joshuaparrisdadlan-stack/DCSCompanion",
+      "type": "work-app",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/DCSCompanion",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": [
+        "dcs-companion-lineage"
+      ]
+    },
+    {
+      "id": "PUB-125",
+      "label": "Games",
+      "full_name": "joshuaparrisdadlan-stack/Games",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/Games",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-121",
+      "label": "HugCoach",
+      "full_name": "joshuaparrisdadlan-stack/HugCoach",
+      "type": "personal-app",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/HugCoach",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-126",
+      "label": "JoshHub",
+      "full_name": "joshuaparrisdadlan-stack/JoshHub",
+      "type": "hub",
+      "live_url": "https://josh-hub-two.vercel.app/games",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/JoshHub",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "hub"
+      ],
+      "family_ids": [
+        "joshhub-lineage"
+      ]
+    },
+    {
+      "id": "PUB-124",
+      "label": "JoshTapApp",
+      "full_name": "joshuaparrisdadlan-stack/JoshTapApp",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/JoshTapApp",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": [
+        "josh-tap-lineage"
+      ]
+    },
+    {
+      "id": "PUB-132",
+      "label": "LetsPlayDnd",
+      "full_name": "joshuaparrisdadlan-stack/LetsPlayDnd",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/LetsPlayDnd",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-129",
+      "label": "MysteriousDepths",
+      "full_name": "joshuaparrisdadlan-stack/MysteriousDepths",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/MysteriousDepths",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-137",
+      "label": "Null",
+      "full_name": "joshuaparrisdadlan-stack/Null",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/Null",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-130",
+      "label": "OrgScape",
+      "full_name": "joshuaparrisdadlan-stack/OrgScape",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/OrgScape",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-123",
+      "label": "PartyAI",
+      "full_name": "joshuaparrisdadlan-stack/PartyAI",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/PartyAI",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-136",
+      "label": "SimpleRPG",
+      "full_name": "joshuaparrisdadlan-stack/SimpleRPG",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/SimpleRPG",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-122",
+      "label": "the-consultancy-beneath",
+      "full_name": "joshuaparrisdadlan-stack/the-consultancy-beneath",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/the-consultancy-beneath",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": [
+        "consultancy-beneath-lineage"
+      ]
+    },
+    {
+      "id": "PUB-127",
+      "label": "WhirringWilderness",
+      "full_name": "joshuaparrisdadlan-stack/WhirringWilderness",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/WhirringWilderness",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ]
+    },
+    {
+      "id": "PUB-119",
+      "label": "whispering-wilds",
+      "full_name": "joshuaparrisdadlan-stack/whispering-wilds",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/whispering-wilds",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ]
+    },
+    {
+      "id": "PUB-120",
+      "label": "whispering-wilds-test",
+      "full_name": "joshuaparrisdadlan-stack/whispering-wilds-test",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/whispering-wilds-test",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ]
+    },
+    {
+      "id": "PUB-135",
+      "label": "WhisperingWildsReloaded",
+      "full_name": "joshuaparrisdadlan-stack/WhisperingWildsReloaded",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/WhisperingWildsReloaded",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ]
+    },
+    {
+      "id": "PUB-133",
+      "label": "Wild2",
+      "full_name": "joshuaparrisdadlan-stack/Wild2",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/Wild2",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ]
+    },
+    {
+      "id": "PUB-073",
+      "label": "3layers",
+      "full_name": "Parris-Tech-Services/3layers",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/3layers",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-069",
+      "label": "a",
+      "full_name": "Parris-Tech-Services/a",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/a",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-096",
+      "label": "Action1",
+      "full_name": "Parris-Tech-Services/Action1",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Action1",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-093",
+      "label": "Aetheria",
+      "full_name": "Parris-Tech-Services/Aetheria",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Aetheria",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-058",
+      "label": "AgentCheck",
+      "full_name": "Parris-Tech-Services/AgentCheck",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/AgentCheck",
+      "region": "Simulation / AI",
+      "themes": [
+        "ai",
+        "accountability"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-036",
+      "label": "Alfie",
+      "full_name": "Parris-Tech-Services/alfie",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/alfie",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-054",
+      "label": "analog",
+      "full_name": "Parris-Tech-Services/analog",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/analog",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-063",
+      "label": "AnchorFlow",
+      "full_name": "Parris-Tech-Services/AnchorFlow",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/AnchorFlow",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-021",
+      "label": "App Factory",
+      "full_name": "Parris-Tech-Services/AppFactory",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/AppFactory",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-048",
+      "label": "Arena",
+      "full_name": "Parris-Tech-Services/Arena",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Arena",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-090",
+      "label": "Ashfaller",
+      "full_name": "Parris-Tech-Services/ashfaller",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/ashfaller",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "ashfaller-lineage"
+      ]
+    },
+    {
+      "id": "PUB-037",
+      "label": "The Hollow Marches / AstraDndGame",
+      "full_name": "Parris-Tech-Services/AstraDndGame",
+      "type": "game",
+      "live_url": "https://astra-dnd-game.vercel.app/",
+      "repo_url": "https://github.com/Parris-Tech-Services/AstraDndGame",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-006",
+      "label": "SIGNAL BENEATH",
+      "full_name": "Parris-Tech-Services/awdagaer",
+      "type": "game",
+      "live_url": "https://parris-tech-services.github.io/awdagaer/",
+      "repo_url": "https://github.com/Parris-Tech-Services/awdagaer",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-038",
+      "label": "bramblewick",
+      "full_name": "Parris-Tech-Services/bramblewick",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/bramblewick",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-019",
+      "label": "Breach Command",
+      "full_name": "Parris-Tech-Services/breach-command",
+      "type": "game",
+      "live_url": "https://parris-tech-services.github.io/breach-command/",
+      "repo_url": "https://github.com/Parris-Tech-Services/breach-command",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-004",
+      "label": "Buckland Blocks",
+      "full_name": "Parris-Tech-Services/BucklandBlocks",
+      "type": "game",
+      "live_url": "https://buckland-blocks.vercel.app/",
+      "repo_url": "https://github.com/Parris-Tech-Services/BucklandBlocks",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "buckland-blocks-lineage"
+      ]
+    },
+    {
+      "id": "PUB-049",
+      "label": "Buckland Blocks 1",
+      "full_name": "Parris-Tech-Services/BucklandBlocks1",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/BucklandBlocks1",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "buckland-blocks-lineage"
+      ]
+    },
+    {
+      "id": "PUB-001",
+      "label": "Campaign Copilot",
+      "full_name": "Parris-Tech-Services/campaign-copilot",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/campaign-copilot",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": [
+        "campaign-copilot-lineage"
+      ]
+    },
+    {
+      "id": "PUB-100",
+      "label": "Canon RPG",
+      "full_name": "Parris-Tech-Services/CanonRPG",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/CanonRPG",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-041",
+      "label": "Carl",
+      "full_name": "Parris-Tech-Services/carl",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/carl",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-013",
+      "label": "chronos",
+      "full_name": "Parris-Tech-Services/chronos",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/chronos",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-088",
+      "label": "ClearCore",
+      "full_name": "Parris-Tech-Services/ClearCore",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/ClearCore",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-039",
+      "label": "Cold Flu App",
+      "full_name": "Parris-Tech-Services/ColdFluApp",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/ColdFluApp",
+      "region": "Health",
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-009",
+      "label": "DadlanControlCentre",
+      "full_name": "Parris-Tech-Services/DadlanControlCentre",
+      "type": "hub",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/DadlanControlCentre",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-020",
+      "label": "DCS Companion",
+      "full_name": "Parris-Tech-Services/DCSCompanion",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSCompanion",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": [
+        "dcs-companion-lineage"
+      ]
+    },
+    {
+      "id": "PUB-056",
+      "label": "DCSPD",
+      "full_name": "Parris-Tech-Services/DCSPD",
+      "type": "app",
+      "live_url": "https://dcspd.vercel.app/",
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSPD",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-045",
+      "label": "DCS Prep",
+      "full_name": "Parris-Tech-Services/DCSPrep",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSPrep",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-066",
+      "label": "DCS Professional Development",
+      "full_name": "Parris-Tech-Services/DCSProfessionalDevelopment",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSProfessionalDevelopment",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-082",
+      "label": "Delve",
+      "full_name": "Parris-Tech-Services/delve",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/delve",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-086",
+      "label": "Dinner Decider",
+      "full_name": "Parris-Tech-Services/Dinner-Decider",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Dinner-Decider",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-030",
+      "label": "Disk Cleanup Audit",
+      "full_name": "Parris-Tech-Services/DiskCleanupAudit",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/DiskCleanupAudit",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-061",
+      "label": "Chronicles of the Sword Coast",
+      "full_name": "Parris-Tech-Services/dndgame",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/dndgame",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-105",
+      "label": "Drifter",
+      "full_name": "Parris-Tech-Services/drifter",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/drifter",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-072",
+      "label": "DubboSDR",
+      "full_name": "Parris-Tech-Services/DubboSDR",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/DubboSDR",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-035",
+      "label": "Echo",
+      "full_name": "Parris-Tech-Services/Echo",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Echo",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-047",
+      "label": "Eleven-Realms",
+      "full_name": "Parris-Tech-Services/Eleven-Realms",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Eleven-Realms",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "eleven-realms-lineage"
+      ]
+    },
+    {
+      "id": "PUB-098",
+      "label": "ElevenRealms",
+      "full_name": "Parris-Tech-Services/ElevenRealms",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/ElevenRealms",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "eleven-realms-lineage"
+      ]
+    },
+    {
+      "id": "PUB-094",
+      "label": "Elodin Deep Lore II",
+      "full_name": "Parris-Tech-Services/elodin-deep-lore",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/elodin-deep-lore",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world",
+        "kingkiller"
+      ],
+      "family_ids": [
+        "elodin-lineage"
+      ]
+    },
+    {
+      "id": "PUB-040",
+      "label": "Elodin Deep Lore",
+      "full_name": "Parris-Tech-Services/ElodinDeepLore",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/ElodinDeepLore",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world",
+        "kingkiller"
+      ],
+      "family_ids": [
+        "elodin-lineage"
+      ]
+    },
+    {
+      "id": "PUB-007",
+      "label": "Energy Quest",
+      "full_name": "Parris-Tech-Services/energyquest",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/energyquest",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-092",
+      "label": "EPUB Translate",
+      "full_name": "Parris-Tech-Services/epubtranslate",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/epubtranslate",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-079",
+      "label": "ExamsApp",
+      "full_name": "Parris-Tech-Services/ExamsApp",
+      "type": "work-app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/ExamsApp",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-081",
+      "label": "Exchange Lab Manager",
+      "full_name": "Parris-Tech-Services/ExchangeLabManager",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/ExchangeLabManager",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-089",
+      "label": "exitbackup",
+      "full_name": "Parris-Tech-Services/exitbackup",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/exitbackup",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-028",
+      "label": "FaithHub",
+      "full_name": "Parris-Tech-Services/FaithHub",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/FaithHub",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-071",
+      "label": "Fedora Crash Doctor",
+      "full_name": "Parris-Tech-Services/FedoraCrashDoctor",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/FedoraCrashDoctor",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-042",
+      "label": "Field Notes",
+      "full_name": "Parris-Tech-Services/FieldNotes",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/FieldNotes",
+      "region": "Archive",
+      "themes": [
+        "archive",
+        "memory"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-044",
+      "label": "ForgeGrid",
+      "full_name": "Parris-Tech-Services/ForgeGrid",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/ForgeGrid",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-087",
+      "label": "Game Booster",
+      "full_name": "Parris-Tech-Services/Game-Booster",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Game-Booster",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-080",
+      "label": "GoldFinder",
+      "full_name": "Parris-Tech-Services/GoldFinder",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/GoldFinder",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-104",
+      "label": "Health-Data-Manager",
+      "full_name": "Parris-Tech-Services/Health-Data-Manager",
+      "type": "health-app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Health-Data-Manager",
+      "region": "Health",
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-103",
+      "label": "HealthLens",
+      "full_name": "Parris-Tech-Services/HealthLens",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/HealthLens",
+      "region": "Health",
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "family_ids": [
+        "healthlens-lineage"
+      ]
+    },
+    {
+      "id": "PUB-031",
+      "label": "HeartCalm",
+      "full_name": "Parris-Tech-Services/HeartCalm",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/HeartCalm",
+      "region": "Health",
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-097",
+      "label": "Hermes Control",
+      "full_name": "Parris-Tech-Services/HermesControl",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/HermesControl",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-002",
+      "label": "hprobooktroubleshoot",
+      "full_name": "Parris-Tech-Services/hprobooktroubleshoot",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/hprobooktroubleshoot",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-010",
+      "label": "JoshBIOS",
+      "full_name": "Parris-Tech-Services/JoshBIOS",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshBIOS",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": [
+        "josh-os-lineage"
+      ]
+    },
+    {
+      "id": "PUB-106",
+      "label": "Josh Books Online",
+      "full_name": "Parris-Tech-Services/JoshBooksOnline",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshBooksOnline",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "archive",
+        "memory"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-091",
+      "label": "Josh Cards",
+      "full_name": "Parris-Tech-Services/JoshCards",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshCards",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-018",
+      "label": "Josh Chess",
+      "full_name": "Parris-Tech-Services/JoshChess",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshChess",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-014",
+      "label": "JoshCoach",
+      "full_name": "Parris-Tech-Services/JoshCoach",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshCoach",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-022",
+      "label": "Josh Fire Awareness",
+      "full_name": "Parris-Tech-Services/JoshFireAwareness",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshFireAwareness",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-095",
+      "label": "JoshHorses",
+      "full_name": "Parris-Tech-Services/JoshHorses",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshHorses",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-023",
+      "label": "Josh NFC Audio",
+      "full_name": "Parris-Tech-Services/JoshNFCAudio",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshNFCAudio",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-076",
+      "label": "JoshOS-Stage0",
+      "full_name": "Parris-Tech-Services/JoshOS-Stage0",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshOS-Stage0",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": [
+        "josh-os-lineage"
+      ]
+    },
+    {
+      "id": "PUB-051",
+      "label": "Josh Platform",
+      "full_name": "Parris-Tech-Services/JoshPlatform",
+      "type": "hub",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshPlatform",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "hub"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-012",
+      "label": "joshReading",
+      "full_name": "Parris-Tech-Services/joshReading",
+      "type": "archive",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/joshReading",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "archive",
+        "memory"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-032",
+      "label": "Kaseya Field Ops",
+      "full_name": "Parris-Tech-Services/KaseyaFieldOps",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/KaseyaFieldOps",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-027",
+      "label": "KKC Adventure",
+      "full_name": "Parris-Tech-Services/kkc-adventure",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/kkc-adventure",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world",
+        "kingkiller"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-026",
+      "label": "Lantern Road",
+      "full_name": "Parris-Tech-Services/lantern-road",
+      "type": "game",
+      "live_url": "https://parris-tech-services.github.io/lantern-road/",
+      "repo_url": "https://github.com/Parris-Tech-Services/lantern-road",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-029",
+      "label": "LifeHub",
+      "full_name": "Parris-Tech-Services/LifeHub",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/LifeHub",
+      "region": "Project Quilt",
+      "themes": [
+        "hub"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-003",
+      "label": "LifeHub Dashboard",
+      "full_name": "Parris-Tech-Services/lifehubdashboard",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/lifehubdashboard",
+      "region": "Project Quilt",
+      "themes": [
+        "hub"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-025",
+      "label": "llm",
+      "full_name": "Parris-Tech-Services/llm",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/llm",
+      "region": "Simulation / AI",
+      "themes": [
+        "ai",
+        "accountability"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-084",
+      "label": "LLM Accountability",
+      "full_name": "Parris-Tech-Services/LLMAccountability",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/LLMAccountability",
+      "region": "Simulation / AI",
+      "themes": [
+        "ai",
+        "accountability"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-052",
+      "label": "Lore",
+      "full_name": "Parris-Tech-Services/lore",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/lore",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-053",
+      "label": "Marsh",
+      "full_name": "Parris-Tech-Services/Marsh",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Marsh",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-016",
+      "label": "Max",
+      "full_name": "Parris-Tech-Services/Max",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Max",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-085",
+      "label": "Midnight Line",
+      "full_name": "Parris-Tech-Services/Midnight-Line",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Midnight-Line",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-074",
+      "label": "migration",
+      "full_name": "Parris-Tech-Services/migration",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/migration",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-067",
+      "label": "NeathBound",
+      "full_name": "Parris-Tech-Services/NeathBound",
+      "type": "game",
+      "live_url": "https://parris-tech-services.github.io/NeathBound/",
+      "repo_url": "https://github.com/Parris-Tech-Services/NeathBound",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-099",
+      "label": "NebulaDice Browser",
+      "full_name": "Parris-Tech-Services/NebulaDice-Browser",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/NebulaDice-Browser",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-078",
+      "label": "newfileqqqwertuhvgjkk.py",
+      "full_name": "Parris-Tech-Services/newfileqqqwertuhvgjkk.py",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/newfileqqqwertuhvgjkk.py",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-011",
+      "label": "NextJS Expert",
+      "full_name": "Parris-Tech-Services/NextJS-Expert",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/NextJS-Expert",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-101",
+      "label": "openclaw-workspace",
+      "full_name": "Parris-Tech-Services/openclaw-workspace",
+      "type": "work-app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/openclaw-workspace",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions",
+        "ai",
+        "accountability"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-057",
+      "label": "Parris Piano",
+      "full_name": "Parris-Tech-Services/ParrisPiano",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/ParrisPiano",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-077",
+      "label": "pdfresearch",
+      "full_name": "Parris-Tech-Services/pdfresearch",
+      "type": "archive",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/pdfresearch",
+      "region": "Archive",
+      "themes": [
+        "archive",
+        "memory"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-068",
+      "label": "Power App",
+      "full_name": "Parris-Tech-Services/PowerApp",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/PowerApp",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-034",
+      "label": "Prompt Linker",
+      "full_name": "Parris-Tech-Services/Prompt-Linker",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Prompt-Linker",
+      "region": "Simulation / AI",
+      "themes": [
+        "ai",
+        "accountability"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-065",
+      "label": "Random Play",
+      "full_name": "Parris-Tech-Services/random-play",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/random-play",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-017",
+      "label": "repoclean",
+      "full_name": "Parris-Tech-Services/repoclean",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/repoclean",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-050",
+      "label": "Rothfuss KKC Adventure",
+      "full_name": "Parris-Tech-Services/rothfuss-kkc-adventure",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/rothfuss-kkc-adventure",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world",
+        "kingkiller"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-024",
+      "label": "Rothfuss Maps",
+      "full_name": "Parris-Tech-Services/RothfussMaps",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/RothfussMaps",
+      "region": "Project Quilt",
+      "themes": [
+        "kingkiller"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-055",
+      "label": "schism",
+      "full_name": "Parris-Tech-Services/schism",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/schism",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-075",
+      "label": "Serenity: Keep Flying",
+      "full_name": "Parris-Tech-Services/Serenity-Keep-Flying",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Serenity-Keep-Flying",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-064",
+      "label": "Skills",
+      "full_name": "Parris-Tech-Services/skills",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/skills",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-107",
+      "label": "StarHaven",
+      "full_name": "Parris-Tech-Services/StarHaven",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/StarHaven",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-062",
+      "label": "Sword Coast",
+      "full_name": "Parris-Tech-Services/SwordCoast",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/SwordCoast",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-046",
+      "label": "TextGame",
+      "full_name": "Parris-Tech-Services/TextGame",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/TextGame",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-060",
+      "label": "Transfer",
+      "full_name": "Parris-Tech-Services/Transfer",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Transfer",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-083",
+      "label": "troubleshoot",
+      "full_name": "Parris-Tech-Services/troubleshoot",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/troubleshoot",
+      "region": "DadLAN / Workbench",
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-008",
+      "label": "Wastes Courier",
+      "full_name": "Parris-Tech-Services/wastes-courier-roguelike",
+      "type": "game",
+      "live_url": "https://wastes-courier-roguelike.vercel.app/",
+      "repo_url": "https://github.com/Parris-Tech-Services/wastes-courier-roguelike",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-059",
+      "label": "Waypoint",
+      "full_name": "Parris-Tech-Services/Waypoint",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Waypoint",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-005",
+      "label": "Whirring Wilderness",
+      "full_name": "Parris-Tech-Services/WhirringWilderness",
+      "type": "game",
+      "live_url": "https://parris-tech-services.github.io/WhirringWilderness/",
+      "repo_url": "https://github.com/Parris-Tech-Services/WhirringWilderness",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ]
+    },
+    {
+      "id": "PUB-070",
+      "label": "whispering-wilds",
+      "full_name": "Parris-Tech-Services/whispering-wilds",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/whispering-wilds",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ]
+    },
+    {
+      "id": "PUB-033",
+      "label": "Wild2",
+      "full_name": "Parris-Tech-Services/Wild2",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Wild2",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-015",
+      "label": "Work",
+      "full_name": "Parris-Tech-Services/Work",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/Work",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-102",
+      "label": "Work Planner",
+      "full_name": "Parris-Tech-Services/WorkPlanner",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/WorkPlanner",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-043",
+      "label": "WPHI",
+      "full_name": "Parris-Tech-Services/WPHI",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/Parris-Tech-Services/WPHI",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-140",
+      "label": "AI Dungeon Master",
+      "full_name": "parristechservices-prog/AIDungeonMaster",
+      "type": "game",
+      "live_url": "https://ai-dungeon-master-azure.vercel.app/",
+      "repo_url": "https://github.com/parristechservices-prog/AIDungeonMaster",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-146",
+      "label": "AnchorFlow",
+      "full_name": "parristechservices-prog/AnchorFlow",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/parristechservices-prog/AnchorFlow",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-143",
+      "label": "interview",
+      "full_name": "parristechservices-prog/interview",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/parristechservices-prog/interview",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-141",
+      "label": "interview2",
+      "full_name": "parristechservices-prog/interview2",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/parristechservices-prog/interview2",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-145",
+      "label": "money1",
+      "full_name": "parristechservices-prog/money1",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/parristechservices-prog/money1",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-144",
+      "label": "money2",
+      "full_name": "parristechservices-prog/money2",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/parristechservices-prog/money2",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-142",
+      "label": "Waypoint",
+      "full_name": "parristechservices-prog/Waypoint",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/parristechservices-prog/Waypoint",
+      "region": "Work / Institutions",
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-148",
+      "label": "Car Builder + Racing",
+      "full_name": "topsecretcheese-del/carGame",
+      "type": "game",
+      "live_url": "https://topsecretcheese-del.github.io/carGame/",
+      "repo_url": "https://github.com/topsecretcheese-del/carGame",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-147",
+      "label": "Custom Cars",
+      "full_name": "topsecretcheese-del/customCars",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/topsecretcheese-del/customCars",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-149",
+      "label": "Greg Game",
+      "full_name": "topsecretcheese-del/gregGame",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/topsecretcheese-del/gregGame",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "DEPLOY-001",
+      "label": "Grandmaster Path",
+      "full_name": null,
+      "type": "game",
+      "live_url": "https://chess-kappa-five.vercel.app/",
+      "repo_url": null,
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "public-deployment"
+      ],
+      "family_ids": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "PUB-108",
+      "to": "PUB-005",
+      "relation": "lineage-of",
+      "confidence": "mixed-confirmed",
+      "note": "Original Python text adventure, PyScript/static browser branch, Twine/Godot workspace, and modern React/Vite branch all identify themselves as Whispering Wilds. Parris-Tech-Services/Wild2 is explicitly excluded: it is DOVAHKIIN, an unrelated Skyrim text adventure."
+    },
+    {
+      "from": "PUB-070",
+      "to": "PUB-005",
+      "relation": "lineage-of",
+      "confidence": "mixed-confirmed",
+      "note": "Original Python text adventure, PyScript/static browser branch, Twine/Godot workspace, and modern React/Vite branch all identify themselves as Whispering Wilds. Parris-Tech-Services/Wild2 is explicitly excluded: it is DOVAHKIIN, an unrelated Skyrim text adventure."
+    },
+    {
+      "from": "PUB-119",
+      "to": "PUB-005",
+      "relation": "lineage-of",
+      "confidence": "mixed-confirmed",
+      "note": "Original Python text adventure, PyScript/static browser branch, Twine/Godot workspace, and modern React/Vite branch all identify themselves as Whispering Wilds. Parris-Tech-Services/Wild2 is explicitly excluded: it is DOVAHKIIN, an unrelated Skyrim text adventure."
+    },
+    {
+      "from": "PUB-120",
+      "to": "PUB-005",
+      "relation": "lineage-of",
+      "confidence": "mixed-confirmed",
+      "note": "Original Python text adventure, PyScript/static browser branch, Twine/Godot workspace, and modern React/Vite branch all identify themselves as Whispering Wilds. Parris-Tech-Services/Wild2 is explicitly excluded: it is DOVAHKIIN, an unrelated Skyrim text adventure."
+    },
+    {
+      "from": "PUB-127",
+      "to": "PUB-005",
+      "relation": "lineage-of",
+      "confidence": "mixed-confirmed",
+      "note": "Original Python text adventure, PyScript/static browser branch, Twine/Godot workspace, and modern React/Vite branch all identify themselves as Whispering Wilds. Parris-Tech-Services/Wild2 is explicitly excluded: it is DOVAHKIIN, an unrelated Skyrim text adventure."
+    },
+    {
+      "from": "PUB-135",
+      "to": "PUB-005",
+      "relation": "lineage-of",
+      "confidence": "mixed-confirmed",
+      "note": "Original Python text adventure, PyScript/static browser branch, Twine/Godot workspace, and modern React/Vite branch all identify themselves as Whispering Wilds. Parris-Tech-Services/Wild2 is explicitly excluded: it is DOVAHKIIN, an unrelated Skyrim text adventure."
+    },
+    {
+      "from": "PUB-133",
+      "to": "PUB-005",
+      "relation": "lineage-of",
+      "confidence": "mixed-confirmed",
+      "note": "Original Python text adventure, PyScript/static browser branch, Twine/Godot workspace, and modern React/Vite branch all identify themselves as Whispering Wilds. Parris-Tech-Services/Wild2 is explicitly excluded: it is DOVAHKIIN, an unrelated Skyrim text adventure."
+    },
+    {
+      "from": "PUB-049",
+      "to": "PUB-004",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "BucklandBlocks README declares itself canonical. BucklandBlocks1 has identical README/package blob hashes. buckland-blocks-demo declares itself a generated distribution copy. BucklandGame is retained as a probable older relative, not asserted as an exact mirror."
+    },
+    {
+      "from": "PUB-115",
+      "to": "PUB-004",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "BucklandBlocks README declares itself canonical. BucklandBlocks1 has identical README/package blob hashes. buckland-blocks-demo declares itself a generated distribution copy. BucklandGame is retained as a probable older relative, not asserted as an exact mirror."
+    },
+    {
+      "from": "PUB-128",
+      "to": "PUB-004",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "BucklandBlocks README declares itself canonical. BucklandBlocks1 has identical README/package blob hashes. buckland-blocks-demo declares itself a generated distribution copy. BucklandGame is retained as a probable older relative, not asserted as an exact mirror."
+    },
+    {
+      "from": "PUB-126",
+      "to": "PUB-110",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "README.md and package.json blob hashes are identical in the two public copies."
+    },
+    {
+      "from": "PUB-122",
+      "to": "PUB-112",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "README.md and package.json blob hashes are identical."
+    },
+    {
+      "from": "PUB-124",
+      "to": "PUB-118",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "README.md blob hashes are identical."
+    },
+    {
+      "from": "PUB-134",
+      "to": "PUB-001",
+      "relation": "lineage-of",
+      "confidence": "confirmed-lineage",
+      "note": "README.md blob hashes are identical; package metadata has drifted, so treat the second copy as an evolved mirror/variant rather than byte-identical."
+    },
+    {
+      "from": "PUB-103",
+      "to": "PUB-116",
+      "relation": "lineage-of",
+      "confidence": "confirmed-lineage",
+      "note": "package.json blob hashes are identical; README content differs, indicating documentation/evolution drift."
+    },
+    {
+      "from": "PUB-076",
+      "to": "PUB-138",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "The canonical JoshOS README explicitly names all three repositories and assigns their roles: integration repo, Stage 0 product-track extraction, and firmware/bootloader research stack."
+    },
+    {
+      "from": "PUB-010",
+      "to": "PUB-138",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "The canonical JoshOS README explicitly names all three repositories and assigns their roles: integration repo, Stage 0 product-track extraction, and firmware/bootloader research stack."
+    },
+    {
+      "from": "PUB-113",
+      "to": "PUB-090",
+      "relation": "lineage-of",
+      "confidence": "high",
+      "note": "Both identify as ASHFALLER: The Veil Between, a text-led sci-fantasy extraction RPG beneath Dubbo; dependency versions differ, indicating variants rather than an exact mirror."
+    },
+    {
+      "from": "PUB-094",
+      "to": "PUB-040",
+      "relation": "sibling-variant",
+      "confidence": "high-sibling",
+      "note": "Both are Elodin-focused Kingkiller lore projects, but their READMEs describe different structures. Treat as sibling implementations, not duplicates."
+    },
+    {
+      "from": "PUB-098",
+      "to": "PUB-047",
+      "relation": "lineage-of",
+      "confidence": "probable",
+      "note": "Near-identical names. Eleven-Realms has a Vite package; ElevenRealms lacks README/package metadata. Keep as probable family until deeper history confirms."
+    },
+    {
+      "from": "PUB-131",
+      "to": "PUB-020",
+      "relation": "lineage-of",
+      "confidence": "probable",
+      "note": "Same repository name across known owner identities. The Parris-Tech-Services copy has full app metadata; alternate copy currently lacks comparable README/package evidence."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-113",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-115",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-111",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-110",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-117",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-118",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-112",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-108",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-138",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-128",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-131",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-125",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-126",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-124",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-132",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-136",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-127",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-119",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-120",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-135",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-133",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-073",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-096",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-093",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-063",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-048",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-090",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-037",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-006",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-038",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-019",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-004",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-049",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-100",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-013",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-116",
+      "to": "PUB-039",
+      "relation": "health-provenance",
+      "confidence": "thematic",
+      "note": "HealthLens anchors health-data provenance."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-056",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-045",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-066",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-082",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-030",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-061",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-105",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-072",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-035",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-047",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-098",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-094",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-024",
+      "to": "PUB-094",
+      "relation": "kingkiller-shard",
+      "confidence": "thematic",
+      "note": "RothfussMaps anchors the Kingkiller lore/story shard."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-040",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-024",
+      "to": "PUB-040",
+      "relation": "kingkiller-shard",
+      "confidence": "thematic",
+      "note": "RothfussMaps anchors the Kingkiller lore/story shard."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-007",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-079",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-117",
+      "to": "PUB-042",
+      "relation": "remembers",
+      "confidence": "thematic",
+      "note": "JoshMemory is the archive bridge for memory-heavy nodes."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-044",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-087",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-116",
+      "to": "PUB-104",
+      "relation": "health-provenance",
+      "confidence": "thematic",
+      "note": "HealthLens anchors health-data provenance."
+    },
+    {
+      "from": "PUB-116",
+      "to": "PUB-103",
+      "relation": "health-provenance",
+      "confidence": "thematic",
+      "note": "HealthLens anchors health-data provenance."
+    },
+    {
+      "from": "PUB-116",
+      "to": "PUB-031",
+      "relation": "health-provenance",
+      "confidence": "thematic",
+      "note": "HealthLens anchors health-data provenance."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-002",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-010",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-117",
+      "to": "PUB-106",
+      "relation": "remembers",
+      "confidence": "thematic",
+      "note": "JoshMemory is the archive bridge for memory-heavy nodes."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-106",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-091",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-018",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-018",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-014",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-022",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-095",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-023",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-076",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-051",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-117",
+      "to": "PUB-012",
+      "relation": "remembers",
+      "confidence": "thematic",
+      "note": "JoshMemory is the archive bridge for memory-heavy nodes."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-012",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-032",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-027",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-024",
+      "to": "PUB-027",
+      "relation": "kingkiller-shard",
+      "confidence": "thematic",
+      "note": "RothfussMaps anchors the Kingkiller lore/story shard."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-026",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-058",
+      "to": "PUB-025",
+      "relation": "accountability-thread",
+      "confidence": "thematic",
+      "note": "AgentCheck anchors AI/agent accountability."
+    },
+    {
+      "from": "PUB-058",
+      "to": "PUB-084",
+      "relation": "accountability-thread",
+      "confidence": "thematic",
+      "note": "AgentCheck anchors AI/agent accountability."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-052",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-053",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-085",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-067",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-099",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-101",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-058",
+      "to": "PUB-101",
+      "relation": "accountability-thread",
+      "confidence": "thematic",
+      "note": "AgentCheck anchors AI/agent accountability."
+    },
+    {
+      "from": "PUB-117",
+      "to": "PUB-077",
+      "relation": "remembers",
+      "confidence": "thematic",
+      "note": "JoshMemory is the archive bridge for memory-heavy nodes."
+    },
+    {
+      "from": "PUB-058",
+      "to": "PUB-034",
+      "relation": "accountability-thread",
+      "confidence": "thematic",
+      "note": "AgentCheck anchors AI/agent accountability."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-065",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-050",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-024",
+      "to": "PUB-050",
+      "relation": "kingkiller-shard",
+      "confidence": "thematic",
+      "note": "RothfussMaps anchors the Kingkiller lore/story shard."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-055",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-075",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-107",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-062",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-046",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-009",
+      "to": "PUB-083",
+      "relation": "dadlan-system",
+      "confidence": "thematic",
+      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-008",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-059",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-005",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-070",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-033",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-015",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-102",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-140",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-146",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-020",
+      "to": "PUB-142",
+      "relation": "institutional-thread",
+      "confidence": "thematic",
+      "note": "DCS Companion anchors the work/institutional support thread."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-148",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-147",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-149",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is the practical portal/index into playable worlds."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-110",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the joshhub domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-117",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the memory domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-009",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the dadlan domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-044",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the forge domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-116",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the health domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-020",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the work domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-058",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the agent domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-067",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the neath domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-029",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the life domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-006",
+      "to": "PUB-024",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the kingkiller domain into the wider Quilt."
+    },
+    {
+      "from": "PUB-067",
+      "to": "PUB-112",
+      "relation": "beneath-echo",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    },
+    {
+      "from": "PUB-067",
+      "to": "PUB-006",
+      "relation": "story-engine-echo",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    },
+    {
+      "from": "PUB-004",
+      "to": "PUB-006",
+      "relation": "anomaly-surface",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    },
+    {
+      "from": "PUB-117",
+      "to": "PUB-006",
+      "relation": "archive-evidence",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    },
+    {
+      "from": "PUB-044",
+      "to": "PUB-006",
+      "relation": "dadlan-infrastructure",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    },
+    {
+      "from": "PUB-058",
+      "to": "PUB-084",
+      "relation": "accountability-siblings",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    },
+    {
+      "from": "PUB-029",
+      "to": "PUB-003",
+      "relation": "lifehub-surface",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    },
+    {
+      "from": "PUB-056",
+      "to": "PUB-066",
+      "relation": "professional-learning",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    },
+    {
+      "from": "PUB-062",
+      "to": "PUB-061",
+      "relation": "fantasy-lineage-theme",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    },
+    {
+      "from": "PUB-140",
+      "to": "PUB-037",
+      "relation": "ai-rpg-evolution",
+      "confidence": "curated",
+      "note": "Curated narrative bridge for the Quilt."
+    }
+  ]
+}
