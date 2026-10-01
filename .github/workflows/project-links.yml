@@ -1,0 +1,40 @@
+name: Check Project Quilt links
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/project-quilt.json"
+      - "data/project-live-candidates.json"
+      - "scripts/check-project-links.mjs"
+      - "scripts/validate-project-quilt.mjs"
+      - "data/project-graph.json"
+      - ".github/workflows/project-links.yml"
+  schedule:
+    - cron: "17 20 * * 0"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: project-quilt-link-audit
+  cancel-in-progress: true
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate Quilt structure
+        run: node scripts/validate-project-quilt.mjs
+      - name: Check playable project URLs
+        run: node scripts/check-project-links.mjs
+      - name: Upload link report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: project-link-check
+          path: artifacts/
