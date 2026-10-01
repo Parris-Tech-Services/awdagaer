@@ -682,9 +682,9 @@
       "owner": "joshuaparrisdadlan-stack",
       "type": "hub",
       "repo_url": "https://github.com/joshuaparrisdadlan-stack/JoshHub",
-      "live_url": "https://josh-hub-two.vercel.app/games",
-      "story_hook": "Earlier map of playable worlds",
-      "verification": "known-live-link",
+      "live_url": null,
+      "story_hook": "Public mirror of the JoshHub lineage. Use the canonical JoshHub node for the shared live deployment.",
+      "verification": "public-repo-mirror-no-separate-deployment",
       "default_branch": "main",
       "family_ids": [
         "joshhub-lineage"
@@ -1579,9 +1579,9 @@
       "owner": "Parris-Tech-Services",
       "type": "game",
       "repo_url": "https://github.com/Parris-Tech-Services/Eleven-Realms",
-      "live_url": null,
-      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
-      "verification": "public-repo-discovered",
+      "live_url": "https://realms-bay.vercel.app/",
+      "story_hook": "Compact exploration realms, relics, gates and score chasing.",
+      "verification": "known-live-link",
       "default_branch": "main",
       "family_ids": [
         "eleven-realms-lineage"
@@ -1590,7 +1590,7 @@
         "story-world"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "name-heuristic"
+      "classification_confidence": "curated"
     },
     {
       "id": "PUB-098",
