@@ -2,9 +2,9 @@
   "schema_version": 2,
   "generated_from": "GitHub public repository search across known Josh/Parris identities plus curated live-link verification",
   "public_only": true,
-  "repo_count": 149,
+  "repo_count": 156,
   "deployment_only_count": 1,
-  "project_count": 150,
+  "project_count": 157,
   "verified_live_count": 16,
   "known_accounts": [
     "Parris-Tech-Services",
@@ -12,7 +12,9 @@
     "joshuaparrisdadlan-stack",
     "joshuaparris-max",
     "parristechservices-prog",
-    "topsecretcheese-del"
+    "topsecretcheese-del",
+    "parristechservices1-beep",
+    "joshuaparris"
   ],
   "families": [
     {
@@ -70,13 +72,14 @@
     {
       "id": "josh-tap-lineage",
       "title": "JoshTapApp lineage",
-      "confidence": "confirmed",
+      "confidence": "mixed-confirmed",
       "canonical": "joshualparris/JoshTapApp",
       "members": [
         "joshualparris/JoshTapApp",
-        "joshuaparrisdadlan-stack/JoshTapApp"
+        "joshuaparrisdadlan-stack/JoshTapApp",
+        "parristechservices1-beep/JoshTapApp"
       ],
-      "evidence": "README.md blob hashes are identical."
+      "evidence": "README.md blob hashes are identical. A third public historical copy exists under parristechservices1-beep but lacks comparable top-level metadata, so its exact mirror status is not asserted."
     },
     {
       "id": "campaign-copilot-lineage",
@@ -85,9 +88,10 @@
       "canonical": "Parris-Tech-Services/campaign-copilot",
       "members": [
         "Parris-Tech-Services/campaign-copilot",
-        "joshuaparrisdadlan-stack/campaign-copilot"
+        "joshuaparrisdadlan-stack/campaign-copilot",
+        "parristechservices1-beep/campaign-copilot"
       ],
-      "evidence": "README.md blob hashes are identical; package metadata has drifted, so treat the second copy as an evolved mirror/variant rather than byte-identical."
+      "evidence": "README.md blob hashes are identical; package metadata has drifted, so treat the second copy as an evolved mirror/variant rather than byte-identical. The parristechservices1-beep copy has the same README and package.json blob hashes as the Parris-Tech-Services copy."
     },
     {
       "id": "healthlens-lineage",
@@ -155,6 +159,29 @@
         "joshuaparrisdadlan-stack/DCSCompanion"
       ],
       "evidence": "Same repository name across known owner identities. The Parris-Tech-Services copy has full app metadata; alternate copy currently lacks comparable README/package evidence."
+    },
+    {
+      "id": "sword-coast-lineage",
+      "title": "Chronicles of the Sword Coast lineage",
+      "confidence": "confirmed",
+      "canonical": "joshuaparris/SwordChronicles",
+      "members": [
+        "joshuaparris/SwordChronicles",
+        "Parris-Tech-Services/SwordCoast",
+        "Parris-Tech-Services/dndgame"
+      ],
+      "evidence": "SwordCoast README explicitly points to joshuaparris/SwordChronicles as the repository for Chronicles of the Sword Coast. dndgame carries the same title and rebuilt-legacy description and represents the same game family."
+    },
+    {
+      "id": "groqchat-lineage",
+      "title": "GroqChat Dungeon Master lineage",
+      "confidence": "confirmed-lineage",
+      "canonical": "joshuaparris/groqchat2",
+      "members": [
+        "joshuaparris/groqchat",
+        "joshuaparris/groqchat2"
+      ],
+      "evidence": "Both identify as GROQCHAT and implement the same Groq-powered Dungeon Master chatbot concept. groqchat2 is a later-generation stack (Next 16/React 19 versus Next 14/React 18), so it is an evolution rather than an exact mirror."
     }
   ],
   "name_collisions": [
@@ -1510,7 +1537,9 @@
       "story_hook": "Older fantasy implementation",
       "verification": "public-repo-discovered",
       "default_branch": "local-backup-main-20260610-1224",
-      "family_ids": [],
+      "family_ids": [
+        "sword-coast-lineage"
+      ],
       "themes": [
         "story-world"
       ],
@@ -2684,7 +2713,9 @@
       "story_hook": "Fantasy shard",
       "verification": "public-repo-discovered",
       "default_branch": "main",
-      "family_ids": [],
+      "family_ids": [
+        "sword-coast-lineage"
+      ],
       "themes": [
         "story-world"
       ],
@@ -3084,6 +3115,145 @@
       ],
       "region": "Project Quilt / Story Worlds",
       "classification_confidence": "curated"
+    },
+    {
+      "id": "PUB-150",
+      "name": "Test",
+      "full_name": "parristechservices1-beep/Test",
+      "owner": "parristechservices1-beep",
+      "type": "project",
+      "repo_url": "https://github.com/parristechservices1-beep/Test",
+      "live_url": null,
+      "story_hook": "Historical public test repository. Keep as an archaeological node rather than inventing a larger role.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-151",
+      "name": "JoshTapApp",
+      "full_name": "parristechservices1-beep/JoshTapApp",
+      "owner": "parristechservices1-beep",
+      "type": "app",
+      "repo_url": "https://github.com/parristechservices1-beep/JoshTapApp",
+      "live_url": null,
+      "story_hook": "Historical JoshTapApp mirror/variant; provenance is weaker because top-level README/package metadata is absent.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "josh-tap-lineage"
+      ],
+      "themes": [
+        "audio",
+        "nfc"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-152",
+      "name": "Campaign Copilot",
+      "full_name": "parristechservices1-beep/campaign-copilot",
+      "owner": "parristechservices1-beep",
+      "type": "app",
+      "repo_url": "https://github.com/parristechservices1-beep/campaign-copilot",
+      "live_url": null,
+      "story_hook": "Confirmed public mirror of the Campaign Copilot D&D session helper.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "campaign-copilot-lineage"
+      ],
+      "themes": [
+        "story-world",
+        "ttrpg"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-153",
+      "name": "Chronicles of the Sword Coast",
+      "full_name": "joshuaparris/SwordChronicles",
+      "owner": "joshuaparris",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparris/SwordChronicles",
+      "live_url": null,
+      "story_hook": "Canonical public repository named by the SwordCoast variant for the rebuilt legacy browser RPG.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "sword-coast-lineage"
+      ],
+      "themes": [
+        "story-world",
+        "fantasy"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-154",
+      "name": "NewTestGame",
+      "full_name": "joshuaparris/NewTestGame",
+      "owner": "joshuaparris",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparris/NewTestGame",
+      "live_url": null,
+      "story_hook": "Historical public game experiment with insufficient metadata for a stronger classification.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-155",
+      "name": "GROQCHAT",
+      "full_name": "joshuaparris/groqchat",
+      "owner": "joshuaparris",
+      "type": "tool",
+      "repo_url": "https://github.com/joshuaparris/groqchat",
+      "live_url": null,
+      "story_hook": "First public Groq-powered Dungeon Master chatbot generation.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "groqchat-lineage"
+      ],
+      "themes": [
+        "ai",
+        "story-world"
+      ],
+      "region": "Simulation / AI",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-156",
+      "name": "GROQCHAT 2",
+      "full_name": "joshuaparris/groqchat2",
+      "owner": "joshuaparris",
+      "type": "tool",
+      "repo_url": "https://github.com/joshuaparris/groqchat2",
+      "live_url": null,
+      "story_hook": "Later GroqChat generation using newer Next.js/React while preserving the same DM-chat concept.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "groqchat-lineage"
+      ],
+      "themes": [
+        "ai",
+        "story-world"
+      ],
+      "region": "Simulation / AI",
+      "classification_confidence": "curated-after-metadata-review"
     }
   ]
 }
