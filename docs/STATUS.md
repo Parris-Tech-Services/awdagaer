@@ -10,9 +10,9 @@ _Last updated: 2026-10-01, session https://claude.ai/code/session_01WpwDcRTdN4M7
 | The Parris Quilt (separate single-file version by another agent/session) | `master:index.html` |
 | Live site | https://parris-tech-services.github.io/awdagaer/ (served from branch `gh-pages`) |
 | Live site layout | `/` launcher · `/chapter-one/` main game (path kept from the first deploy) · `/quilt/` The Parris Quilt |
-| Deploys | `.github/workflows/deploy-site.yml` on push to this branch; or run `npm run site` and push `site-dist/` to `gh-pages` |
+| Deploys | `.github/workflows/pages.yml` (written by the other agent; identical copies on `master` and this branch) runs on every push to either branch: it checks out this branch, runs tests, runs `scripts/build-site.sh`, writes `build-info.json` and pushes to `gh-pages`. Manual fallback: `npm run site`, then push `site-dist/` to `gh-pages`. |
 
-**Branch situation:** this branch has never been merged into `master`. `master` has the Quilt plus `.github/workflows/pages.yml`, an Actions-source Pages deploy whose runs fail because Pages is configured to serve from the `gh-pages` branch instead. Merging needs a decision from Josh about what `master:index.html` should be (both projects use a root `index.html`). Don't merge without asking.
+**Branch situation:** this branch has never been merged into `master`. `master` has the Quilt (`index.html`) and the same `pages.yml`. **Another agent (GitHub account `joshualparris`) is actively working on both branches.** Fetch and rebase before you push; never force-push. Merging needs a decision from Josh about what `master:index.html` should be (both projects use a root `index.html`). Don't merge without asking.
 
 ## Built
 
@@ -36,5 +36,4 @@ _Last updated: 2026-10-01, session https://claude.ai/code/session_01WpwDcRTdN4M7
 
 ## Known issues
 
-- The Quilt copy at `/quilt/` updates only when the site is rebuilt (the workflow runs on pushes to this branch, not `master`).
-- The workflow file was added in this session. If GitHub rejected it (token scope), it'll be missing on the remote; see the git log.
+- `pages.yml` runs `npm test` but not the typecheck. The typecheck still runs inside `npm run build` (called by `build-site.sh`), so type errors fail the deploy too.

@@ -11,7 +11,7 @@ You are working on **SIGNAL BENEATH**, a choice-driven browser text RPG (Dubbo, 
 ## Repository facts
 
 - `src/` is the source of truth for the main game. `dist/` and `site-dist/` are generated; never edit them by hand.
-- `gh-pages` is a **deploy-only** branch, rebuilt by `scripts/build-site.sh` (locally) or `.github/workflows/deploy-site.yml` (CI). Never hand-edit it.
+- `gh-pages` is a **deploy-only** branch, rebuilt by `scripts/build-site.sh` (locally) or `.github/workflows/pages.yml` (CI, on pushes to `master` or this branch). Never hand-edit it.
 - `awdagaer.cwp` is Josh's Cakewalk Sonar project that was in the repo first. **Don't delete or modify it.**
 - The live site: https://parris-tech-services.github.io/awdagaer/ has a launcher with two buttons, the main game (`/chapter-one/`) and "The Parris Quilt" (`/quilt/`, copied from `master:index.html`).
 - **Two lines of work exist.** `master` holds a separate single-file version ("The Parris Quilt") built by another agent or session. The engine game lives on the session branch (see STATUS). Don't overwrite `master:index.html` without Josh's say-so; the launcher depends on it.

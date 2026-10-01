@@ -23,7 +23,7 @@ src/ui/        rendering only (DOM, text nodes, never innerHTML)
   sound.ts       optional Web Audio fan hum; volume follows hidden Noise and the chosen switch
   dom.ts         h() element builder
 site/launcher.html   GitHub Pages root with two buttons (this game + The Parris Quilt)
-scripts/build-site.sh   assembles site-dist/ = launcher + /chapter-one/ (this build) + /quilt/ (master:index.html)
+scripts/build-site.sh   (run by .github/workflows/pages.yml) assembles site-dist/ = launcher + /chapter-one/ (this build) + /quilt/ (master:index.html)
 scripts/threads-map.ts  generates docs/THREADS.md
 tests/         engine rules, content integrity, random playthroughs, Chapter Two + consequences
 ```

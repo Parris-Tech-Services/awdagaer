@@ -86,6 +86,7 @@ The outcome of this step is recorded at the end of `docs/STATUS.md` and in the g
 - **Consequences:** Tech Debt callbacks, stability outages, trust gating, endings gated by play (`src/content/consequences.ts`, `finale.ts`).
 - **Chapter Two, The Archive:** search, classification, contamination and review, the lost chat, folder 2004.
 - **Story decision (agent's, open to Josh's veto):** THE BENEATH is the Keeper's own forgotten 2004 design doc (`neath.txt`), built into regional infrastructure by Jonah Parris of Perth (a different J. Parris: the false-attribution trap) through Beneath Systems Pty Ltd, deregistered in 2010, whose resolvers never stopped running.
-- **Polish:** first-day tutorial, three save slots, optional ambient sound, auto-deploy workflow, launcher copy.
+- **Polish:** first-day tutorial, three save slots, optional ambient sound, launcher copy.
+- **Auto-deploy:** while this was being built, the other agent (`joshualparris`) pushed `.github/workflows/pages.yml` to both `master` and this branch. It rebuilds the two-game site on every push to either. The agent dropped its own duplicate `deploy-site.yml` (one owner per responsibility) and rebased onto their commits.
 - **Verification:** 25 tests passing, typecheck, build, headless browser checks (desktop, light mode, 390 px mobile; one mobile overflow bug found and fixed).
 - **Still blocked:** the rest of the brief from §22 onward.
