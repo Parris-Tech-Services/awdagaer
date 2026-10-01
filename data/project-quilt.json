@@ -1,0 +1,836 @@
+{
+  "schema_version": 1,
+  "generated_from": "connected GitHub discovery and previously verified live links",
+  "public_only": true,
+  "count": 92,
+  "projects": [
+    {
+      "id": "P001",
+      "name": "Buckland Blocks",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/BucklandBlocks",
+      "live_url": "https://buckland-blocks.vercel.app/",
+      "story_hook": "Voxel frontier; world-state and graphics anomalies",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P002",
+      "name": "The Hollow Marches / AstraDndGame",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/AstraDndGame",
+      "live_url": "https://astra-dnd-game.vercel.app/",
+      "story_hook": "A fantasy world whose rules expose deterministic-vs-AI tension",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P003",
+      "name": "Car Builder + Racing",
+      "type": "game",
+      "repo_url": "https://github.com/topsecretcheese-del/carGame",
+      "live_url": "https://topsecretcheese-del.github.io/carGame/",
+      "story_hook": "Garage node; mechanical choices become literal power",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P004",
+      "name": "Grandmaster Path",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Chess",
+      "live_url": "https://chess-kappa-five.vercel.app/",
+      "story_hook": "Strategy node; prediction without certainty",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P005",
+      "name": "Lantern Road",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/lantern-road",
+      "live_url": "https://parris-tech-services.github.io/lantern-road/",
+      "story_hook": "Road between worlds",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P006",
+      "name": "Breach Command",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/breach-command",
+      "live_url": "https://parris-tech-services.github.io/breach-command/",
+      "story_hook": "Tactical containment simulation",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P007",
+      "name": "Whirring Wilderness",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/WhirringWilderness",
+      "live_url": "https://parris-tech-services.github.io/WhirringWilderness/",
+      "story_hook": "Wild node outside managed infrastructure",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P008",
+      "name": "Wastes Courier",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/wastes-courier-roguelike",
+      "live_url": "https://wastes-courier-roguelike.vercel.app/",
+      "story_hook": "Courier routes carry fragments between isolated systems",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P009",
+      "name": "NeathBound",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/NeathBound",
+      "live_url": "https://parris-tech-services.github.io/NeathBound/",
+      "story_hook": "Storylet world that begins mirroring reality",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P010",
+      "name": "The Consultancy Beneath",
+      "type": "game",
+      "repo_url": "https://github.com/joshualparris/the-consultancy-beneath",
+      "live_url": "https://joshualparris.github.io/the-consultancy-beneath/",
+      "story_hook": "Early explicit use of Beneath identifier",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P011",
+      "name": "JoshHub",
+      "type": "hub",
+      "repo_url": "https://github.com/joshualparris/JoshHub",
+      "live_url": "https://josh-hub-two.vercel.app/games",
+      "story_hook": "Earlier map of playable worlds",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P012",
+      "name": "JoshMemory",
+      "type": "archive",
+      "repo_url": "https://github.com/joshualparris/JoshMemory",
+      "live_url": "https://joshualparris.github.io/JoshMemory/",
+      "story_hook": "Memory/archive node; offline truth and link rot",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P013",
+      "name": "DCSPD",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSPD",
+      "live_url": "https://dcspd.vercel.app/",
+      "story_hook": "Professional-development institutional node",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P014",
+      "name": "AI Dungeon Master",
+      "type": "game",
+      "repo_url": "https://github.com/parristechservices-prog/AIDungeonMaster",
+      "live_url": "https://ai-dungeon-master-azure.vercel.app/",
+      "story_hook": "Ancestor AI-RPG experiment",
+      "verification": "known-live-link"
+    },
+    {
+      "id": "P015",
+      "name": "Energy Quest",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/energyquest",
+      "live_url": null,
+      "story_hook": "Resource and energy metaphor",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P016",
+      "name": "Max",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/Max",
+      "live_url": null,
+      "story_hook": "Unknown node; preserve until classified",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P017",
+      "name": "LifeHub Dashboard",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/lifehubdashboard",
+      "live_url": null,
+      "story_hook": "Life systems dashboard",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P018",
+      "name": "Buckland Blocks 1",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/BucklandBlocks1",
+      "live_url": null,
+      "story_hook": "Earlier voxel branch / archaeological layer",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P019",
+      "name": "Campaign Copilot",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/campaign-copilot",
+      "live_url": null,
+      "story_hook": "Campaign/planning support node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P020",
+      "name": "DCS Companion",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSCompanion",
+      "live_url": null,
+      "story_hook": "Work companion",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P021",
+      "name": "Midnight Line",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Midnight-Line",
+      "live_url": null,
+      "story_hook": "Night-route narrative node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P022",
+      "name": "DCS Prep",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSPrep",
+      "live_url": null,
+      "story_hook": "Preparation/work node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P023",
+      "name": "Josh NFC Audio",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshNFCAudio",
+      "live_url": null,
+      "story_hook": "Physical-world audio portal",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P024",
+      "name": "Random Play",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/random-play",
+      "live_url": null,
+      "story_hook": "Experimental arcade node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P025",
+      "name": "StarHaven",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/StarHaven",
+      "live_url": null,
+      "story_hook": "Off-world refuge",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P026",
+      "name": "JoshCoach",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshCoach",
+      "live_url": null,
+      "story_hook": "Coaching/advice node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P027",
+      "name": "Wild2",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Wild2",
+      "live_url": null,
+      "story_hook": "Second wilderness fragment",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P028",
+      "name": "ClearCore",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/ClearCore",
+      "live_url": null,
+      "story_hook": "System-cleaning/control motif",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P029",
+      "name": "LifeHub",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/LifeHub",
+      "live_url": null,
+      "story_hook": "Life-management node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P030",
+      "name": "Parris Piano",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/ParrisPiano",
+      "live_url": null,
+      "story_hook": "Music node / possible soundtrack portal",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P031",
+      "name": "GoldFinder",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/GoldFinder",
+      "live_url": null,
+      "story_hook": "Search/treasure metaphor",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P032",
+      "name": "Josh Fire Awareness",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshFireAwareness",
+      "live_url": null,
+      "story_hook": "Safety/preparedness node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P033",
+      "name": "Sword Coast",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/SwordCoast",
+      "live_url": null,
+      "story_hook": "Fantasy shard",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P034",
+      "name": "KKC Adventure",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/kkc-adventure",
+      "live_url": null,
+      "story_hook": "Literary adventure shard",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P035",
+      "name": "Rothfuss KKC Adventure",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/rothfuss-kkc-adventure",
+      "live_url": null,
+      "story_hook": "Parallel literary shard",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P036",
+      "name": "NebulaDice Browser",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/NebulaDice-Browser",
+      "live_url": null,
+      "story_hook": "Chance/dice node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P037",
+      "name": "Elodin Deep Lore",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/ElodinDeepLore",
+      "live_url": null,
+      "story_hook": "Lore/archive crossover",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P038",
+      "name": "Elodin Deep Lore II",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/elodin-deep-lore",
+      "live_url": null,
+      "story_hook": "Duplicate/variant identity puzzle",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P039",
+      "name": "Ashfaller",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/ashfaller",
+      "live_url": null,
+      "story_hook": "Ash-world shard",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P040",
+      "name": "Echo",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Echo",
+      "live_url": null,
+      "story_hook": "Messages returning from other nodes",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P041",
+      "name": "Delve",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/delve",
+      "live_url": null,
+      "story_hook": "Descent/Archive metaphor",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P042",
+      "name": "Marsh",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Marsh",
+      "live_url": null,
+      "story_hook": "Wetland boundary world",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P043",
+      "name": "Rothfuss Maps",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/RothfussMaps",
+      "live_url": null,
+      "story_hook": "Map/navigation node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P044",
+      "name": "3layers",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/3layers",
+      "live_url": null,
+      "story_hook": "Three-layer systems metaphor",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P045",
+      "name": "Alfie",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/alfie",
+      "live_url": null,
+      "story_hook": "Unclassified character/project node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P046",
+      "name": "DCS Professional Development",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSProfessionalDevelopment",
+      "live_url": null,
+      "story_hook": "Work learning node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P047",
+      "name": "Canon RPG",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/CanonRPG",
+      "live_url": null,
+      "story_hook": "Canon-vs-branching-history motif",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P048",
+      "name": "Field Notes",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/FieldNotes",
+      "live_url": null,
+      "story_hook": "Evidence notebook",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P049",
+      "name": "App Factory",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/AppFactory",
+      "live_url": null,
+      "story_hook": "World-generator / project foundry",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P050",
+      "name": "Power App",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/PowerApp",
+      "live_url": null,
+      "story_hook": "Power/resource node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P051",
+      "name": "FaithHub",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/FaithHub",
+      "live_url": null,
+      "story_hook": "Values/meaning node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P052",
+      "name": "Exchange Lab Manager",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/ExchangeLabManager",
+      "live_url": null,
+      "story_hook": "Lab/infrastructure node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P053",
+      "name": "Work Planner",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/WorkPlanner",
+      "live_url": null,
+      "story_hook": "Attention allocation node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P054",
+      "name": "Work",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/Work",
+      "live_url": null,
+      "story_hook": "Work-world root",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P055",
+      "name": "Josh Platform",
+      "type": "hub",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshPlatform",
+      "live_url": null,
+      "story_hook": "Platform-level constellation node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P056",
+      "name": "Chronicles of the Sword Coast",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/dndgame",
+      "live_url": null,
+      "story_hook": "Older fantasy implementation",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P057",
+      "name": "Waypoint",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/Waypoint",
+      "live_url": null,
+      "story_hook": "Navigation/checkpoint node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P058",
+      "name": "AnchorFlow",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/AnchorFlow",
+      "live_url": null,
+      "story_hook": "Stability/anchoring node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P059",
+      "name": "Skills",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/skills",
+      "live_url": null,
+      "story_hook": "Learned abilities become literal RPG skills",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P060",
+      "name": "Disk Cleanup Audit",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/DiskCleanupAudit",
+      "live_url": null,
+      "story_hook": "Forensic maintenance node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P061",
+      "name": "Hermes Control",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/HermesControl",
+      "live_url": null,
+      "story_hook": "Control-plane node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P062",
+      "name": "Josh Books Online",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshBooksOnline",
+      "live_url": null,
+      "story_hook": "Book/archive node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P063",
+      "name": "Josh Chess",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshChess",
+      "live_url": null,
+      "story_hook": "Second chess shard",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P064",
+      "name": "EPUB Translate",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/epubtranslate",
+      "live_url": null,
+      "story_hook": "Translation/representation node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P065",
+      "name": "Carl",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/carl",
+      "live_url": null,
+      "story_hook": "Book-related shard",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P066",
+      "name": "Josh Cards",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshCards",
+      "live_url": null,
+      "story_hook": "Cards/collection node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P067",
+      "name": "HeartCalm",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/HeartCalm",
+      "live_url": null,
+      "story_hook": "Calm/health node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P068",
+      "name": "Drifter",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/drifter",
+      "live_url": null,
+      "story_hook": "Traveller between systems",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P069",
+      "name": "Lore",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/lore",
+      "live_url": null,
+      "story_hook": "Lore repository as world",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P070",
+      "name": "Aetheria",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Aetheria",
+      "live_url": null,
+      "story_hook": "Fantasy shard",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P071",
+      "name": "Dinner Decider",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/Dinner-Decider",
+      "live_url": null,
+      "story_hook": "Ordinary-life decision node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P072",
+      "name": "Game Booster",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/Game-Booster",
+      "live_url": null,
+      "story_hook": "Performance versus noise motif",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P073",
+      "name": "JoshBIOS",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshBIOS",
+      "live_url": null,
+      "story_hook": "Deepest machine identity layer",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P074",
+      "name": "NextJS Expert",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/NextJS-Expert",
+      "live_url": null,
+      "story_hook": "Web systems skill node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P075",
+      "name": "Prompt Linker",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/Prompt-Linker",
+      "live_url": null,
+      "story_hook": "Literal link-making node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P076",
+      "name": "Serenity: Keep Flying",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Serenity-Keep-Flying",
+      "live_url": null,
+      "story_hook": "Keep-going theme",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P077",
+      "name": "Cold Flu App",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/ColdFluApp",
+      "live_url": null,
+      "story_hook": "Health/symptom node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P078",
+      "name": "LLM Accountability",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/LLMAccountability",
+      "live_url": null,
+      "story_hook": "Integrity/accountability node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P079",
+      "name": "Fedora Crash Doctor",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/FedoraCrashDoctor",
+      "live_url": null,
+      "story_hook": "Failure diagnosis node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P080",
+      "name": "Kaseya Field Ops",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/KaseyaFieldOps",
+      "live_url": null,
+      "story_hook": "Field support/work node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P081",
+      "name": "Whispering Wilds (original)",
+      "type": "game",
+      "repo_url": "https://github.com/joshualparris/Whispering-Wilds",
+      "live_url": null,
+      "story_hook": "Original wilderness lineage",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P082",
+      "name": "Josh Tap App",
+      "type": "app",
+      "repo_url": "https://github.com/joshualparris/JoshTapApp",
+      "live_url": null,
+      "story_hook": "Physical/digital tap portal",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P083",
+      "name": "AshFallen",
+      "type": "game",
+      "repo_url": "https://github.com/joshualparris/AshFallen",
+      "live_url": null,
+      "story_hook": "Parallel Ashfaller identity",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P084",
+      "name": "Sylvie Phonetics",
+      "type": "app",
+      "repo_url": "https://github.com/joshualparris/SylviePhonetics",
+      "live_url": null,
+      "story_hook": "Family/learning node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P085",
+      "name": "HealthLens",
+      "type": "app",
+      "repo_url": "https://github.com/joshualparris/HealthLens",
+      "live_url": null,
+      "story_hook": "Health provenance/data node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P086",
+      "name": "Paul Roe",
+      "type": "archive",
+      "repo_url": "https://github.com/joshualparris/Paul-Roe",
+      "live_url": null,
+      "story_hook": "Memorial/archive node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P087",
+      "name": "Buckland Blocks Demo",
+      "type": "game",
+      "repo_url": "https://github.com/joshualparris/buckland-blocks-demo",
+      "live_url": null,
+      "story_hook": "Playable lineage/demo shard",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P088",
+      "name": "Cheap PCs & Laptops",
+      "type": "app",
+      "repo_url": "https://github.com/joshualparris/Cheappcslaptops",
+      "live_url": null,
+      "story_hook": "DadLAN acquisition node",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P089",
+      "name": "JoshOS",
+      "type": "tool",
+      "repo_url": "https://github.com/joshuaparris-max/JoshOS",
+      "live_url": null,
+      "story_hook": "Operating-system metaphor",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P090",
+      "name": "Greg Game",
+      "type": "game",
+      "repo_url": "https://github.com/topsecretcheese-del/gregGame",
+      "live_url": null,
+      "story_hook": "Parallel account world",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P091",
+      "name": "Custom Cars",
+      "type": "game",
+      "repo_url": "https://github.com/topsecretcheese-del/customCars",
+      "live_url": null,
+      "story_hook": "Car ecosystem extension",
+      "verification": "repo-only"
+    },
+    {
+      "id": "P092",
+      "name": "SIGNAL BENEATH",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/awdagaer",
+      "live_url": "https://parris-tech-services.github.io/awdagaer/",
+      "story_hook": "The stitch connecting the quilt",
+      "verification": "known-live-link"
+    }
+  ]
+}
