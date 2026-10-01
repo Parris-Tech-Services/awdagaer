@@ -39,6 +39,10 @@ jobs:
       - name: Assemble launcher, Chapter One and Quilt
         run: bash scripts/build-site.sh site-dist
 
+      - name: Record source versions
+        run: |
+          printf '%s\n' '{"chapter_one":"'$(git rev-parse HEAD)'","quilt":"'$(git rev-parse origin/master)'"}' > site-dist/build-info.json
+
       - name: Check out published site
         uses: actions/checkout@v4
         with:
