@@ -3,9 +3,9 @@
   "generated_from": "GitHub public repository search across known Josh/Parris identities plus curated live-link verification",
   "public_only": true,
   "repo_count": 156,
-  "deployment_only_count": 1,
-  "project_count": 157,
-  "verified_live_count": 16,
+  "deployment_only_count": 13,
+  "project_count": 169,
+  "verified_live_count": 52,
   "known_accounts": [
     "Parris-Tech-Services",
     "joshualparris",
@@ -425,9 +425,9 @@
       "owner": "joshualparris",
       "type": "app",
       "repo_url": "https://github.com/joshualparris/Cheappcslaptops",
-      "live_url": null,
+      "live_url": "https://joshualparris.github.io/Cheappcslaptops/",
       "story_hook": "DadLAN acquisition node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
@@ -435,7 +435,16 @@
         "infrastructure"
       ],
       "region": "DadLAN / Workbench",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Cheap PCs & Laptops",
+          "url": "https://joshualparris.github.io/Cheappcslaptops/",
+          "verified_http_200": true,
+          "source": "Cheappcslaptops README"
+        }
+      ],
+      "live_url_label": "Cheap PCs & Laptops"
     },
     {
       "id": "PUB-116",
@@ -444,9 +453,9 @@
       "owner": "joshualparris",
       "type": "app",
       "repo_url": "https://github.com/joshualparris/HealthLens",
-      "live_url": null,
+      "live_url": "https://health-lens-rust.vercel.app/",
       "story_hook": "Health provenance/data node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [
         "healthlens-lineage"
@@ -456,7 +465,16 @@
         "provenance"
       ],
       "region": "Health",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "HealthLens",
+          "url": "https://health-lens-rust.vercel.app/",
+          "verified_http_200": true,
+          "source": "JoshHealth/ColdFluApp docs"
+        }
+      ],
+      "live_url_label": "HealthLens"
     },
     {
       "id": "PUB-110",
@@ -529,14 +547,23 @@
       "owner": "joshualparris",
       "type": "archive",
       "repo_url": "https://github.com/joshualparris/Paul-Roe",
-      "live_url": null,
+      "live_url": "https://remembering-paul-roe.vercel.app/",
       "story_hook": "Memorial/archive node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [],
       "region": "Project Quilt",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Remembering Paul Roe",
+          "url": "https://remembering-paul-roe.vercel.app/",
+          "verified_http_200": true,
+          "source": "Paul-Roe README"
+        }
+      ],
+      "live_url_label": "Remembering Paul Roe"
     },
     {
       "id": "PUB-114",
@@ -638,9 +665,9 @@
       "owner": "joshuaparrisdadlan-stack",
       "type": "game",
       "repo_url": "https://github.com/joshuaparrisdadlan-stack/BucklandGame",
-      "live_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/buckland-v2/index.html",
       "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [
         "buckland-blocks-lineage"
@@ -649,7 +676,16 @@
         "story-world"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "name-heuristic"
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Buckland Game",
+          "url": "https://josh-hub-two.vercel.app/games/buckland-v2/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Buckland Game"
     },
     {
       "id": "PUB-134",
@@ -774,16 +810,25 @@
       "owner": "joshuaparrisdadlan-stack",
       "type": "game",
       "repo_url": "https://github.com/joshuaparrisdadlan-stack/LetsPlayDnd",
-      "live_url": null,
+      "live_url": "https://joshuaparrisdadlan-stack.github.io/LetsPlayDnd/",
       "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
         "story-world"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "name-heuristic"
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Simple RPG (GH)",
+          "url": "https://joshuaparrisdadlan-stack.github.io/LetsPlayDnd/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Simple RPG (GH)"
     },
     {
       "id": "PUB-129",
@@ -792,14 +837,29 @@
       "owner": "joshuaparrisdadlan-stack",
       "type": "project",
       "repo_url": "https://github.com/joshuaparrisdadlan-stack/MysteriousDepths",
-      "live_url": null,
+      "live_url": "https://joshualparris.itch.io/mysterydepths",
       "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [],
       "region": "Project Quilt",
-      "classification_confidence": "name-heuristic"
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Mystery Depths (itch)",
+          "url": "https://joshualparris.itch.io/mysterydepths",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Mystery Depths (GH)",
+          "url": "https://joshuaparrisdadlan-stack.github.io/MysteriousDepths/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Mystery Depths (itch)"
     },
     {
       "id": "PUB-137",
@@ -808,14 +868,35 @@
       "owner": "joshuaparrisdadlan-stack",
       "type": "project",
       "repo_url": "https://github.com/joshuaparrisdadlan-stack/Null",
-      "live_url": null,
+      "live_url": "https://joshualparris.itch.io/null-html-game",
       "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [],
       "region": "Project Quilt",
-      "classification_confidence": "name-heuristic"
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Null (itch)",
+          "url": "https://joshualparris.itch.io/null-html-game",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Null (GH)",
+          "url": "https://joshuaparrisdadlan-stack.github.io/Null/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Null World (tabletop)",
+          "url": "https://play.fables.gg/worlds/null-etkh1z8zjzhi",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Null (itch)"
     },
     {
       "id": "PUB-130",
@@ -824,14 +905,35 @@
       "owner": "joshuaparrisdadlan-stack",
       "type": "project",
       "repo_url": "https://github.com/joshuaparrisdadlan-stack/OrgScape",
-      "live_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/infinite-office/index.html",
       "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [],
       "region": "Project Quilt",
-      "classification_confidence": "name-heuristic"
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Infinite Office (itch)",
+          "url": "https://josh-hub-two.vercel.app/games/infinite-office/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "OrgScape",
+          "url": "https://josh-hub-two.vercel.app/games/orgscape/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Orgscape: The Infinite Office (campaign)",
+          "url": "https://play.fables.gg/worlds/the-infinite-office-xnu26hm454p9",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Infinite Office (itch)"
     },
     {
       "id": "PUB-123",
@@ -856,16 +958,25 @@
       "owner": "joshuaparrisdadlan-stack",
       "type": "game",
       "repo_url": "https://github.com/joshuaparrisdadlan-stack/SimpleRPG",
-      "live_url": null,
+      "live_url": "https://joshualparris.itch.io/simplerpg",
       "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
         "story-world"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "name-heuristic"
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Simple RPG (itch)",
+          "url": "https://joshualparris.itch.io/simplerpg",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Simple RPG (itch)"
     },
     {
       "id": "PUB-122",
@@ -1135,14 +1246,29 @@
       "owner": "Parris-Tech-Services",
       "type": "tool",
       "repo_url": "https://github.com/Parris-Tech-Services/AppFactory",
-      "live_url": null,
+      "live_url": "https://appfactory-inky.vercel.app/",
       "story_hook": "World-generator / project foundry",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "feature/qa-docs-copilot-c2",
       "family_ids": [],
       "themes": [],
       "region": "Project Quilt",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "AppFactory",
+          "url": "https://appfactory-inky.vercel.app/",
+          "verified_http_200": true,
+          "source": "AvancePD AppLinks"
+        },
+        {
+          "label": "AppFactory gamma",
+          "url": "https://app-factory-gamma.vercel.app/",
+          "verified_http_200": true,
+          "source": "AvancePD AppLinks"
+        }
+      ],
+      "live_url_label": "AppFactory"
     },
     {
       "id": "PUB-048",
@@ -1272,7 +1398,15 @@
         "story-world"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Buckland Blocks",
+          "url": "https://josh-hub-two.vercel.app/games/buckland-blocks/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ]
     },
     {
       "id": "PUB-049",
@@ -1301,16 +1435,25 @@
       "owner": "Parris-Tech-Services",
       "type": "app",
       "repo_url": "https://github.com/Parris-Tech-Services/campaign-copilot",
-      "live_url": null,
+      "live_url": "https://joshuaparrisdadlan-stack.github.io/campaign-copilot/",
       "story_hook": "Campaign/planning support node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [
         "campaign-copilot-lineage"
       ],
       "themes": [],
       "region": "Project Quilt",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Campaign Copilot",
+          "url": "https://joshuaparrisdadlan-stack.github.io/campaign-copilot/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Campaign Copilot"
     },
     {
       "id": "PUB-100",
@@ -1388,9 +1531,9 @@
       "owner": "Parris-Tech-Services",
       "type": "app",
       "repo_url": "https://github.com/Parris-Tech-Services/ColdFluApp",
-      "live_url": null,
+      "live_url": "https://cold-flu-app.vercel.app/",
       "story_hook": "Health/symptom node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
@@ -1398,7 +1541,16 @@
         "provenance"
       ],
       "region": "Health",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "ColdFluApp",
+          "url": "https://cold-flu-app.vercel.app/",
+          "verified_http_200": true,
+          "source": "ColdFluApp sitemap/README"
+        }
+      ],
+      "live_url_label": "ColdFluApp"
     },
     {
       "id": "PUB-009",
@@ -1466,9 +1618,9 @@
       "owner": "Parris-Tech-Services",
       "type": "app",
       "repo_url": "https://github.com/Parris-Tech-Services/DCSPrep",
-      "live_url": null,
+      "live_url": "https://dcs-prep.vercel.app/",
       "story_hook": "Preparation/work node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
@@ -1476,7 +1628,16 @@
         "institutions"
       ],
       "region": "Work / Institutions",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "DCS Prep App",
+          "url": "https://dcs-prep.vercel.app/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "DCS Prep App"
     },
     {
       "id": "PUB-066",
@@ -1693,9 +1854,9 @@
       "owner": "Parris-Tech-Services",
       "type": "game",
       "repo_url": "https://github.com/Parris-Tech-Services/ElodinDeepLore",
-      "live_url": null,
+      "live_url": "https://parris-tech-services.github.io/ElodinDeepLore/",
       "story_hook": "Lore/archive crossover",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [
         "elodin-lineage"
@@ -1705,7 +1866,16 @@
         "kingkiller"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "ElodinDeepLore",
+          "url": "https://parris-tech-services.github.io/ElodinDeepLore/",
+          "verified_http_200": true,
+          "source": "production workflow"
+        }
+      ],
+      "live_url_label": "ElodinDeepLore"
     },
     {
       "id": "PUB-007",
@@ -1944,9 +2114,9 @@
       "owner": "Parris-Tech-Services",
       "type": "app",
       "repo_url": "https://github.com/Parris-Tech-Services/HeartCalm",
-      "live_url": null,
+      "live_url": "https://heart-calm-vert.vercel.app/",
       "story_hook": "Calm/health node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
@@ -1954,7 +2124,16 @@
         "provenance"
       ],
       "region": "Health",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "HeartCalm",
+          "url": "https://heart-calm-vert.vercel.app/",
+          "verified_http_200": true,
+          "source": "ColdFluApp README"
+        }
+      ],
+      "live_url_label": "HeartCalm"
     },
     {
       "id": "PUB-097",
@@ -2136,9 +2315,9 @@
       "owner": "Parris-Tech-Services",
       "type": "app",
       "repo_url": "https://github.com/Parris-Tech-Services/JoshNFCAudio",
-      "live_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/josh-nfc-audio/index.html",
       "story_hook": "Physical-world audio portal",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
@@ -2146,7 +2325,16 @@
         "infrastructure"
       ],
       "region": "DadLAN / Workbench",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Josh NFC Audio",
+          "url": "https://josh-hub-two.vercel.app/games/josh-nfc-audio/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Josh NFC Audio"
     },
     {
       "id": "PUB-076",
@@ -2383,14 +2571,23 @@
       "owner": "Parris-Tech-Services",
       "type": "project",
       "repo_url": "https://github.com/Parris-Tech-Services/Max",
-      "live_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/max/index.html",
       "story_hook": "Unknown node; preserve until classified",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [],
       "region": "Project Quilt",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Max",
+          "url": "https://josh-hub-two.vercel.app/games/max/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Max"
     },
     {
       "id": "PUB-085",
@@ -2399,16 +2596,25 @@
       "owner": "Parris-Tech-Services",
       "type": "game",
       "repo_url": "https://github.com/Parris-Tech-Services/Midnight-Line",
-      "live_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/midnight-line/index.html",
       "story_hook": "Night-route narrative node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
         "story-world"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Midnight Line",
+          "url": "https://josh-hub-two.vercel.app/games/midnight-line/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Midnight Line"
     },
     {
       "id": "PUB-074",
@@ -2469,14 +2675,23 @@
       "owner": "Parris-Tech-Services",
       "type": "project",
       "repo_url": "https://github.com/Parris-Tech-Services/newfileqqqwertuhvgjkk.py",
-      "live_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/newfileqqqwertuhvgjkk/index.html",
       "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [],
       "region": "Project Quilt",
-      "classification_confidence": "name-heuristic"
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "newfileqqqwertuhvgjkk.py",
+          "url": "https://josh-hub-two.vercel.app/games/newfileqqqwertuhvgjkk/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "newfileqqqwertuhvgjkk.py"
     },
     {
       "id": "PUB-011",
@@ -2557,14 +2772,23 @@
       "owner": "Parris-Tech-Services",
       "type": "app",
       "repo_url": "https://github.com/Parris-Tech-Services/PowerApp",
-      "live_url": null,
+      "live_url": "https://power-app-delta.vercel.app/",
       "story_hook": "Power/resource node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [],
       "region": "Project Quilt",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "PowerApp",
+          "url": "https://power-app-delta.vercel.app/",
+          "verified_http_200": true,
+          "source": "PowerApp README"
+        }
+      ],
+      "live_url_label": "PowerApp"
     },
     {
       "id": "PUB-034",
@@ -2592,16 +2816,25 @@
       "owner": "Parris-Tech-Services",
       "type": "game",
       "repo_url": "https://github.com/Parris-Tech-Services/random-play",
-      "live_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/random-play/index.html",
       "story_hook": "Experimental arcade node",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
         "story-world"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Random Play",
+          "url": "https://josh-hub-two.vercel.app/games/random-play/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Random Play"
     },
     {
       "id": "PUB-017",
@@ -2626,9 +2859,9 @@
       "owner": "Parris-Tech-Services",
       "type": "game",
       "repo_url": "https://github.com/Parris-Tech-Services/rothfuss-kkc-adventure",
-      "live_url": null,
+      "live_url": "https://parris-tech-services.github.io/rothfuss-kkc-adventure/",
       "story_hook": "Parallel literary shard",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
@@ -2636,7 +2869,16 @@
         "kingkiller"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Rothfuss KKC Adventure",
+          "url": "https://parris-tech-services.github.io/rothfuss-kkc-adventure/",
+          "verified_http_200": true,
+          "source": "production workflow"
+        }
+      ],
+      "live_url_label": "Rothfuss KKC Adventure"
     },
     {
       "id": "PUB-024",
@@ -2715,16 +2957,25 @@
       "owner": "Parris-Tech-Services",
       "type": "game",
       "repo_url": "https://github.com/Parris-Tech-Services/StarHaven",
-      "live_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/starhaven/",
       "story_hook": "Off-world refuge",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [],
       "themes": [
         "story-world"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "StarHaven",
+          "url": "https://josh-hub-two.vercel.app/games/starhaven/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "StarHaven"
     },
     {
       "id": "PUB-062",
@@ -2856,7 +3107,21 @@
         "story-world"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "curated-or-carried-forward"
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Whispering Wilds v2",
+          "url": "https://joshuaparrisdadlan-stack.github.io/whispering-wilds/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Whispering Wilds (itch)",
+          "url": "https://joshualparris.itch.io/whisperingwilds",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ]
     },
     {
       "id": "PUB-070",
@@ -3211,9 +3476,9 @@
       "owner": "joshuaparris",
       "type": "game",
       "repo_url": "https://github.com/joshuaparris/SwordChronicles",
-      "live_url": null,
+      "live_url": "https://sword-coast.vercel.app/",
       "story_hook": "Canonical public repository named by the SwordCoast variant for the rebuilt legacy browser RPG.",
-      "verification": "public-repo-discovered",
+      "verification": "verified-live-link",
       "default_branch": "main",
       "family_ids": [
         "sword-coast-lineage"
@@ -3223,7 +3488,16 @@
         "fantasy"
       ],
       "region": "Project Quilt / Story Worlds",
-      "classification_confidence": "curated-after-metadata-review"
+      "classification_confidence": "curated-after-metadata-review",
+      "alternate_live_urls": [
+        {
+          "label": "Chronicles of the Sword Coast",
+          "url": "https://sword-coast.vercel.app/",
+          "verified_http_200": true,
+          "source": "JoshHub deployment audit"
+        }
+      ],
+      "live_url_label": "Chronicles of the Sword Coast"
     },
     {
       "id": "PUB-154",
@@ -3284,6 +3558,255 @@
       ],
       "region": "Simulation / AI",
       "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "DEPLOY-002",
+      "name": "Signal Garden (3D prototype)",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/simple-rpg-gh/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-003",
+      "name": "AA Game Adventure",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/aa-game-adventure/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-004",
+      "name": "A Module DnD",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/amodule-dnd/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-005",
+      "name": "Tile Game",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/tile-game/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-006",
+      "name": "D&D RPG Dungeon (Python)",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/dnd-rpg-dungeon/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-007",
+      "name": "Classic D&D Text Adventure",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/classic-dnd-text/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-008",
+      "name": "NewGame JS Prototype",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/newgame/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-009",
+      "name": "The Drowned Expanse",
+      "full_name": null,
+      "owner": null,
+      "type": "app",
+      "repo_url": null,
+      "live_url": "https://play.fables.gg/worlds/the-drowned-expanse-l2bvcyceke6o",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public app recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "deployment-only"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-010",
+      "name": "Titanscape",
+      "full_name": null,
+      "owner": null,
+      "type": "app",
+      "repo_url": null,
+      "live_url": "https://play.fables.gg/worlds/019a60ce-282e-7a84-9cd3-b333f28dd69b",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public app recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "deployment-only"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-011",
+      "name": "Senseless",
+      "full_name": null,
+      "owner": null,
+      "type": "app",
+      "repo_url": null,
+      "live_url": "https://play.fables.gg/worlds/senseless-43j7b59vfz54",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public app recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "deployment-only"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-012",
+      "name": "Forbidden Quests",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/forbidden-quests/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-013",
+      "name": "HugCoach",
+      "full_name": null,
+      "owner": null,
+      "type": "app",
+      "repo_url": null,
+      "live_url": "https://hug-coach.vercel.app/",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public app recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "deployment-only"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "deployment-verified"
     }
-  ]
+  ],
+  "verified_portal_count": 85
 }
