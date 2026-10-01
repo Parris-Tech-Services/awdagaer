@@ -12,7 +12,7 @@ _Last updated: 2026-10-01, session https://claude.ai/code/session_01WpwDcRTdN4M7
 | Live site layout | `/` launcher · `/chapter-one/` main game (path kept from the first deploy) · `/quilt/` The Parris Quilt |
 | Deploys | `.github/workflows/pages.yml` (written by the other agent; identical copies on `master` and this branch) runs on every push to either branch: it checks out this branch, runs tests, runs `scripts/build-site.sh`, writes `build-info.json` and pushes to `gh-pages`. Manual fallback: `npm run site`, then push `site-dist/` to `gh-pages`. |
 
-**Branch situation:** this branch has never been merged into `master`. `master` has the Quilt (`index.html`) and the same `pages.yml`. **Another agent (GitHub account `joshualparris`) is actively working on both branches.** Fetch and rebase before you push; never force-push. Merging needs a decision from Josh about what `master:index.html` should be (both projects use a root `index.html`). Don't merge without asking.
+**Branch situation:** this branch has never been merged into `master`. `master` has the Quilt (`index.html`) and the same `pages.yml`. **Another agent (GitHub account `joshualparris`) is actively working on both branches.** Fetch and rebase before you push; never force-push. As of 10:24 on 2026-10-01 it also had branch `chatgpt-world-content` (PR #1, "expand Quilt to full public repo genealogy", plus a `project-links.yml` link-check workflow). It changes the Quilt's project list on that side; `src/content/quilt.ts` here is a copy from commit 6e47ae6 and may need re-syncing once that PR merges. Merging needs a decision from Josh about what `master:index.html` should be (both projects use a root `index.html`). Don't merge without asking.
 
 ## Built
 
