@@ -14,10 +14,13 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: project-quilt-link-audit
+  cancel-in-progress: true
+
 jobs:
   links:
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
