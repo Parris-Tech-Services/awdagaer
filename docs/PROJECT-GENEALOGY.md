@@ -2,7 +2,7 @@
 
 ## Scope
 
-This graph covers public repositories discovered across these known identities:
+Known public identities searched:
 
 - `Parris-Tech-Services`
 - `joshualparris`
@@ -10,24 +10,25 @@ This graph covers public repositories discovered across these known identities:
 - `joshuaparris-max`
 - `parristechservices-prog`
 - `topsecretcheese-del`
+- `parristechservices1-beep`
+- `joshuaparris`
 
 Current inventory:
+- **156 public source repositories**
+- **1 public deployment-only node(s)**
+- **157 total Quilt nodes**
+- **16 currently promoted live deployment links**
+- **14 curated lineage/variant families**
+- **153 graph relationships**
 
-- **149 public source repositories**
-- **1 public deployment-only node**
-- **150 total public Quilt nodes**
-- **16 known live deployments**
-- **12 curated lineage/variant families**
-- **152 graph relationships**
-
-This is a **public-only** map. Private repositories are deliberately excluded from the source graph. A public deployment may remain as a deployment-only node when its source is private or otherwise not publicly mapped.
+Private repositories are excluded from the public source graph. Public deployments can exist as deployment-only nodes when their source is private or no longer publicly mapped.
 
 ## Relationship vocabulary
 
-- **canonical / lineage-of:** a repository explicitly names a canonical source, has identical metadata/content evidence, or otherwise has strong provenance.
-- **sibling variant:** same project concept, separate implementation.
-- **probable family:** strong naming/context evidence, but not enough provenance yet to call it a confirmed ancestor/descendant.
-- **thematic connection:** narrative/game-world relationship only; not a source-code ancestry claim.
+- **lineage-of:** strong provenance or explicit canonical-source evidence.
+- **sibling-variant:** same concept, separate implementation.
+- **probable family:** strong context/name evidence but incomplete provenance.
+- **thematic connection:** story/world relationship only, never presented as code ancestry.
 
 ## Curated families
 
@@ -61,17 +62,17 @@ This is a **public-only** map. Private repositories are deliberately excluded fr
 
 ### JoshTapApp lineage
 
-- **Confidence:** confirmed
+- **Confidence:** mixed-confirmed
 - **Canonical:** joshualparris/JoshTapApp
-- **Members:** `joshualparris/JoshTapApp`, `joshuaparrisdadlan-stack/JoshTapApp`
-- **Evidence:** README.md blob hashes are identical.
+- **Members:** `joshualparris/JoshTapApp`, `joshuaparrisdadlan-stack/JoshTapApp`, `parristechservices1-beep/JoshTapApp`
+- **Evidence:** README.md blob hashes are identical. A third public historical copy exists under parristechservices1-beep but lacks comparable top-level metadata, so its exact mirror status is not asserted.
 
 ### Campaign Copilot lineage
 
 - **Confidence:** confirmed-lineage
 - **Canonical:** Parris-Tech-Services/campaign-copilot
-- **Members:** `Parris-Tech-Services/campaign-copilot`, `joshuaparrisdadlan-stack/campaign-copilot`
-- **Evidence:** README.md blob hashes are identical; package metadata has drifted, so treat the second copy as an evolved mirror/variant rather than byte-identical.
+- **Members:** `Parris-Tech-Services/campaign-copilot`, `joshuaparrisdadlan-stack/campaign-copilot`, `parristechservices1-beep/campaign-copilot`
+- **Evidence:** README.md blob hashes are identical; package metadata has drifted, so treat the second copy as an evolved mirror/variant rather than byte-identical. The parristechservices1-beep copy has the same README and package.json blob hashes as the Parris-Tech-Services copy.
 
 ### HealthLens lineage
 
@@ -115,15 +116,28 @@ This is a **public-only** map. Private repositories are deliberately excluded fr
 - **Members:** `Parris-Tech-Services/DCSCompanion`, `joshuaparrisdadlan-stack/DCSCompanion`
 - **Evidence:** Same repository name across known owner identities. The Parris-Tech-Services copy has full app metadata; alternate copy currently lacks comparable README/package evidence.
 
+### Chronicles of the Sword Coast lineage
 
-## Confirmed dangerous name collision
+- **Confidence:** confirmed
+- **Canonical:** joshuaparris/SwordChronicles
+- **Members:** `joshuaparris/SwordChronicles`, `Parris-Tech-Services/SwordCoast`, `Parris-Tech-Services/dndgame`
+- **Evidence:** SwordCoast README explicitly points to joshuaparris/SwordChronicles as the repository for Chronicles of the Sword Coast. dndgame carries the same title and rebuilt-legacy description and represents the same game family.
 
-**Wild2 is not one lineage across accounts.**
+### GroqChat Dungeon Master lineage
 
-- `Parris-Tech-Services/Wild2` identifies itself as **DOVAHKIIN — The Last Dragonborn**, a Skyrim/Elder Scrolls text adventure.
-- `joshuaparrisdadlan-stack/Wild2` identifies itself as a **Whispering Wilds Twine/Godot workspace**.
+- **Confidence:** confirmed-lineage
+- **Canonical:** joshuaparris/groqchat2
+- **Members:** `joshuaparris/groqchat`, `joshuaparris/groqchat2`
+- **Evidence:** Both identify as GROQCHAT and implement the same Groq-powered Dungeon Master chatbot concept. groqchat2 is a later-generation stack (Next 16/React 19 versus Next 14/React 18), so it is an evolution rather than an exact mirror.
 
-The graph intentionally keeps them separate.
+
+## Important collision
+
+`Wild2` is a confirmed dangerous name collision:
+- `Parris-Tech-Services/Wild2` = **DOVAHKIIN — The Last Dragonborn**.
+- `joshuaparrisdadlan-stack/Wild2` = **Whispering Wilds Twine/Godot workspace**.
+
+They must remain separate.
 
 ## Thematic domains
 
@@ -135,44 +149,20 @@ The graph intentionally keeps them separate.
 - **Kingkiller story/lore shards:** 5 public repos
 - **Playable and narrative worlds:** 56 public repos
 
-## Normalised-name collision candidates
-
-These are mechanical collision candidates, not automatic duplicate claims.
-
-- **healthlens:** `joshualparris/HealthLens`, `Parris-Tech-Services/HealthLens`
-- **joshhub:** `joshualparris/JoshHub`, `joshuaparrisdadlan-stack/JoshHub`
-- **joshtapapp:** `joshualparris/JoshTapApp`, `joshuaparrisdadlan-stack/JoshTapApp`
-- **theconsultancybeneath:** `joshualparris/the-consultancy-beneath`, `joshuaparrisdadlan-stack/the-consultancy-beneath`
-- **campaigncopilot:** `joshuaparrisdadlan-stack/campaign-copilot`, `Parris-Tech-Services/campaign-copilot`
-- **dcscompanion:** `joshuaparrisdadlan-stack/DCSCompanion`, `Parris-Tech-Services/DCSCompanion`
-- **whirringwilderness:** `joshuaparrisdadlan-stack/WhirringWilderness`, `Parris-Tech-Services/WhirringWilderness`
-- **whisperingwilds:** `joshuaparrisdadlan-stack/whispering-wilds`, `Parris-Tech-Services/whispering-wilds`
-- **wild2:** `joshuaparrisdadlan-stack/Wild2`, `Parris-Tech-Services/Wild2`
-- **anchorflow:** `Parris-Tech-Services/AnchorFlow`, `parristechservices-prog/AnchorFlow`
-- **elevenrealms:** `Parris-Tech-Services/Eleven-Realms`, `Parris-Tech-Services/ElevenRealms`
-- **waypoint:** `Parris-Tech-Services/Waypoint`, `parristechservices-prog/Waypoint`
-
 ## Narrative architecture
 
-Rather than connecting all 149 repos directly to SIGNAL BENEATH, the graph uses domain anchors:
+The graph is intentionally not one giant starburst. Domain anchors create the patchwork:
 
-- **JoshHub** catalogues story/game worlds.
-- **JoshMemory** anchors archive and memory nodes.
-- **DadlanControlCentre / ForgeGrid** anchor DadLAN infrastructure.
-- **HealthLens** anchors health and provenance.
-- **DCS Companion** anchors work/institutional systems.
-- **AgentCheck** anchors AI accountability.
-- **RothfussMaps** anchors Kingkiller lore shards.
-- **NeathBound** is the major choice/storylet doorway.
-- **SIGNAL BENEATH** stitches those domains together.
+- JoshHub → playable worlds
+- JoshMemory → archive/memory
+- DadlanControlCentre + ForgeGrid → home lab/infrastructure
+- HealthLens → health/provenance
+- DCS Companion → work/institutions
+- AgentCheck → AI/accountability
+- RothfussMaps → Kingkiller shards
+- SwordChronicles → Sword Coast lineage
+- GroqChat 2 → AI-DM lineage
+- NeathBound → storylet doorway
+- SIGNAL BENEATH → stitches the domain anchors together
 
-That produces an actual web rather than one giant starburst around SIGNAL BENEATH.
-
-## Rendering recommendation
-
-Use two modes:
-
-1. **Practical Project Directory:** searchable list of every node with Play/Source buttons.
-2. **Story Constellation:** graph view that initially reveals only discovered nodes and meaningful edges.
-
-Lineage edges should use a different visual treatment from thematic/story edges, so the UI never implies that a narrative connection is proof of source-code ancestry.
+Use distinct visual styles for **lineage edges** and **story/thematic edges** so narrative association is never mistaken for proof of source ancestry.
