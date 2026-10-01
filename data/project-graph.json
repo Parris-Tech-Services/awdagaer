@@ -1,8 +1,8 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "generated_from": "data/project-quilt.json",
-  "node_count": 150,
-  "edge_count": 152,
+  "node_count": 157,
+  "edge_count": 153,
   "nodes": [
     {
       "id": "PUB-113",
@@ -265,7 +265,7 @@
       "label": "JoshHub",
       "full_name": "joshuaparrisdadlan-stack/JoshHub",
       "type": "hub",
-      "live_url": "https://josh-hub-two.vercel.app/games",
+      "live_url": null,
       "repo_url": "https://github.com/joshuaparrisdadlan-stack/JoshHub",
       "region": "DadLAN / Workbench",
       "themes": [
@@ -870,7 +870,9 @@
       "themes": [
         "story-world"
       ],
-      "family_ids": []
+      "family_ids": [
+        "sword-coast-lineage"
+      ]
     },
     {
       "id": "PUB-105",
@@ -917,7 +919,7 @@
       "label": "Eleven-Realms",
       "full_name": "Parris-Tech-Services/Eleven-Realms",
       "type": "game",
-      "live_url": null,
+      "live_url": "https://realms-bay.vercel.app/",
       "repo_url": "https://github.com/Parris-Tech-Services/Eleven-Realms",
       "region": "Project Quilt / Story Worlds",
       "themes": [
@@ -1724,7 +1726,9 @@
       "themes": [
         "story-world"
       ],
-      "family_ids": []
+      "family_ids": [
+        "sword-coast-lineage"
+      ]
     },
     {
       "id": "PUB-046",
@@ -2009,6 +2013,110 @@
         "public-deployment"
       ],
       "family_ids": []
+    },
+    {
+      "id": "PUB-150",
+      "label": "Test",
+      "full_name": "parristechservices1-beep/Test",
+      "type": "project",
+      "live_url": null,
+      "repo_url": "https://github.com/parristechservices1-beep/Test",
+      "region": "Project Quilt",
+      "themes": [],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-151",
+      "label": "JoshTapApp",
+      "full_name": "parristechservices1-beep/JoshTapApp",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/parristechservices1-beep/JoshTapApp",
+      "region": "Project Quilt",
+      "themes": [
+        "audio",
+        "nfc"
+      ],
+      "family_ids": [
+        "josh-tap-lineage"
+      ]
+    },
+    {
+      "id": "PUB-152",
+      "label": "Campaign Copilot",
+      "full_name": "parristechservices1-beep/campaign-copilot",
+      "type": "app",
+      "live_url": null,
+      "repo_url": "https://github.com/parristechservices1-beep/campaign-copilot",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world",
+        "ttrpg"
+      ],
+      "family_ids": [
+        "campaign-copilot-lineage"
+      ]
+    },
+    {
+      "id": "PUB-153",
+      "label": "Chronicles of the Sword Coast",
+      "full_name": "joshuaparris/SwordChronicles",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparris/SwordChronicles",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world",
+        "fantasy"
+      ],
+      "family_ids": [
+        "sword-coast-lineage"
+      ]
+    },
+    {
+      "id": "PUB-154",
+      "label": "NewTestGame",
+      "full_name": "joshuaparris/NewTestGame",
+      "type": "game",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparris/NewTestGame",
+      "region": "Project Quilt / Story Worlds",
+      "themes": [
+        "story-world"
+      ],
+      "family_ids": []
+    },
+    {
+      "id": "PUB-155",
+      "label": "GROQCHAT",
+      "full_name": "joshuaparris/groqchat",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparris/groqchat",
+      "region": "Simulation / AI",
+      "themes": [
+        "ai",
+        "story-world"
+      ],
+      "family_ids": [
+        "groqchat-lineage"
+      ]
+    },
+    {
+      "id": "PUB-156",
+      "label": "GROQCHAT 2",
+      "full_name": "joshuaparris/groqchat2",
+      "type": "tool",
+      "live_url": null,
+      "repo_url": "https://github.com/joshuaparris/groqchat2",
+      "region": "Simulation / AI",
+      "themes": [
+        "ai",
+        "story-world"
+      ],
+      "family_ids": [
+        "groqchat-lineage"
+      ]
     }
   ],
   "edges": [
@@ -2100,15 +2208,29 @@
       "from": "PUB-124",
       "to": "PUB-118",
       "relation": "lineage-of",
-      "confidence": "confirmed",
-      "note": "README.md blob hashes are identical."
+      "confidence": "mixed-confirmed",
+      "note": "README.md blob hashes are identical. A third public historical copy exists under parristechservices1-beep but lacks comparable top-level metadata, so its exact mirror status is not asserted."
+    },
+    {
+      "from": "PUB-151",
+      "to": "PUB-118",
+      "relation": "lineage-of",
+      "confidence": "mixed-confirmed",
+      "note": "README.md blob hashes are identical. A third public historical copy exists under parristechservices1-beep but lacks comparable top-level metadata, so its exact mirror status is not asserted."
     },
     {
       "from": "PUB-134",
       "to": "PUB-001",
       "relation": "lineage-of",
       "confidence": "confirmed-lineage",
-      "note": "README.md blob hashes are identical; package metadata has drifted, so treat the second copy as an evolved mirror/variant rather than byte-identical."
+      "note": "README.md blob hashes are identical; package metadata has drifted, so treat the second copy as an evolved mirror/variant rather than byte-identical. The parristechservices1-beep copy has the same README and package.json blob hashes as the Parris-Tech-Services copy."
+    },
+    {
+      "from": "PUB-152",
+      "to": "PUB-001",
+      "relation": "lineage-of",
+      "confidence": "confirmed-lineage",
+      "note": "README.md blob hashes are identical; package metadata has drifted, so treat the second copy as an evolved mirror/variant rather than byte-identical. The parristechservices1-beep copy has the same README and package.json blob hashes as the Parris-Tech-Services copy."
     },
     {
       "from": "PUB-103",
@@ -2160,788 +2282,837 @@
       "note": "Same repository name across known owner identities. The Parris-Tech-Services copy has full app metadata; alternate copy currently lacks comparable README/package evidence."
     },
     {
+      "from": "PUB-062",
+      "to": "PUB-153",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "SwordCoast README explicitly points to joshuaparris/SwordChronicles as the repository for Chronicles of the Sword Coast. dndgame carries the same title and rebuilt-legacy description and represents the same game family."
+    },
+    {
+      "from": "PUB-061",
+      "to": "PUB-153",
+      "relation": "lineage-of",
+      "confidence": "confirmed",
+      "note": "SwordCoast README explicitly points to joshuaparris/SwordChronicles as the repository for Chronicles of the Sword Coast. dndgame carries the same title and rebuilt-legacy description and represents the same game family."
+    },
+    {
+      "from": "PUB-155",
+      "to": "PUB-156",
+      "relation": "lineage-of",
+      "confidence": "confirmed-lineage",
+      "note": "Both identify as GROQCHAT and implement the same Groq-powered Dungeon Master chatbot concept. groqchat2 is a later-generation stack (Next 16/React 19 versus Next 14/React 18), so it is an evolution rather than an exact mirror."
+    },
+    {
       "from": "PUB-110",
       "to": "PUB-113",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-115",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-009",
       "to": "PUB-111",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-110",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-117",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-118",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-112",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-108",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-009",
       "to": "PUB-138",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-128",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-020",
       "to": "PUB-131",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-125",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-009",
       "to": "PUB-126",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-124",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-132",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-136",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-127",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-119",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-120",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-135",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-133",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-073",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-009",
       "to": "PUB-096",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-093",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-020",
       "to": "PUB-063",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-048",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-090",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-037",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-006",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-038",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-019",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-004",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-049",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-100",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-009",
       "to": "PUB-013",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-116",
       "to": "PUB-039",
       "relation": "health-provenance",
       "confidence": "thematic",
-      "note": "HealthLens anchors health-data provenance."
+      "note": null
     },
     {
       "from": "PUB-020",
       "to": "PUB-056",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-020",
       "to": "PUB-045",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-020",
       "to": "PUB-066",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-082",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-009",
       "to": "PUB-030",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-061",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-105",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-009",
       "to": "PUB-072",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-035",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-047",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-098",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-094",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-024",
       "to": "PUB-094",
       "relation": "kingkiller-shard",
       "confidence": "thematic",
-      "note": "RothfussMaps anchors the Kingkiller lore/story shard."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-040",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-024",
       "to": "PUB-040",
       "relation": "kingkiller-shard",
       "confidence": "thematic",
-      "note": "RothfussMaps anchors the Kingkiller lore/story shard."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-007",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-020",
       "to": "PUB-079",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-117",
       "to": "PUB-042",
       "relation": "remembers",
       "confidence": "thematic",
-      "note": "JoshMemory is the archive bridge for memory-heavy nodes."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-044",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-087",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-116",
       "to": "PUB-104",
       "relation": "health-provenance",
       "confidence": "thematic",
-      "note": "HealthLens anchors health-data provenance."
+      "note": null
     },
     {
       "from": "PUB-116",
       "to": "PUB-103",
       "relation": "health-provenance",
       "confidence": "thematic",
-      "note": "HealthLens anchors health-data provenance."
+      "note": null
     },
     {
       "from": "PUB-116",
       "to": "PUB-031",
       "relation": "health-provenance",
       "confidence": "thematic",
-      "note": "HealthLens anchors health-data provenance."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-002",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-010",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-117",
       "to": "PUB-106",
       "relation": "remembers",
       "confidence": "thematic",
-      "note": "JoshMemory is the archive bridge for memory-heavy nodes."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-106",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-091",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-018",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-009",
       "to": "PUB-018",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-014",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-022",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-095",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-023",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-076",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-051",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-117",
       "to": "PUB-012",
       "relation": "remembers",
       "confidence": "thematic",
-      "note": "JoshMemory is the archive bridge for memory-heavy nodes."
+      "note": null
     },
     {
       "from": "PUB-009",
       "to": "PUB-012",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-020",
       "to": "PUB-032",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-027",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-024",
       "to": "PUB-027",
       "relation": "kingkiller-shard",
       "confidence": "thematic",
-      "note": "RothfussMaps anchors the Kingkiller lore/story shard."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-026",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-058",
       "to": "PUB-025",
       "relation": "accountability-thread",
       "confidence": "thematic",
-      "note": "AgentCheck anchors AI/agent accountability."
+      "note": null
     },
     {
       "from": "PUB-058",
       "to": "PUB-084",
       "relation": "accountability-thread",
       "confidence": "thematic",
-      "note": "AgentCheck anchors AI/agent accountability."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-052",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-053",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-085",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-067",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-099",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-020",
       "to": "PUB-101",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-058",
       "to": "PUB-101",
       "relation": "accountability-thread",
       "confidence": "thematic",
-      "note": "AgentCheck anchors AI/agent accountability."
+      "note": null
     },
     {
       "from": "PUB-117",
       "to": "PUB-077",
       "relation": "remembers",
       "confidence": "thematic",
-      "note": "JoshMemory is the archive bridge for memory-heavy nodes."
+      "note": null
     },
     {
       "from": "PUB-058",
       "to": "PUB-034",
       "relation": "accountability-thread",
       "confidence": "thematic",
-      "note": "AgentCheck anchors AI/agent accountability."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-065",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-050",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-024",
       "to": "PUB-050",
       "relation": "kingkiller-shard",
       "confidence": "thematic",
-      "note": "RothfussMaps anchors the Kingkiller lore/story shard."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-055",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-075",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-107",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-062",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-046",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-009",
       "to": "PUB-083",
       "relation": "dadlan-system",
       "confidence": "thematic",
-      "note": "DadLAN infrastructure and hardware nodes share the home-lab thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-008",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-020",
       "to": "PUB-059",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-005",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-070",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-033",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-020",
       "to": "PUB-015",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-020",
       "to": "PUB-102",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-140",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-020",
       "to": "PUB-146",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-020",
       "to": "PUB-142",
       "relation": "institutional-thread",
       "confidence": "thematic",
-      "note": "DCS Companion anchors the work/institutional support thread."
+      "note": null
     },
     {
       "from": "PUB-110",
       "to": "PUB-148",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-147",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
     },
     {
       "from": "PUB-110",
       "to": "PUB-149",
       "relation": "catalogues-world",
       "confidence": "high",
-      "note": "JoshHub is the practical portal/index into playable worlds."
+      "note": "JoshHub is a practical portal into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-153",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is a practical portal into playable worlds."
+    },
+    {
+      "from": "PUB-110",
+      "to": "PUB-154",
+      "relation": "catalogues-world",
+      "confidence": "high",
+      "note": "JoshHub is a practical portal into playable worlds."
+    },
+    {
+      "from": "PUB-058",
+      "to": "PUB-155",
+      "relation": "accountability-thread",
+      "confidence": "thematic",
+      "note": null
+    },
+    {
+      "from": "PUB-058",
+      "to": "PUB-156",
+      "relation": "accountability-thread",
+      "confidence": "thematic",
+      "note": null
     },
     {
       "from": "PUB-006",
       "to": "PUB-110",
       "relation": "stitches-domain",
       "confidence": "high",
-      "note": "SIGNAL BENEATH connects the joshhub domain into the wider Quilt."
+      "note": "SIGNAL BENEATH connects the hub domain into the wider Quilt."
     },
     {
       "from": "PUB-006",
@@ -3007,74 +3178,18 @@
       "note": "SIGNAL BENEATH connects the kingkiller domain into the wider Quilt."
     },
     {
-      "from": "PUB-067",
-      "to": "PUB-112",
-      "relation": "beneath-echo",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
+      "from": "PUB-006",
+      "to": "PUB-153",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the sword domain into the wider Quilt."
     },
     {
-      "from": "PUB-067",
-      "to": "PUB-006",
-      "relation": "story-engine-echo",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
-    },
-    {
-      "from": "PUB-004",
-      "to": "PUB-006",
-      "relation": "anomaly-surface",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
-    },
-    {
-      "from": "PUB-117",
-      "to": "PUB-006",
-      "relation": "archive-evidence",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
-    },
-    {
-      "from": "PUB-044",
-      "to": "PUB-006",
-      "relation": "dadlan-infrastructure",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
-    },
-    {
-      "from": "PUB-058",
-      "to": "PUB-084",
-      "relation": "accountability-siblings",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
-    },
-    {
-      "from": "PUB-029",
-      "to": "PUB-003",
-      "relation": "lifehub-surface",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
-    },
-    {
-      "from": "PUB-056",
-      "to": "PUB-066",
-      "relation": "professional-learning",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
-    },
-    {
-      "from": "PUB-062",
-      "to": "PUB-061",
-      "relation": "fantasy-lineage-theme",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
-    },
-    {
-      "from": "PUB-140",
-      "to": "PUB-037",
-      "relation": "ai-rpg-evolution",
-      "confidence": "curated",
-      "note": "Curated narrative bridge for the Quilt."
+      "from": "PUB-006",
+      "to": "PUB-156",
+      "relation": "stitches-domain",
+      "confidence": "high",
+      "note": "SIGNAL BENEATH connects the groq domain into the wider Quilt."
     }
   ]
 }
