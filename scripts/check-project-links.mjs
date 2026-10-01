@@ -1,25 +1,45 @@
 import fs from "node:fs/promises";
 
 const manifestPath = process.argv[2] || "data/project-quilt.json";
+const candidatePath = process.argv[3] || "data/project-live-candidates.json";
 const data = JSON.parse(await fs.readFile(manifestPath, "utf8"));
-const targets = data.projects.filter((p) => p.live_url);
 
-async function check(project) {
+const targets = data.projects
+  .filter((p) => p.live_url)
+  .map((p) => ({ id: p.id, name: p.name, url: p.live_url, source: "manifest" }));
+
+try {
+  const candidateData = JSON.parse(await fs.readFile(candidatePath, "utf8"));
+  for (const c of candidateData.candidates || []) {
+    if (c.url) targets.push({ id: c.id, name: c.name, url: c.url, source: "candidate" });
+  }
+} catch {
+  // Candidate file is optional.
+}
+
+const unique = [];
+const seen = new Set();
+for (const t of targets) {
+  const key = t.url.replace(/\/$/, "").toLowerCase();
+  if (seen.has(key)) continue;
+  seen.add(key);
+  unique.push(t);
+}
+
+async function check(target) {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 12000);
+  const timeout = setTimeout(() => controller.abort(), 15000);
   const started = Date.now();
   try {
-    const response = await fetch(project.live_url, {
+    const response = await fetch(target.url, {
       method: "GET",
       redirect: "follow",
       signal: controller.signal,
-      headers: { "user-agent": "Signal-Beneath-Link-Check/1.0" },
+      headers: { "user-agent": "Signal-Beneath-Link-Check/2.0" },
     });
     try { await response.body?.cancel(); } catch {}
     return {
-      id: project.id,
-      name: project.name,
-      url: project.live_url,
+      ...target,
       ok: response.ok,
       status: response.status,
       final_url: response.url,
@@ -28,9 +48,7 @@ async function check(project) {
     };
   } catch (error) {
     return {
-      id: project.id,
-      name: project.name,
-      url: project.live_url,
+      ...target,
       ok: false,
       status: null,
       final_url: null,
@@ -43,9 +61,9 @@ async function check(project) {
 }
 
 const results = [];
-const concurrency = 5;
-for (let i = 0; i < targets.length; i += concurrency) {
-  results.push(...await Promise.all(targets.slice(i, i + concurrency).map(check)));
+const concurrency = 8;
+for (let i = 0; i < unique.length; i += concurrency) {
+  results.push(...await Promise.all(unique.slice(i, i + concurrency).map(check)));
 }
 
 await fs.mkdir("artifacts", { recursive: true });
@@ -55,20 +73,28 @@ await fs.writeFile(
 );
 
 const failed = results.filter((r) => !r.ok);
+const manifestResults = results.filter((r) => r.source === "manifest");
+const candidateResults = results.filter((r) => r.source === "candidate");
+const candidatePassed = candidateResults.filter((r) => r.ok);
 const lines = [
   "# SIGNAL BENEATH project-link check",
   "",
-  `Checked **${results.length}** playable URLs; **${results.length - failed.length}** passed and **${failed.length}** failed.`,
+  `Checked **${results.length}** unique URLs; **${results.length - failed.length}** passed and **${failed.length}** failed.`,
+  `Manifest: **${manifestResults.filter(r=>r.ok).length}/${manifestResults.length}** passed. Candidate discoveries: **${candidatePassed.length}/${candidateResults.length}** passed.`,
   "",
-  "| Project | Status | Final URL | Time |",
-  "|---|---:|---|---:|",
+  "| Source | Project | Status | Final URL | Time |",
+  "|---|---|---:|---|---:|",
   ...results.map((r) =>
-    `| ${r.name.replaceAll("|", "\\|")} | ${r.ok ? "✅ " + r.status : "❌ " + (r.status ?? r.error)} | ${r.final_url ?? r.url} | ${r.ms}ms |`
+    `| ${r.source} | ${r.name.replaceAll("|", "\\|")} | ${r.ok ? "✅ " + r.status : "❌ " + (r.status ?? r.error)} | ${r.final_url ?? r.url} | ${r.ms}ms |`
   ),
 ];
 
 const summary = lines.join("\n") + "\n";
 await fs.writeFile("artifacts/project-link-check.md", summary);
+await fs.writeFile(
+  "artifacts/passed-candidates.json",
+  JSON.stringify({ candidates: candidatePassed }, null, 2) + "\n",
+);
 if (process.env.GITHUB_STEP_SUMMARY) {
   await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, summary);
 }
