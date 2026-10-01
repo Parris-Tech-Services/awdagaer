@@ -2,7 +2,7 @@
 
 ## Scope
 
-Known public identities searched:
+This is the public project/web archaeology layer for the Project Quilt. It currently covers **eight known public GitHub identities**:
 
 - `Parris-Tech-Services`
 - `joshualparris`
@@ -14,21 +14,24 @@ Known public identities searched:
 - `joshuaparris`
 
 Current inventory:
-- **156 public source repositories**
-- **1 public deployment-only node(s)**
-- **157 total Quilt nodes**
-- **16 currently promoted live deployment links**
-- **14 curated lineage/variant families**
-- **153 graph relationships**
 
-Private repositories are excluded from the public source graph. Public deployments can exist as deployment-only nodes when their source is private or no longer publicly mapped.
+- **156 public source repositories**
+- **13 deployment-only public nodes**
+- **169 total Quilt nodes**
+- **52 nodes with a verified primary live link**
+- **85 verified live portals including alternate builds**
+- **16 curated lineage/variant families**
+- **182 explicit graph relationships**
+
+Private repositories are deliberately excluded from this public source graph. If a public app/game is live but its source is private or cannot be mapped confidently, it can appear only as a deployment-only node.
 
 ## Relationship vocabulary
 
-- **lineage-of:** strong provenance or explicit canonical-source evidence.
-- **sibling-variant:** same concept, separate implementation.
-- **probable family:** strong context/name evidence but incomplete provenance.
-- **thematic connection:** story/world relationship only, never presented as code ancestry.
+- **lineage-of:** explicit canonical-source evidence or strong provenance.
+- **sibling-variant:** same project concept, separate implementation.
+- **probable family:** context/name evidence exists, but ancestry is not proven.
+- **thematic/story edge:** narrative association only; never presented as source-code ancestry.
+- **hosts-build:** a public deployed build recovered from a hub/catalogue without a confidently public source repo.
 
 ## Curated families
 
@@ -130,39 +133,74 @@ Private repositories are excluded from the public source graph. Public deploymen
 - **Members:** `joshuaparris/groqchat`, `joshuaparris/groqchat2`
 - **Evidence:** Both identify as GROQCHAT and implement the same Groq-powered Dungeon Master chatbot concept. groqchat2 is a later-generation stack (Next 16/React 19 versus Next 14/React 18), so it is an evolution rather than an exact mirror.
 
+### AnchorFlow placeholder → active app
+
+- **Confidence:** confirmed
+- **Canonical:** parristechservices-prog/AnchorFlow
+- **Members:** `Parris-Tech-Services/AnchorFlow`, `parristechservices-prog/AnchorFlow`
+- **Evidence:** The Parris-Tech-Services README explicitly says it is an empty placeholder and recommends redirecting/archiving it if active AnchorFlow development exists elsewhere. parristechservices-prog/AnchorFlow contains the implemented local-first wellbeing/professional-growth app.
+
+### Waypoint sibling implementations
+
+- **Confidence:** high-sibling
+- **Canonical:** parristechservices-prog/Waypoint
+- **Members:** `Parris-Tech-Services/Waypoint`, `parristechservices-prog/Waypoint`
+- **Evidence:** Both are local-first decision/growth tools but materially different implementations: Parris-Tech-Services/Waypoint is a compact five-question personal decision navigator; parristechservices-prog/Waypoint is a much broader professional-growth, wellbeing and downtime-readiness hub.
+
 
 ## Important collision
 
-`Wild2` is a confirmed dangerous name collision:
-- `Parris-Tech-Services/Wild2` = **DOVAHKIIN — The Last Dragonborn**.
-- `joshuaparrisdadlan-stack/Wild2` = **Whispering Wilds Twine/Godot workspace**.
+`Wild2` is a confirmed dangerous same-name collision:
 
-They must remain separate.
+- `Parris-Tech-Services/Wild2` is **DOVAHKIIN — The Last Dragonborn**, a Skyrim/Elder Scrolls text adventure.
+- `joshuaparrisdadlan-stack/Wild2` is a **Whispering Wilds Twine/Godot workspace**.
+
+They are intentionally separate nodes.
 
 ## Thematic domains
 
-- **DadLAN laboratory:** 27 public repos
-- **Archive and memory:** 5 public repos
-- **Health and provenance:** 5 public repos
-- **Work and institutions:** 14 public repos
-- **AI, agents and accountability:** 5 public repos
-- **Kingkiller story/lore shards:** 5 public repos
-- **Playable and narrative worlds:** 56 public repos
+- **DadLAN laboratory:** 27 nodes
+- **Archive and memory:** 5 nodes
+- **Health and provenance:** 5 nodes
+- **Work and institutions:** 14 nodes
+- **AI, agents and accountability:** 7 nodes
+- **Kingkiller story/lore shards:** 5 nodes
+- **Playable and narrative worlds:** 70 nodes
+- **Hubs and platform surfaces:** 6 nodes
+- **Deployment-only archaeology:** 12 nodes
+
+## Live-link archaeology
+
+The first broad candidate audit tested **60 additional historical/project URLs** from JoshHub and repository documentation:
+
+- **48 returned HTTP success**
+- **12 were stale/404**
+- a successful HTTP response is still not enough by itself: protected-login redirects and deliberately non-Quilt personal/property portals are not auto-promoted
+- all currently promoted manifest links are rechecked by GitHub Actions
+
+Stale URLs remain in `data/project-live-candidates.json` as provenance rather than being silently forgotten. The UI should hide them from normal Play buttons while retaining them for project archaeology/debugging.
 
 ## Narrative architecture
 
-The graph is intentionally not one giant starburst. Domain anchors create the patchwork:
+The graph is deliberately a patchwork rather than one giant starburst. Major anchors are:
 
-- JoshHub → playable worlds
-- JoshMemory → archive/memory
-- DadlanControlCentre + ForgeGrid → home lab/infrastructure
-- HealthLens → health/provenance
-- DCS Companion → work/institutions
-- AgentCheck → AI/accountability
-- RothfussMaps → Kingkiller shards
-- SwordChronicles → Sword Coast lineage
-- GroqChat 2 → AI-DM lineage
-- NeathBound → storylet doorway
-- SIGNAL BENEATH → stitches the domain anchors together
+- **JoshHub** → game/app portals and deployment archaeology
+- **JoshMemory** → archive and memory
+- **DadlanControlCentre / ForgeGrid** → home-lab infrastructure
+- **HealthLens** → health-data/provenance tools
+- **DCS Companion** → work/institutional systems
+- **AgentCheck** → AI accountability
+- **RothfussMaps** → Kingkiller lore shards
+- **SwordChronicles** → Chronicles of the Sword Coast lineage
+- **GroqChat 2** → AI-DM lineage
+- **NeathBound** → choice/storylet doorway
+- **SIGNAL BENEATH** → stitches those domains together
 
-Use distinct visual styles for **lineage edges** and **story/thematic edges** so narrative association is never mistaken for proof of source ancestry.
+## Rendering recommendation
+
+The merged game should expose two views:
+
+1. **Project Directory** — practical, searchable, every public node, verified Play buttons and Source buttons.
+2. **Story Constellation** — graph view with discovered nodes and story/lineage edges.
+
+Use distinct visual treatments for source lineage, alternate deployments, and narrative connections. A narrative edge must never imply that one repo descended from another.
