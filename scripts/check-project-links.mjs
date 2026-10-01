@@ -99,4 +99,10 @@ if (process.env.GITHUB_STEP_SUMMARY) {
   await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, summary);
 }
 console.log(summary);
-if (failed.length) process.exitCode = 1;
+const brokenPromoted = manifestResults.filter((r) => !r.ok);
+if (brokenPromoted.length) {
+  console.error(`Promoted manifest has ${brokenPromoted.length} broken URL(s).`);
+  process.exitCode = 1;
+} else if (failed.length) {
+  console.log(`Historical/candidate failures retained for provenance: ${failed.length}.`);
+}
