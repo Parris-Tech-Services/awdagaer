@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 46,
+  "count": 60,
   "candidates": [
     {
       "id": "dcs-companion",
@@ -461,6 +461,146 @@
       "primaryUrl": "https://hug-coach.vercel.app/",
       "url": "https://hug-coach.vercel.app/",
       "source": "joshualparris/JoshHub src/data/apps.ts"
+    },
+    {
+      "id": "power-app-live",
+      "name": "PowerApp",
+      "type": "app",
+      "category": "Apps",
+      "status": "ok",
+      "url": "https://power-app-delta.vercel.app/",
+      "repo_hint": "Parris-Tech-Services/PowerApp",
+      "source": "PowerApp README"
+    },
+    {
+      "id": "cold-flu-live",
+      "name": "ColdFluApp",
+      "type": "app",
+      "category": "Apps",
+      "status": "ok",
+      "url": "https://cold-flu-app.vercel.app/",
+      "repo_hint": "Parris-Tech-Services/ColdFluApp",
+      "source": "ColdFluApp sitemap/README"
+    },
+    {
+      "id": "healthlens-live",
+      "name": "HealthLens",
+      "type": "app",
+      "category": "Apps",
+      "status": "ok",
+      "url": "https://health-lens-rust.vercel.app/",
+      "repo_hint": "joshualparris/HealthLens",
+      "source": "JoshHealth/ColdFluApp docs"
+    },
+    {
+      "id": "heartcalm-live",
+      "name": "HeartCalm",
+      "type": "app",
+      "category": "Apps",
+      "status": "ok",
+      "url": "https://heart-calm-vert.vercel.app/",
+      "repo_hint": "Parris-Tech-Services/HeartCalm",
+      "source": "ColdFluApp README"
+    },
+    {
+      "id": "appfactory-inky",
+      "name": "AppFactory",
+      "type": "app",
+      "category": "Tools",
+      "status": "ok",
+      "url": "https://appfactory-inky.vercel.app/",
+      "repo_hint": "Parris-Tech-Services/AppFactory",
+      "source": "AvancePD AppLinks"
+    },
+    {
+      "id": "appfactory-gamma",
+      "name": "AppFactory gamma",
+      "type": "app",
+      "category": "Tools",
+      "status": "ok",
+      "url": "https://app-factory-gamma.vercel.app/",
+      "repo_hint": "Parris-Tech-Services/AppFactory",
+      "source": "AvancePD AppLinks"
+    },
+    {
+      "id": "3layers-current",
+      "name": "3layers",
+      "type": "game",
+      "category": "Games",
+      "status": "ok",
+      "url": "https://3layers-joshualparris-projects.vercel.app/",
+      "repo_hint": "Parris-Tech-Services/3layers",
+      "source": "JoshHub deployment override"
+    },
+    {
+      "id": "sword-coast-live",
+      "name": "Chronicles of the Sword Coast",
+      "type": "game",
+      "category": "Games",
+      "status": "ok",
+      "url": "https://sword-coast.vercel.app/",
+      "repo_hint": "joshuaparris/SwordChronicles",
+      "source": "JoshHub deployment audit"
+    },
+    {
+      "id": "paul-roe-live",
+      "name": "Remembering Paul Roe",
+      "type": "app",
+      "category": "Archive",
+      "status": "ok",
+      "url": "https://remembering-paul-roe.vercel.app/",
+      "repo_hint": "joshualparris/Paul-Roe",
+      "source": "Paul-Roe README"
+    },
+    {
+      "id": "cheap-pcs-live",
+      "name": "Cheap PCs & Laptops",
+      "type": "app",
+      "category": "DadLAN",
+      "status": "ok",
+      "url": "https://joshualparris.github.io/Cheappcslaptops/",
+      "repo_hint": "joshualparris/Cheappcslaptops",
+      "source": "Cheappcslaptops README"
+    },
+    {
+      "id": "faithhub-live",
+      "name": "FaithHub",
+      "type": "app",
+      "category": "Apps",
+      "status": "ok",
+      "url": "https://joshualparris.github.io/FaithHub/",
+      "repo_hint": "Parris-Tech-Services/FaithHub",
+      "source": "JoshHub rollout audit"
+    },
+    {
+      "id": "elodin-live",
+      "name": "ElodinDeepLore",
+      "type": "app",
+      "category": "Lore",
+      "status": "ok",
+      "url": "https://parris-tech-services.github.io/ElodinDeepLore/",
+      "repo_hint": "Parris-Tech-Services/ElodinDeepLore",
+      "source": "production workflow"
+    },
+    {
+      "id": "rothfuss-live",
+      "name": "Rothfuss KKC Adventure",
+      "type": "game",
+      "category": "Games",
+      "status": "ok",
+      "url": "https://parris-tech-services.github.io/rothfuss-kkc-adventure/",
+      "repo_hint": "Parris-Tech-Services/rothfuss-kkc-adventure",
+      "source": "production workflow"
+    },
+    {
+      "id": "kkc-live",
+      "name": "KKC Adventure",
+      "type": "game",
+      "category": "Games",
+      "status": "ok",
+      "url": "https://joshualparris.github.io/kkc-adventure/",
+      "repo_hint": "Parris-Tech-Services/kkc-adventure",
+      "source": "repository shortcut discovered in code search"
     }
   ]
 }
