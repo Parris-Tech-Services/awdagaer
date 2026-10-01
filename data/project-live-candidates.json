@@ -10,7 +10,8 @@
       "status": "ok",
       "primaryUrl": "https://joshuaparris-max.github.io/DCSCompanion",
       "url": "https://joshuaparris-max.github.io/DCSCompanion",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "dcs-prep",
@@ -20,7 +21,8 @@
       "status": "ok",
       "primaryUrl": "https://dcs-prep.vercel.app/",
       "url": "https://dcs-prep.vercel.app/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "campaign-copilot",
@@ -30,7 +32,8 @@
       "status": "ok",
       "primaryUrl": "https://joshuaparrisdadlan-stack.github.io/campaign-copilot/",
       "url": "https://joshuaparrisdadlan-stack.github.io/campaign-copilot/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "whispering-wilds-v1",
@@ -40,7 +43,8 @@
       "status": "ok",
       "primaryUrl": "https://joshuaparris-max.github.io/WhirringWilderness/",
       "url": "https://joshuaparris-max.github.io/WhirringWilderness/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "whispering-wilds-v2",
@@ -50,7 +54,8 @@
       "status": "ok",
       "primaryUrl": "https://joshuaparrisdadlan-stack.github.io/whispering-wilds/",
       "url": "https://joshuaparrisdadlan-stack.github.io/whispering-wilds/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "whispering-wilds-itch",
@@ -60,7 +65,8 @@
       "status": "ok",
       "primaryUrl": "https://joshualparris.itch.io/whisperingwilds",
       "url": "https://joshualparris.itch.io/whisperingwilds",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "mystery-depths-itch",
@@ -70,7 +76,8 @@
       "status": "ok",
       "primaryUrl": "https://joshualparris.itch.io/mysterydepths",
       "url": "https://joshualparris.itch.io/mysterydepths",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "mystery-depths-gh",
@@ -80,7 +87,8 @@
       "status": "ok",
       "primaryUrl": "https://joshuaparrisdadlan-stack.github.io/MysteriousDepths/",
       "url": "https://joshuaparrisdadlan-stack.github.io/MysteriousDepths/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "simple-rpg-itch",
@@ -90,7 +98,8 @@
       "status": "ok",
       "primaryUrl": "https://joshualparris.itch.io/simplerpg",
       "url": "https://joshualparris.itch.io/simplerpg",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "simple-rpg-gh",
@@ -100,7 +109,8 @@
       "status": "ok",
       "primaryUrl": "https://joshuaparrisdadlan-stack.github.io/LetsPlayDnd/",
       "url": "https://joshuaparrisdadlan-stack.github.io/LetsPlayDnd/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "signal-garden",
@@ -110,7 +120,8 @@
       "status": "ok",
       "primaryUrl": "/games/simple-rpg-gh/index.html",
       "url": "https://josh-hub-two.vercel.app/games/simple-rpg-gh/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "infinite-office-itch",
@@ -120,7 +131,8 @@
       "status": "ok",
       "primaryUrl": "/games/infinite-office/index.html",
       "url": "https://josh-hub-two.vercel.app/games/infinite-office/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "orgscape",
@@ -130,7 +142,8 @@
       "status": "ok",
       "primaryUrl": "/games/orgscape/index.html",
       "url": "https://josh-hub-two.vercel.app/games/orgscape/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "null-itch",
@@ -140,7 +153,8 @@
       "status": "ok",
       "primaryUrl": "https://joshualparris.itch.io/null-html-game",
       "url": "https://joshualparris.itch.io/null-html-game",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "null-gh",
@@ -150,7 +164,8 @@
       "status": "ok",
       "primaryUrl": "https://joshuaparrisdadlan-stack.github.io/Null/",
       "url": "https://joshuaparrisdadlan-stack.github.io/Null/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "null-v2",
@@ -160,7 +175,8 @@
       "status": "ok",
       "primaryUrl": "/games/null-v2/index.html",
       "url": "https://josh-hub-two.vercel.app/games/null-v2/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "buckland-game",
@@ -170,7 +186,8 @@
       "status": "ok",
       "primaryUrl": "/games/buckland-v2/index.html",
       "url": "https://josh-hub-two.vercel.app/games/buckland-v2/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "neon-dash",
@@ -180,7 +197,8 @@
       "status": "ok",
       "primaryUrl": "/games/neon-dash/index.html",
       "url": "https://josh-hub-two.vercel.app/games/neon-dash/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "wilds-sail-west",
@@ -190,7 +208,8 @@
       "status": "ok",
       "primaryUrl": "/games/wilds-sail-west/index.html",
       "url": "https://josh-hub-two.vercel.app/games/wilds-sail-west/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "wilds-main",
@@ -200,7 +219,8 @@
       "status": "ok",
       "primaryUrl": "/games/wilds-main/index.html",
       "url": "https://josh-hub-two.vercel.app/games/wilds-main/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "wilds-2",
@@ -210,7 +230,8 @@
       "status": "ok",
       "primaryUrl": "/games/wilds-2/index.html",
       "url": "https://josh-hub-two.vercel.app/games/wilds-2/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "aagameadventure",
@@ -220,7 +241,8 @@
       "status": "ok",
       "primaryUrl": "/games/aa-game-adventure/index.html",
       "url": "https://josh-hub-two.vercel.app/games/aa-game-adventure/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "amodule-dnd",
@@ -230,7 +252,8 @@
       "status": "ok",
       "primaryUrl": "/games/amodule-dnd/index.html",
       "url": "https://josh-hub-two.vercel.app/games/amodule-dnd/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "dnd-spider-queen",
@@ -240,7 +263,8 @@
       "status": "ok",
       "primaryUrl": "/games/dnd-spider-queen/index.html",
       "url": "https://josh-hub-two.vercel.app/games/dnd-spider-queen/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "tile-game",
@@ -250,7 +274,8 @@
       "status": "ok",
       "primaryUrl": "/games/tile-game/index.html",
       "url": "https://josh-hub-two.vercel.app/games/tile-game/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "dnd-rpg-python",
@@ -260,7 +285,8 @@
       "status": "ok",
       "primaryUrl": "/games/dnd-rpg-dungeon/index.html",
       "url": "https://josh-hub-two.vercel.app/games/dnd-rpg-dungeon/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "classic-dnd-text",
@@ -270,7 +296,8 @@
       "status": "ok",
       "primaryUrl": "/games/classic-dnd-text/index.html",
       "url": "https://josh-hub-two.vercel.app/games/classic-dnd-text/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "newgame-prototype",
@@ -280,7 +307,8 @@
       "status": "ok",
       "primaryUrl": "/games/newgame/index.html",
       "url": "https://josh-hub-two.vercel.app/games/newgame/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "buckland-blocks",
@@ -290,7 +318,8 @@
       "status": "ok",
       "primaryUrl": "/games/buckland-blocks/index.html",
       "url": "https://josh-hub-two.vercel.app/games/buckland-blocks/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "buckland-blocks-1",
@@ -300,7 +329,8 @@
       "status": "ok",
       "primaryUrl": "/games/buckland-blocks-1/index.html",
       "url": "https://josh-hub-two.vercel.app/games/buckland-blocks-1/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "wastes-courier-roguelike",
@@ -310,7 +340,8 @@
       "status": "ok",
       "primaryUrl": "https://joshualparris.github.io/wastes-courier-roguelike/",
       "url": "https://joshualparris.github.io/wastes-courier-roguelike/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "josh-nfc-audio",
@@ -320,7 +351,8 @@
       "status": "ok",
       "primaryUrl": "/games/josh-nfc-audio/index.html",
       "url": "https://josh-hub-two.vercel.app/games/josh-nfc-audio/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "max-app",
@@ -330,7 +362,8 @@
       "status": "ok",
       "primaryUrl": "/games/max/index.html",
       "url": "https://josh-hub-two.vercel.app/games/max/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "random-play",
@@ -340,7 +373,8 @@
       "status": "ok",
       "primaryUrl": "/games/random-play/index.html",
       "url": "https://josh-hub-two.vercel.app/games/random-play/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "midnight-line",
@@ -350,7 +384,8 @@
       "status": "ok",
       "primaryUrl": "/games/midnight-line/index.html",
       "url": "https://josh-hub-two.vercel.app/games/midnight-line/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "newfileqqqwertuhvgjkk",
@@ -360,7 +395,8 @@
       "status": "ok",
       "primaryUrl": "/games/newfileqqqwertuhvgjkk/index.html",
       "url": "https://josh-hub-two.vercel.app/games/newfileqqqwertuhvgjkk/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "boundary-road-app",
@@ -370,7 +406,8 @@
       "status": "ok",
       "primaryUrl": "/games/boundary-road/index.html",
       "url": "https://josh-hub-two.vercel.app/games/boundary-road/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "property-specific-not-auto-promoted"
     },
     {
       "id": "null-world-ttrpg",
@@ -380,7 +417,8 @@
       "status": "ok",
       "primaryUrl": "https://play.fables.gg/worlds/null-etkh1z8zjzhi",
       "url": "https://play.fables.gg/worlds/null-etkh1z8zjzhi",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "orgscape-campaign",
@@ -390,7 +428,8 @@
       "status": "ok",
       "primaryUrl": "https://play.fables.gg/worlds/the-infinite-office-xnu26hm454p9",
       "url": "https://play.fables.gg/worlds/the-infinite-office-xnu26hm454p9",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "drowned-expanse",
@@ -400,7 +439,8 @@
       "status": "ok",
       "primaryUrl": "https://play.fables.gg/worlds/the-drowned-expanse-l2bvcyceke6o",
       "url": "https://play.fables.gg/worlds/the-drowned-expanse-l2bvcyceke6o",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "titanscape",
@@ -410,7 +450,8 @@
       "status": "ok",
       "primaryUrl": "https://play.fables.gg/worlds/019a60ce-282e-7a84-9cd3-b333f28dd69b",
       "url": "https://play.fables.gg/worlds/019a60ce-282e-7a84-9cd3-b333f28dd69b",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "senseless",
@@ -420,7 +461,8 @@
       "status": "ok",
       "primaryUrl": "https://play.fables.gg/worlds/senseless-43j7b59vfz54",
       "url": "https://play.fables.gg/worlds/senseless-43j7b59vfz54",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "friends-and-fables",
@@ -430,7 +472,8 @@
       "status": "ok",
       "primaryUrl": "https://play.fables.gg/worlds/019a2f9d-b90d-7eac-ae53-88363e49a391",
       "url": "https://play.fables.gg/worlds/019a2f9d-b90d-7eac-ae53-88363e49a391",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "personal-world-collection-not-auto-promoted"
     },
     {
       "id": "forbidden-quests",
@@ -440,7 +483,8 @@
       "status": "ok",
       "primaryUrl": "/games/forbidden-quests/index.html",
       "url": "https://josh-hub-two.vercel.app/games/forbidden-quests/index.html",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "starhaven-game",
@@ -450,7 +494,8 @@
       "status": "ok",
       "primaryUrl": "/games/starhaven/",
       "url": "https://josh-hub-two.vercel.app/games/starhaven/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "hugcoach",
@@ -460,7 +505,8 @@
       "status": "ok",
       "primaryUrl": "https://hug-coach.vercel.app/",
       "url": "https://hug-coach.vercel.app/",
-      "source": "joshualparris/JoshHub src/data/apps.ts"
+      "source": "joshualparris/JoshHub src/data/apps.ts",
+      "audit_status": "verified-live"
     },
     {
       "id": "power-app-live",
@@ -470,7 +516,8 @@
       "status": "ok",
       "url": "https://power-app-delta.vercel.app/",
       "repo_hint": "Parris-Tech-Services/PowerApp",
-      "source": "PowerApp README"
+      "source": "PowerApp README",
+      "audit_status": "verified-live"
     },
     {
       "id": "cold-flu-live",
@@ -480,7 +527,8 @@
       "status": "ok",
       "url": "https://cold-flu-app.vercel.app/",
       "repo_hint": "Parris-Tech-Services/ColdFluApp",
-      "source": "ColdFluApp sitemap/README"
+      "source": "ColdFluApp sitemap/README",
+      "audit_status": "verified-live"
     },
     {
       "id": "healthlens-live",
@@ -490,7 +538,8 @@
       "status": "ok",
       "url": "https://health-lens-rust.vercel.app/",
       "repo_hint": "joshualparris/HealthLens",
-      "source": "JoshHealth/ColdFluApp docs"
+      "source": "JoshHealth/ColdFluApp docs",
+      "audit_status": "verified-live"
     },
     {
       "id": "heartcalm-live",
@@ -500,7 +549,8 @@
       "status": "ok",
       "url": "https://heart-calm-vert.vercel.app/",
       "repo_hint": "Parris-Tech-Services/HeartCalm",
-      "source": "ColdFluApp README"
+      "source": "ColdFluApp README",
+      "audit_status": "verified-live"
     },
     {
       "id": "appfactory-inky",
@@ -510,7 +560,8 @@
       "status": "ok",
       "url": "https://appfactory-inky.vercel.app/",
       "repo_hint": "Parris-Tech-Services/AppFactory",
-      "source": "AvancePD AppLinks"
+      "source": "AvancePD AppLinks",
+      "audit_status": "verified-live"
     },
     {
       "id": "appfactory-gamma",
@@ -520,7 +571,8 @@
       "status": "ok",
       "url": "https://app-factory-gamma.vercel.app/",
       "repo_hint": "Parris-Tech-Services/AppFactory",
-      "source": "AvancePD AppLinks"
+      "source": "AvancePD AppLinks",
+      "audit_status": "verified-live"
     },
     {
       "id": "3layers-current",
@@ -530,7 +582,8 @@
       "status": "ok",
       "url": "https://3layers-joshualparris-projects.vercel.app/",
       "repo_hint": "Parris-Tech-Services/3layers",
-      "source": "JoshHub deployment override"
+      "source": "JoshHub deployment override",
+      "audit_status": "protected-login"
     },
     {
       "id": "sword-coast-live",
@@ -540,7 +593,8 @@
       "status": "ok",
       "url": "https://sword-coast.vercel.app/",
       "repo_hint": "joshuaparris/SwordChronicles",
-      "source": "JoshHub deployment audit"
+      "source": "JoshHub deployment audit",
+      "audit_status": "verified-live"
     },
     {
       "id": "paul-roe-live",
@@ -550,7 +604,8 @@
       "status": "ok",
       "url": "https://remembering-paul-roe.vercel.app/",
       "repo_hint": "joshualparris/Paul-Roe",
-      "source": "Paul-Roe README"
+      "source": "Paul-Roe README",
+      "audit_status": "verified-live"
     },
     {
       "id": "cheap-pcs-live",
@@ -560,7 +615,8 @@
       "status": "ok",
       "url": "https://joshualparris.github.io/Cheappcslaptops/",
       "repo_hint": "joshualparris/Cheappcslaptops",
-      "source": "Cheappcslaptops README"
+      "source": "Cheappcslaptops README",
+      "audit_status": "verified-live"
     },
     {
       "id": "faithhub-live",
@@ -570,7 +626,8 @@
       "status": "ok",
       "url": "https://joshualparris.github.io/FaithHub/",
       "repo_hint": "Parris-Tech-Services/FaithHub",
-      "source": "JoshHub rollout audit"
+      "source": "JoshHub rollout audit",
+      "audit_status": "failed-or-stale"
     },
     {
       "id": "elodin-live",
@@ -580,7 +637,8 @@
       "status": "ok",
       "url": "https://parris-tech-services.github.io/ElodinDeepLore/",
       "repo_hint": "Parris-Tech-Services/ElodinDeepLore",
-      "source": "production workflow"
+      "source": "production workflow",
+      "audit_status": "verified-live"
     },
     {
       "id": "rothfuss-live",
@@ -590,7 +648,8 @@
       "status": "ok",
       "url": "https://parris-tech-services.github.io/rothfuss-kkc-adventure/",
       "repo_hint": "Parris-Tech-Services/rothfuss-kkc-adventure",
-      "source": "production workflow"
+      "source": "production workflow",
+      "audit_status": "verified-live"
     },
     {
       "id": "kkc-live",
@@ -600,7 +659,81 @@
       "status": "ok",
       "url": "https://joshualparris.github.io/kkc-adventure/",
       "repo_hint": "Parris-Tech-Services/kkc-adventure",
-      "source": "repository shortcut discovered in code search"
+      "source": "repository shortcut discovered in code search",
+      "audit_status": "failed-or-stale"
     }
-  ]
+  ],
+  "audit": {
+    "checked_at": "2026-10-01T10:34:12Z",
+    "total_candidates": 60,
+    "passed_http": 48,
+    "failed_http": 12,
+    "stricter_promoted_candidate_ids": [
+      "dcs-prep",
+      "campaign-copilot",
+      "whispering-wilds-v2",
+      "whispering-wilds-itch",
+      "mystery-depths-itch",
+      "mystery-depths-gh",
+      "simple-rpg-itch",
+      "simple-rpg-gh",
+      "signal-garden",
+      "infinite-office-itch",
+      "orgscape",
+      "null-itch",
+      "null-gh",
+      "buckland-game",
+      "aagameadventure",
+      "amodule-dnd",
+      "tile-game",
+      "dnd-rpg-python",
+      "classic-dnd-text",
+      "newgame-prototype",
+      "buckland-blocks",
+      "josh-nfc-audio",
+      "max-app",
+      "random-play",
+      "midnight-line",
+      "newfileqqqwertuhvgjkk",
+      "null-world-ttrpg",
+      "orgscape-campaign",
+      "drowned-expanse",
+      "titanscape",
+      "senseless",
+      "forbidden-quests",
+      "starhaven-game",
+      "hugcoach",
+      "power-app-live",
+      "cold-flu-live",
+      "healthlens-live",
+      "heartcalm-live",
+      "appfactory-inky",
+      "appfactory-gamma",
+      "sword-coast-live",
+      "paul-roe-live",
+      "cheap-pcs-live",
+      "elodin-live",
+      "rothfuss-live"
+    ],
+    "excluded_after_http_success": {
+      "3layers-current": "protected-login",
+      "friends-and-fables": "personal-world-collection-not-auto-promoted",
+      "boundary-road-app": "property-specific-not-auto-promoted"
+    },
+    "failed_candidate_ids": [
+      "dcs-companion",
+      "whispering-wilds-v1",
+      "null-v2",
+      "neon-dash",
+      "wilds-sail-west",
+      "wilds-main",
+      "wilds-2",
+      "dnd-spider-queen",
+      "buckland-blocks-1",
+      "wastes-courier-roguelike",
+      "faithhub-live",
+      "kkc-live"
+    ],
+    "note": "HTTP 200 is necessary but not sufficient. Protected-login redirects and intentionally non-Quilt personal/property portals are not promoted."
+  }
 }
