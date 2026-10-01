@@ -182,6 +182,28 @@
         "joshuaparris/groqchat2"
       ],
       "evidence": "Both identify as GROQCHAT and implement the same Groq-powered Dungeon Master chatbot concept. groqchat2 is a later-generation stack (Next 16/React 19 versus Next 14/React 18), so it is an evolution rather than an exact mirror."
+    },
+    {
+      "id": "anchorflow-lineage",
+      "title": "AnchorFlow placeholder → active app",
+      "confidence": "confirmed",
+      "canonical": "parristechservices-prog/AnchorFlow",
+      "members": [
+        "Parris-Tech-Services/AnchorFlow",
+        "parristechservices-prog/AnchorFlow"
+      ],
+      "evidence": "The Parris-Tech-Services README explicitly says it is an empty placeholder and recommends redirecting/archiving it if active AnchorFlow development exists elsewhere. parristechservices-prog/AnchorFlow contains the implemented local-first wellbeing/professional-growth app."
+    },
+    {
+      "id": "waypoint-lineage",
+      "title": "Waypoint sibling implementations",
+      "confidence": "high-sibling",
+      "canonical": "parristechservices-prog/Waypoint",
+      "members": [
+        "Parris-Tech-Services/Waypoint",
+        "parristechservices-prog/Waypoint"
+      ],
+      "evidence": "Both are local-first decision/growth tools but materially different implementations: Parris-Tech-Services/Waypoint is a compact five-question personal decision navigator; parristechservices-prog/Waypoint is a much broader professional-growth, wellbeing and downtime-readiness hub."
     }
   ],
   "name_collisions": [
@@ -1096,7 +1118,9 @@
       "story_hook": "Stability/anchoring node",
       "verification": "public-repo-discovered",
       "default_branch": "main",
-      "family_ids": [],
+      "family_ids": [
+        "anchorflow-lineage"
+      ],
       "themes": [
         "work",
         "institutions"
@@ -2804,7 +2828,9 @@
       "story_hook": "Navigation/checkpoint node",
       "verification": "public-repo-discovered",
       "default_branch": "main",
-      "family_ids": [],
+      "family_ids": [
+        "waypoint-lineage"
+      ],
       "themes": [
         "work",
         "institutions"
@@ -2953,7 +2979,9 @@
       "story_hook": "Stability/anchoring node",
       "verification": "public-repo-discovered",
       "default_branch": "main",
-      "family_ids": [],
+      "family_ids": [
+        "anchorflow-lineage"
+      ],
       "themes": [
         "work",
         "institutions"
@@ -3036,7 +3064,9 @@
       "story_hook": "Navigation/checkpoint node",
       "verification": "public-repo-discovered",
       "default_branch": "main",
-      "family_ids": [],
+      "family_ids": [
+        "waypoint-lineage"
+      ],
       "themes": [
         "work",
         "institutions"
