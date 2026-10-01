@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="SIGNAL BENEATH — choose which version of the game to play." />
+<title>Signal Beneath</title>
+<style>
+:root {
+  --bg: #f4f1ea; --panel: #fffdf8; --ink: #1d1f1c; --muted: #5d625a; --line: #d9d3c4;
+  --a: #2f6f5e; --a-ink: #fff; --b: #6b4fa0; --b-ink: #fff;
+  --mono: ui-monospace, "Cascadia Code", Menlo, Consolas, monospace;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b110e; --panel: #131a16; --ink: #e6ebe4; --muted: #9aa69c; --line: #26322b;
+    --a: #6fc2a6; --a-ink: #08110d; --b: #b79cf0; --b-ink: #120c1c; color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink); font-family: var(--serif);
+  display: grid; place-items: center; padding: 32px 16px; }
+main { width: 100%; max-width: 820px; text-align: center; }
+h1 { font-family: var(--mono); letter-spacing: 0.3em; font-size: clamp(26px, 7vw, 52px); margin: 0 0 8px; }
+.tag { color: var(--muted); margin: 0 auto 32px; max-width: 560px; line-height: 1.5; }
+.games { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.game { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 22px; text-align: left;
+  display: flex; flex-direction: column; gap: 10px; }
+.game h2 { margin: 0; font-size: 22px; }
+.game p { margin: 0; color: var(--muted); line-height: 1.5; flex: 1; }
+.kind { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.play { display: block; text-align: center; text-decoration: none; font-family: var(--mono); font-size: 16px;
+  font-weight: 700; letter-spacing: 0.08em; padding: 14px 18px; border-radius: 10px; margin-top: 6px; }
+.play:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.play.a { background: var(--a); color: var(--a-ink); }
+.play.b { background: var(--b); color: var(--b-ink); }
+.play:hover { filter: brightness(1.08); }
+footer { margin-top: 28px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>SIGNAL BENEATH</h1>
+  <p class="tag">Dubbo, 2031. A phone can't load Google, and something beneath the city is connecting everything. There are two versions of the game. Pick one.</p>
+  <div class="games">
+    <section class="game">
+      <span class="kind">Version A · Day-by-day RPG</span>
+      <h2>Chapter One: Name Resolution</h2>
+      <p>Spend Attention, Energy and family time across mornings, days, evenings and nights. Skill checks, a DadLAN machine roster, an evidence-graded journal and three endings.</p>
+      <a class="play a" href="chapter-one/">▶ PLAY CHAPTER ONE</a>
+    </section>
+    <section class="game">
+      <span class="kind">Version B · Story map</span>
+      <h2>The Parris Quilt</h2>
+      <p>A branching story across Home, DadLAN, the Archive, NeathBound and the Data Centre, plus the Quilt: a map of the wider project universe. Four endings.</p>
+      <a class="play b" href="quilt/">▶ PLAY THE QUILT</a>
+    </section>
+  </div>
+  <footer>Each version keeps its own save in this browser.</footer>
+</main>
+</body>
+</html>
