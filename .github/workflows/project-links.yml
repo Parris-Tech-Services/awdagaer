@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "data/project-quilt.json"
+      - "data/project-quilt.json"\n      - "data/project-live-candidates.json"
       - "scripts/check-project-links.mjs"
       - ".github/workflows/project-links.yml"
   schedule:
