@@ -7,6 +7,8 @@ on:
       - "data/project-quilt.json"
       - "data/project-live-candidates.json"
       - "scripts/check-project-links.mjs"
+      - "scripts/validate-project-quilt.mjs"
+      - "data/project-graph.json"
       - ".github/workflows/project-links.yml"
   schedule:
     - cron: "17 20 * * 0"
@@ -26,6 +28,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Validate Quilt structure
+        run: node scripts/validate-project-quilt.mjs
       - name: Check playable project URLs
         run: node scripts/check-project-links.mjs
       - name: Upload link report
