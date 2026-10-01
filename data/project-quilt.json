@@ -300,7 +300,9 @@
         "Parris-Tech-Services/llm",
         "Parris-Tech-Services/LLMAccountability",
         "Parris-Tech-Services/openclaw-workspace",
-        "Parris-Tech-Services/Prompt-Linker"
+        "Parris-Tech-Services/Prompt-Linker",
+        "joshuaparris/groqchat",
+        "joshuaparris/groqchat2"
       ]
     },
     {
@@ -373,7 +375,51 @@
         "parristechservices-prog/AIDungeonMaster",
         "topsecretcheese-del/carGame",
         "topsecretcheese-del/customCars",
-        "topsecretcheese-del/gregGame"
+        "topsecretcheese-del/gregGame",
+        "DEPLOY-001",
+        "parristechservices1-beep/campaign-copilot",
+        "joshuaparris/SwordChronicles",
+        "joshuaparris/NewTestGame",
+        "joshuaparris/groqchat",
+        "joshuaparris/groqchat2",
+        "DEPLOY-002",
+        "DEPLOY-003",
+        "DEPLOY-004",
+        "DEPLOY-005",
+        "DEPLOY-006",
+        "DEPLOY-007",
+        "DEPLOY-008",
+        "DEPLOY-012"
+      ]
+    },
+    {
+      "id": "hubs-platforms",
+      "title": "Hubs and platform surfaces",
+      "members": [
+        "joshualparris/JoshHub",
+        "joshuaparrisdadlan-stack/JoshHub",
+        "Parris-Tech-Services/DadlanControlCentre",
+        "Parris-Tech-Services/JoshPlatform",
+        "Parris-Tech-Services/LifeHub",
+        "Parris-Tech-Services/lifehubdashboard"
+      ]
+    },
+    {
+      "id": "deployment-only",
+      "title": "Deployment-only archaeology",
+      "members": [
+        "DEPLOY-002",
+        "DEPLOY-003",
+        "DEPLOY-004",
+        "DEPLOY-005",
+        "DEPLOY-006",
+        "DEPLOY-007",
+        "DEPLOY-008",
+        "DEPLOY-009",
+        "DEPLOY-010",
+        "DEPLOY-011",
+        "DEPLOY-012",
+        "DEPLOY-013"
       ]
     }
   ],
