@@ -3,14 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "SIGNAL BENEATH — a text-based RPG about family, technology, memory and keeping fragile systems alive.",
+  "description": "SIGNAL BENEATH \u2014 a text-based RPG about family, technology, memory and keeping fragile systems alive.",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "verify": "npm run typecheck && npm test && npm run build"
+    "verify": "npm run typecheck && npm test && npm run build",
+    "docs:threads": "vite-node scripts/threads-map.ts > docs/THREADS.md",
+    "site": "./scripts/build-site.sh site-dist"
   },
   "devDependencies": {
     "jsdom": "^25.0.1",

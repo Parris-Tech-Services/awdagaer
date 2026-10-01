@@ -3,6 +3,7 @@ import { ALL_STORYLETS, STORYLETS } from "../src/content";
 import { advancePhase, choiceStatus, choose, menu, openStorylet, q } from "../src/engine/engine";
 import { nextRandom } from "../src/engine/rng";
 import { newGame } from "../src/engine/state";
+import { THREADS } from "../src/content/quilt";
 import type { GameState } from "../src/engine/types";
 
 describe("content integrity", () => {
@@ -44,7 +45,7 @@ function randomPlaythrough(seed: number): GameState {
     rng = r.state;
     return Math.floor(r.value * n);
   };
-  for (let step = 0; step < 400 && !s.ended; step++) {
+  for (let step = 0; step < 1500 && !s.ended; step++) {
     if (s.current) {
       const st = STORYLETS.get(s.current)!;
       const open = st.choices.filter((c) => choiceStatus(s, c).enabled);
@@ -66,12 +67,33 @@ function randomPlaythrough(seed: number): GameState {
   return s;
 }
 
+describe("the 50 threads", () => {
+  it("every thread is marked by at least one outcome", () => {
+    const marked = new Set<number>();
+    for (const st of ALL_STORYLETS)
+      for (const c of st.choices)
+        for (const o of [c.success, c.failure])
+          for (const e of o?.effects ?? [])
+            if (e.kind === "setQuality" && e.key.startsWith("thread:")) marked.add(Number(e.key.slice(7)));
+    const missing = THREADS.map((_, i) => i + 1).filter((n) => !marked.has(n));
+    expect(missing).toEqual([]);
+  });
+
+  it("random play discovers a broad spread of threads", () => {
+    const seen = new Set<string>();
+    for (let seed = 1; seed <= 200; seed++)
+      for (const k of Object.keys(randomPlaythrough(seed).qualities)) if (k.startsWith("thread:")) seen.add(k);
+    expect(seen.size).toBeGreaterThanOrEqual(45);
+  });
+});
+
 describe("playthrough", () => {
-  it("reaches the end of Chapter One from many seeds without errors", () => {
+  it("plays through both chapters to an ending from many seeds without errors", () => {
     for (let seed = 1; seed <= 200; seed++) {
       const s = randomPlaythrough(seed);
       expect(s.ended, `seed ${seed} did not finish`).toBe(true);
-      expect(s.day).toBeGreaterThanOrEqual(3);
+      expect(q(s, "chapter")).toBe(2);
+      expect(Object.keys(s.qualities).some((k) => k.startsWith("ending:"))).toBe(true);
     }
   });
 

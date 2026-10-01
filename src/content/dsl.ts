@@ -9,3 +9,5 @@ export const trust = (group: TrustGroup, delta: number): Effect => ({ kind: "tru
 export const family = (activity: string, base: number): Effect => ({ kind: "family", activity, base });
 export const journal = (text: string, status?: EvidenceStatus): Effect => ({ kind: "journal", text, status });
 export const trait = (id: string, t: string, replace?: string): Effect => ({ kind: "addTrait", id, trait: t, replace });
+/** Marks one of the 50 Quilt threads (see quilt.ts THREADS and docs/THREADS.md) as discovered. */
+export const thread = (n: number): Effect => ({ kind: "setQuality", key: `thread:${n}`, value: 1 });

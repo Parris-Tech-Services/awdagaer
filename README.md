@@ -17,16 +17,13 @@ npm run dev        # http://localhost:5173
 npm run verify     # typecheck + tests + production build
 ```
 
-The tests include 200 random playthroughs of Chapter One. They fail if any seed gets stuck or never reaches the ending.
+The tests include 200 random playthroughs of both chapters. They fail if any seed gets stuck or never reaches an ending.
 
-## What's built: Chapter One, "Name Resolution"
+## What's built: Act One
 
-- **Day loop:** Morning → Day → Evening → Night. Attention is a daily budget. Each action at night adds more sleep debt than the last. Sleep debt cuts the next day's Energy.
-- **Six attributes:** Watchful, Practical, Persuasive, Steady, Curious, Discernment. Checks give a 60% chance when the attribute equals the difficulty, and are harder on low Energy. The roll uses exactly the chance shown on screen. A successful check raises its attribute by 1, except Discernment, which only grows through reflective choices.
-- **Meters:** Energy, Attention, Family Connection (repeating the same activity within a few days gives less each time), System Stability, Tech Debt, Trust (family, colleagues, clients, institutions, AI). **Noise** is hidden: you only see how the house *feels*, and high Noise reduces the next day's Attention.
-- **Journal with evidence status:** each entry is marked CONFIRMED, PROBABLE, UNVERIFIED or FALSE ATTRIBUTION.
-- **DadLAN view:** the network diagram and each machine's traits, both updated by your choices.
-- **Quests:** The Google That Disappeared, the Chemist (Evidence vs Marketing), the Toshiba SSD, Laptop 06's flickering Steam (making a fix persist), the Quiet Switch, the LANCache Incident (Safe Deployment and Change Control), Finding Staff Health, DBO1-SIM induction, NeathBound after midnight, the Unknown Device, and the Chapter One close, THE BENEATH.
+Chapter One, "Name Resolution", and Chapter Two, "The Archive", cover all 50 threads and end in four endings decided by how you played. Full detail is in [`docs/STATUS.md`](docs/STATUS.md). **Agents: start with [`AGENTS.md`](AGENTS.md).**
+
+Live: https://parris-tech-services.github.io/awdagaer/ (a launcher with this game and The Parris Quilt).
 
 ## Layout
 

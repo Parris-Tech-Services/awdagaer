@@ -1,6 +1,6 @@
 import { q } from "../engine/engine";
 import type { GameState, Storylet } from "../engine/types";
-import { attr, journal, meter, set, trust } from "./dsl";
+import { attr, journal, meter, set, trust, thread } from "./dsl";
 
 const googleClues = ["clue:other-apps-work", "clue:not-chrome", "clue:not-router", "clue:booster-app"];
 const clueCount = (s: GameState) => googleClues.filter((k) => q(s, k) > 0).length;
@@ -196,7 +196,7 @@ The phone isn't broken. It's asking a ghost for directions.`,
 "So the internet was fine," she says. "It just couldn't find anything."
 
 That's DNS in one sentence. You might steal it.`,
-          effects: [
+          effects: [thread(2),
             trust("clients", 2),
             set("lesson:visible-failure"),
             journal("The visible failure is not necessarily the originating failure. (Marg's phone: Chrome looked broken; DNS was the cause.)", "confirmed"),
@@ -210,7 +210,7 @@ That's DNS in one sentence. You might steal it.`,
         hint: "Quick. Works today.",
         success: {
           text: `Fixed in ninety seconds. Except you fixed her home Wi-Fi, not the phone. The booster's dead setting is still there, waiting for the next network she joins.`,
-          effects: [meter("techDebt", 1), set("debt:marg-dns"), set("lesson:visible-failure"), journal("Marg's phone: patched around a dead Private DNS setting rather than removing it.", "confirmed")],
+          effects: [thread(2), meter("techDebt", 1), set("debt:marg-dns"), set("lesson:visible-failure"), journal("Marg's phone: patched around a dead Private DNS setting rather than removing it.", "confirmed")],
           advance: true,
         },
       },
@@ -256,7 +256,7 @@ That's DNS in one sentence. You might steal it.`,
         attention: 1,
         success: {
           text: `It means the receptionist's laptop can't see the office network after an update, but only on Tuesdays, when the cleaner unplugs the access point to vacuum. The fix is a cable tie. The skill was asking.`,
-          effects: [attr("discernment", 1), trust("colleagues", 1)],
+          effects: [thread(38), attr("discernment", 1), trust("colleagues", 1)],
           advance: true,
         },
       },

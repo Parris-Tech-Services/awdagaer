@@ -1,6 +1,6 @@
 import { q } from "../engine/engine";
 import type { Storylet } from "../engine/types";
-import { attr, family, journal, meter, quality, set, trait, trust } from "./dsl";
+import { attr, family, journal, meter, quality, set, trait, trust, thread } from "./dsl";
 
 export const dadlan: Storylet[] = [
   {
@@ -26,7 +26,7 @@ Old does not necessarily mean useless. But upgrades are scarce.`,
           text: `Eleven screws, one hidden under a rubber foot. Clone, swap, boot. The Toshiba comes up in nineteen seconds and sits there looking faintly surprised at itself.
 
 From UNRELIABLE RELIC to SURPRISINGLY USEFUL. The kids claim it within the hour.`,
-          effects: [
+          effects: [thread(43),
             trait("toshiba", "SURPRISINGLY USEFUL", "UNRELIABLE RELIC"),
             { kind: "machine", id: "toshiba", patch: { storage: "480 GB SSD", reliability: 75, port: "DadLAN core" } },
             meter("systemStability", 5),
@@ -36,7 +36,7 @@ From UNRELIABLE RELIC to SURPRISINGLY USEFUL. The kids claim it within the hour.
         },
         failure: {
           text: `The keyboard ribbon clip snaps as you lift it. The SSD goes in fine, the machine boots fast — and the keyboard doesn't work. USB keyboard for now. That's a workaround, not a fix.`,
-          effects: [
+          effects: [thread(43),
             trait("toshiba", "USB KEYBOARD ONLY", "UNRELIABLE RELIC"),
             { kind: "machine", id: "toshiba", patch: { storage: "480 GB SSD", reliability: 55, port: "DadLAN core" } },
             meter("techDebt", 1),
@@ -62,7 +62,7 @@ From UNRELIABLE RELIC to SURPRISINGLY USEFUL. The kids claim it within the hour.
         check: { attribute: "practical", difficulty: 22 },
         success: {
           text: `The old ThinkPad, freed from its spinning disk, becomes a perfectly reasonable machine. Not exciting. Dependable. You suspect that's the point.`,
-          effects: [trait("thinkpad", "DEPENDABLE", "SLOW"), { kind: "machine", id: "thinkpad", patch: { storage: "480 GB SSD", reliability: 90 } }, meter("systemStability", 4), attr("discernment", 1)],
+          effects: [thread(43), trait("thinkpad", "DEPENDABLE", "SLOW"), { kind: "machine", id: "thinkpad", patch: { storage: "480 GB SSD", reliability: 90 } }, meter("systemStability", 4), attr("discernment", 1)],
         },
         failure: {
           text: `A seized screw rounds off. You'll need an extractor. The ThinkPad goes back together with its old drive, faintly reproachful.`,
@@ -99,7 +99,7 @@ The real question isn't "can you make it work?" It's "can you make it stay worki
         attention: 1,
         success: {
           text: `You stick a label on the lid: STEAM: GPU ACCEL OFF — TEMP — SEE NOTES. And you write the notes. A temporary fix, accepted as temporary, is an honest fix.`,
-          effects: [set("steam:workaround"), set("lesson:persistence"), journal("Laptop 06 Steam flicker: workaround applied and labelled TEMPORARY. Root cause still unknown.", "confirmed")],
+          effects: [thread(7), set("steam:workaround"), set("lesson:persistence"), journal("Laptop 06 Steam flicker: workaround applied and labelled TEMPORARY. Root cause still unknown.", "confirmed")],
         },
       },
       {
@@ -112,7 +112,7 @@ The real question isn't "can you make it work?" It's "can you make it stay worki
           text: `Event Viewer, then the display driver's version date: 2019. Windows Update has been offering the new one for months, and failing, because a policy key says NO AUTO UPDATE. Somebody set that, once, for a reason nobody wrote down.
 
 You install the driver deliberately, test, reboot, test again. The flicker is gone and it stays gone.`,
-          effects: [
+          effects: [thread(7),
             trait("laptop06", "STABLE", "FLICKERS UNDER STEAM"),
             { kind: "machine", id: "laptop06", patch: { reliability: 80 } },
             set("lesson:persistence"),
@@ -149,7 +149,7 @@ Fast switches tend to have fans.`,
         label: "The quiet one",
         success: {
           text: `Silence in the hallway. Game downloads crawl. Nobody complains about the noise, because there isn't any. Everything takes a little longer, and the house is calmer for it.`,
-          effects: [set("rack:switch", 1), meter("noise", -2), meter("systemStability", -2)],
+          effects: [thread(9), set("rack:switch", 1), meter("noise", -2), meter("systemStability", -2)],
         },
       },
       {
@@ -160,7 +160,7 @@ Fast switches tend to have fans.`,
         check: { attribute: "practical", difficulty: 20 },
         success: {
           text: `A paintbrush, a can of air, a fan that now merely hums. Gigabit, mostly quiet. Good enough is a real place.`,
-          effects: [set("rack:switch", 2), meter("systemStability", 3), attr("discernment", 1)],
+          effects: [thread(9), set("rack:switch", 2), meter("systemStability", 3), attr("discernment", 1)],
         },
         failure: {
           text: `The fan comes apart in your hand. You put it back together and it now clicks as well as whines.`,
@@ -172,7 +172,7 @@ Fast switches tend to have fans.`,
         label: "The ProCurve. Maximum throughput.",
         success: {
           text: `The rack roars into life. Downloads fly. From the bedroom comes the unmistakable sound of someone getting up to shut a door.`,
-          effects: [set("rack:switch", 4), meter("systemStability", 6), meter("noise", 3), trust("family", -1)],
+          effects: [thread(9), set("rack:switch", 4), meter("systemStability", 6), meter("noise", 3), trust("family", -1)],
         },
       },
     ],
@@ -196,11 +196,11 @@ To make it automatic, the whole house's DNS has to send game-download names to t
         check: { attribute: "practical", difficulty: 26 },
         success: {
           text: `The cache node serves its first download at 900 Mbps. You grin at the rack like it's a dog that learned a trick. Now: switching the whole house over.`,
-          effects: [set("lancache:built"), set("dadlan:busy"), meter("systemStability", 2)],
+          effects: [thread(6), set("lancache:built"), set("dadlan:busy"), meter("systemStability", 2)],
         },
         failure: {
           text: `Container networking, a port conflict, and a typo you stare straight through four times. It works in the end, slowly. Now: switching the whole house over.`,
-          effects: [set("lancache:built"), set("dadlan:busy"), meter("energy", -1)],
+          effects: [thread(6), set("lancache:built"), set("dadlan:busy"), meter("energy", -1)],
         },
       },
     ],

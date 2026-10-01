@@ -1,6 +1,6 @@
 import { q } from "../engine/engine";
 import type { Storylet } from "../engine/types";
-import { attr, family, journal, meter, quality, set, trust } from "./dsl";
+import { attr, family, journal, meter, quality, set, trust, thread } from "./dsl";
 
 const SAFE_DEPLOYMENT = `SAFE DEPLOYMENT
 1. Verify the new service.
@@ -47,7 +47,7 @@ You didn't test a phone.`,
 The cache node answers game names and drops everything else on the floor: you never told it where to forward ordinary requests. If you'd flipped the whole house, every phone would have woken up broken.
 
 You fix the forwarding, test again, write a rollback note, and leave the house switch-over for the morning.`,
-          effects: [set("lancache:safe"), set("lesson:change-control"), journal(SAFE_DEPLOYMENT, "confirmed"), attr("discernment", 1), meter("systemStability", 5)],
+          effects: [thread(6), set("lancache:safe"), set("lesson:change-control"), journal(SAFE_DEPLOYMENT, "confirmed"), attr("discernment", 1), meter("systemStability", 5)],
         },
         failure: {
           text: `You test your laptop — fine — and your phone, which is on mobile data and proves nothing, though you don't notice. You decide to sleep on it. Which, by accident, is the right call.`,
@@ -88,7 +88,7 @@ There's no commit for it. The file's modified time is twelve minutes ago.`,
           text: `No commit. No editor swap file. The modified time matches the minute the unknown NEATH device last renewed its DHCP lease on the router.
 
 Coincidence is still possible. It is getting harder to hold onto.`,
-          effects: [quality("beneath", 2), journal("New NeathBound storylet appeared without a commit; timestamp matches NEATH device's DHCP renewal.", "probable")],
+          effects: [thread(25), quality("beneath", 2), journal("New NeathBound storylet appeared without a commit; timestamp matches NEATH device's DHCP renewal.", "probable")],
         },
         failure: {
           text: `You check everything and find nothing, which is its own kind of finding. It's 1:40 a.m.`,
@@ -114,7 +114,7 @@ Coincidence is still possible. It is getting harder to hold onto.`,
           text: `You find it: the menace screen reads \`dread\`, the storylet engine writes \`Dread\`. Two variables, one name, a game quietly lying about itself. One source of truth, now.
 
 The interface must match what the system actually does.`,
-          effects: [set("neathbound:dread-fixed"), set("lesson:consistency"), journal("NeathBound: two systems wrote different DREAD variables. Consolidated to one owner.", "confirmed")],
+          effects: [thread(27), set("neathbound:dread-fixed"), set("lesson:consistency"), journal("NeathBound: two systems wrote different DREAD variables. Consolidated to one owner.", "confirmed")],
         },
         failure: {
           text: `You fix one DREAD and break the other. Commit message: "wip". You go to bed.`,
@@ -194,7 +194,7 @@ It's like Marg's phone, times five. And this time the ghost giving bad direction
 Afterwards, coffee in hand, you find it: the cache node only knew game names and had no upstream for anything else. Laptops had cached answers; phones didn't. The visible failure was "Google". The originating failure was you, at 11:40 p.m.
 
 You write it down so it never happens like this again.`,
-          effects: [set("lancache:incident"), set("lesson:change-control"), set("lancache:pending"), journal(SAFE_DEPLOYMENT, "confirmed"), trust("family", -1), meter("techDebt", -2), meter("systemStability", 8), attr("discernment", 1)],
+          effects: [thread(4), set("lancache:incident"), set("lesson:change-control"), set("lancache:pending"), journal(SAFE_DEPLOYMENT, "confirmed"), trust("family", -1), meter("techDebt", -2), meter("systemStability", 8), attr("discernment", 1)],
           advance: true,
         },
       },
@@ -208,12 +208,12 @@ You write it down so it never happens like this again.`,
           text: `SSH, config, restart. It works — phones resolve, games cache. But the school quiz closed four minutes ago and someone is crying about it.
 
 It worked. It wasn't the right order.`,
-          effects: [set("lancache:incident"), set("lancache:live"), set("lesson:change-control"), journal(SAFE_DEPLOYMENT, "confirmed"), trust("family", -2), meter("systemStability", 6)],
+          effects: [thread(4), set("lancache:incident"), set("lancache:live"), set("lesson:change-control"), journal(SAFE_DEPLOYMENT, "confirmed"), trust("family", -2), meter("systemStability", 6)],
           advance: true,
         },
         failure: {
           text: `A typo in the forwarder address. Now the laptops are broken too. You roll back anyway, twenty minutes later than you should have, to a silent and pointed kitchen.`,
-          effects: [set("lancache:incident"), set("lancache:pending"), set("lesson:change-control"), journal(SAFE_DEPLOYMENT, "confirmed"), trust("family", -3), meter("noise", 2)],
+          effects: [thread(4), set("lancache:incident"), set("lancache:pending"), set("lesson:change-control"), journal(SAFE_DEPLOYMENT, "confirmed"), trust("family", -3), meter("noise", 2)],
           advance: true,
         },
       },
@@ -248,7 +248,7 @@ Nobody notices — which, in infrastructure, is applause.`,
     phases: ["night"],
     once: true,
     priority: 100,
-    requires: (s) => s.day >= 3,
+    requires: (s) => s.day >= 3 && q(s, "chapter") < 2,
     text: (s) => `Late. The house is asleep. Every screen on the DadLAN wakes at once — the ProBook, the ThinkPad, Laptop 06${
       s.machines.toshiba?.traits.includes("UNRELIABLE RELIC") ? "" : ", the Toshiba"
     } — and shows the same three lines:
@@ -263,8 +263,9 @@ ${q(s, "beneath") >= 4 ? "You've seen enough this week not to call it coincidenc
         id: "unplug",
         label: "Unplug the DadLAN core",
         success: {
-          text: `The rack goes dark. In the silence, from upstairs, your youngest calls out in their sleep, and you go to them instead of the cupboard. That's the end of Chapter One. Not the end of anything else.`,
-          effects: [set("ending:unplugged"), family("night-comfort", 3), set("game:ended")],
+          text: `The rack goes dark. In the silence, from upstairs, your youngest calls out in their sleep, and you go to them instead of the cupboard. End of Chapter One. Not the end of anything else.`,
+          effects: [set("ch1:unplugged"), family("night-comfort", 3), set("chapter", 2)],
+          advance: true,
         },
       },
       {
@@ -278,11 +279,13 @@ ${q(s, "beneath") >= 4 ? "You've seen enough this week not to call it coincidenc
 > SEE YOU IN THE ARCHIVE. FOLDER 2004.
 
 Every screen goes dark. End of Chapter One.`,
-          effects: [set("ending:answered"), trust("ai", 1), quality("beneath", 2), set("lead:archive-2004"), set("game:ended")],
+          effects: [set("ch1:answered"), trust("ai", 1), quality("beneath", 2), set("lead:archive-2004"), set("chapter", 2)],
+          advance: true,
         },
         failure: {
           text: `Your fingers are too tired. The screens go dark before you finish typing. End of Chapter One.`,
-          effects: [set("ending:missed"), set("game:ended")],
+          effects: [set("ch1:missed"), set("chapter", 2)],
+          advance: true,
         },
       },
       {
@@ -291,7 +294,8 @@ Every screen goes dark. End of Chapter One.`,
         hint: "Some things can wait until you're awake.",
         success: {
           text: `You close the door on it. Not because it doesn't matter, but because it will still be there tomorrow, and you will be better at this rested. That is a Keeper's decision too. End of Chapter One.`,
-          effects: [set("ending:rested"), attr("discernment", 1), set("game:ended")],
+          effects: [set("ch1:rested"), attr("discernment", 1), set("chapter", 2)],
+          advance: true,
         },
       },
     ],

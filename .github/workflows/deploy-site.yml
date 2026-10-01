@@ -1,0 +1,51 @@
+# Verifies the game and redeploys the GitHub Pages site (gh-pages branch) on every push to
+# the development branch. The site is a launcher with two games:
+#   /chapter-one/  the engine game built from this branch
+#   /quilt/        "The Parris Quilt", copied from master:index.html at build time
+# Pages serves the gh-pages branch (Settings → Pages → Deploy from a branch → gh-pages).
+# Note: this workflow only lives on this branch, so pushes to master don't trigger it.
+# Run it manually (Actions → Deploy site → Run workflow, on this branch) to pick up master changes.
+name: Deploy site
+
+on:
+  push:
+    branches: [ccr-44f57a1d-38xyzm]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run verify
+      - run: ./scripts/build-site.sh site-dist
+      - name: Publish to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git fetch origin gh-pages
+          git worktree add /tmp/gh-pages origin/gh-pages
+          cd /tmp/gh-pages
+          git rm -rq . || true
+          cp -r "$GITHUB_WORKSPACE/site-dist/." .
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Site unchanged."
+          else
+            git commit -m "deploy: site from ${GITHUB_SHA::7}"
+            git push origin HEAD:gh-pages
+          fi

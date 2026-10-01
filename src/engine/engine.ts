@@ -30,6 +30,7 @@ export function menu(s: GameState, index: StoryletIndex): Storylet[] {
         !st.sceneOnly &&
         st.phases.includes(s.phase) &&
         !(st.once && isDone(s, st.id)) &&
+        !(st.daily && q(s, `daily:${st.id}`) === s.day) &&
         (st.requires ? st.requires(s) : true),
     )
     .sort((a, b) => (b.priority ?? 0) - (a.priority ?? 0));
@@ -140,6 +141,7 @@ export function choose(state: GameState, index: StoryletIndex, choiceId: string)
 
   changes.push(...applyEffects(s, outcome.effects ?? []));
   if (st.once) s.qualities[`done:${st.id}`] = 1;
+  if (st.daily) s.qualities[`daily:${st.id}`] = s.day;
   if (q(s, "game:ended") > 0) s.ended = true;
 
   s.lastOutcome = {

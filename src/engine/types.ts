@@ -144,6 +144,8 @@ export interface Storylet {
   requires?: Predicate;
   /** Hidden once the quality `done:<id>` is set; set automatically when an outcome closes it. */
   once?: boolean;
+  /** Offered at most once per in-game day. */
+  daily?: boolean;
   /** Only reachable through another storylet's `next`. */
   sceneOnly?: boolean;
   /** Higher sorts first in the menu. Urgent events use this. */
