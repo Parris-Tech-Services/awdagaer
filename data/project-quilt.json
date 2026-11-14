@@ -1,0 +1,3858 @@
+{
+  "schema_version": 2,
+  "generated_from": "GitHub public repository search across known Josh/Parris identities plus curated live-link verification",
+  "public_only": true,
+  "repo_count": 156,
+  "deployment_only_count": 13,
+  "project_count": 169,
+  "verified_live_count": 52,
+  "known_accounts": [
+    "Parris-Tech-Services",
+    "joshualparris",
+    "joshuaparrisdadlan-stack",
+    "joshuaparris-max",
+    "parristechservices-prog",
+    "topsecretcheese-del",
+    "parristechservices1-beep",
+    "joshuaparris"
+  ],
+  "families": [
+    {
+      "id": "whispering-wilds-lineage",
+      "title": "Whispering Wilds lineage",
+      "confidence": "mixed-confirmed",
+      "canonical": "Parris-Tech-Services/WhirringWilderness",
+      "members": [
+        "joshualparris/Whispering-Wilds",
+        "Parris-Tech-Services/whispering-wilds",
+        "joshuaparrisdadlan-stack/whispering-wilds",
+        "joshuaparrisdadlan-stack/whispering-wilds-test",
+        "joshuaparrisdadlan-stack/WhirringWilderness",
+        "Parris-Tech-Services/WhirringWilderness",
+        "joshuaparrisdadlan-stack/WhisperingWildsReloaded",
+        "joshuaparrisdadlan-stack/Wild2"
+      ],
+      "evidence": "Original Python text adventure, PyScript/static browser branch, Twine/Godot workspace, and modern React/Vite branch all identify themselves as Whispering Wilds. Parris-Tech-Services/Wild2 is explicitly excluded: it is DOVAHKIIN, an unrelated Skyrim text adventure."
+    },
+    {
+      "id": "buckland-blocks-lineage",
+      "title": "Buckland Blocks lineage",
+      "confidence": "confirmed",
+      "canonical": "Parris-Tech-Services/BucklandBlocks",
+      "members": [
+        "Parris-Tech-Services/BucklandBlocks",
+        "Parris-Tech-Services/BucklandBlocks1",
+        "joshualparris/buckland-blocks-demo",
+        "joshuaparrisdadlan-stack/BucklandGame"
+      ],
+      "evidence": "BucklandBlocks README declares itself canonical. BucklandBlocks1 has identical README/package blob hashes. buckland-blocks-demo declares itself a generated distribution copy. BucklandGame is retained as a probable older relative, not asserted as an exact mirror."
+    },
+    {
+      "id": "joshhub-lineage",
+      "title": "JoshHub lineage",
+      "confidence": "confirmed",
+      "canonical": "joshualparris/JoshHub",
+      "members": [
+        "joshualparris/JoshHub",
+        "joshuaparrisdadlan-stack/JoshHub"
+      ],
+      "evidence": "README.md and package.json blob hashes are identical in the two public copies."
+    },
+    {
+      "id": "consultancy-beneath-lineage",
+      "title": "The Consultancy Beneath lineage",
+      "confidence": "confirmed",
+      "canonical": "joshualparris/the-consultancy-beneath",
+      "members": [
+        "joshualparris/the-consultancy-beneath",
+        "joshuaparrisdadlan-stack/the-consultancy-beneath"
+      ],
+      "evidence": "README.md and package.json blob hashes are identical."
+    },
+    {
+      "id": "josh-tap-lineage",
+      "title": "JoshTapApp lineage",
+      "confidence": "mixed-confirmed",
+      "canonical": "joshualparris/JoshTapApp",
+      "members": [
+        "joshualparris/JoshTapApp",
+        "joshuaparrisdadlan-stack/JoshTapApp",
+        "parristechservices1-beep/JoshTapApp"
+      ],
+      "evidence": "README.md blob hashes are identical. A third public historical copy exists under parristechservices1-beep but lacks comparable top-level metadata, so its exact mirror status is not asserted."
+    },
+    {
+      "id": "campaign-copilot-lineage",
+      "title": "Campaign Copilot lineage",
+      "confidence": "confirmed-lineage",
+      "canonical": "Parris-Tech-Services/campaign-copilot",
+      "members": [
+        "Parris-Tech-Services/campaign-copilot",
+        "joshuaparrisdadlan-stack/campaign-copilot",
+        "parristechservices1-beep/campaign-copilot"
+      ],
+      "evidence": "README.md blob hashes are identical; package metadata has drifted, so treat the second copy as an evolved mirror/variant rather than byte-identical. The parristechservices1-beep copy has the same README and package.json blob hashes as the Parris-Tech-Services copy."
+    },
+    {
+      "id": "healthlens-lineage",
+      "title": "HealthLens lineage",
+      "confidence": "confirmed-lineage",
+      "canonical": "joshualparris/HealthLens",
+      "members": [
+        "joshualparris/HealthLens",
+        "Parris-Tech-Services/HealthLens"
+      ],
+      "evidence": "package.json blob hashes are identical; README content differs, indicating documentation/evolution drift."
+    },
+    {
+      "id": "josh-os-lineage",
+      "title": "Josh OS / firmware lineage",
+      "confidence": "confirmed",
+      "canonical": "joshuaparris-max/JoshOS",
+      "members": [
+        "joshuaparris-max/JoshOS",
+        "Parris-Tech-Services/JoshOS-Stage0",
+        "Parris-Tech-Services/JoshBIOS"
+      ],
+      "evidence": "The canonical JoshOS README explicitly names all three repositories and assigns their roles: integration repo, Stage 0 product-track extraction, and firmware/bootloader research stack."
+    },
+    {
+      "id": "ashfaller-lineage",
+      "title": "Ashfaller / AshFallen lineage",
+      "confidence": "high",
+      "canonical": "Parris-Tech-Services/ashfaller",
+      "members": [
+        "Parris-Tech-Services/ashfaller",
+        "joshualparris/AshFallen"
+      ],
+      "evidence": "Both identify as ASHFALLER: The Veil Between, a text-led sci-fantasy extraction RPG beneath Dubbo; dependency versions differ, indicating variants rather than an exact mirror."
+    },
+    {
+      "id": "elodin-lineage",
+      "title": "Elodin lore siblings",
+      "confidence": "high-sibling",
+      "canonical": null,
+      "members": [
+        "Parris-Tech-Services/ElodinDeepLore",
+        "Parris-Tech-Services/elodin-deep-lore"
+      ],
+      "evidence": "Both are Elodin-focused Kingkiller lore projects, but their READMEs describe different structures. Treat as sibling implementations, not duplicates."
+    },
+    {
+      "id": "eleven-realms-lineage",
+      "title": "Eleven Realms variants",
+      "confidence": "probable",
+      "canonical": "Parris-Tech-Services/Eleven-Realms",
+      "members": [
+        "Parris-Tech-Services/Eleven-Realms",
+        "Parris-Tech-Services/ElevenRealms"
+      ],
+      "evidence": "Near-identical names. Eleven-Realms has a Vite package; ElevenRealms lacks README/package metadata. Keep as probable family until deeper history confirms."
+    },
+    {
+      "id": "dcs-companion-lineage",
+      "title": "DCS Companion copies",
+      "confidence": "probable",
+      "canonical": "Parris-Tech-Services/DCSCompanion",
+      "members": [
+        "Parris-Tech-Services/DCSCompanion",
+        "joshuaparrisdadlan-stack/DCSCompanion"
+      ],
+      "evidence": "Same repository name across known owner identities. The Parris-Tech-Services copy has full app metadata; alternate copy currently lacks comparable README/package evidence."
+    },
+    {
+      "id": "sword-coast-lineage",
+      "title": "Chronicles of the Sword Coast lineage",
+      "confidence": "confirmed",
+      "canonical": "joshuaparris/SwordChronicles",
+      "members": [
+        "joshuaparris/SwordChronicles",
+        "Parris-Tech-Services/SwordCoast",
+        "Parris-Tech-Services/dndgame"
+      ],
+      "evidence": "SwordCoast README explicitly points to joshuaparris/SwordChronicles as the repository for Chronicles of the Sword Coast. dndgame carries the same title and rebuilt-legacy description and represents the same game family."
+    },
+    {
+      "id": "groqchat-lineage",
+      "title": "GroqChat Dungeon Master lineage",
+      "confidence": "confirmed-lineage",
+      "canonical": "joshuaparris/groqchat2",
+      "members": [
+        "joshuaparris/groqchat",
+        "joshuaparris/groqchat2"
+      ],
+      "evidence": "Both identify as GROQCHAT and implement the same Groq-powered Dungeon Master chatbot concept. groqchat2 is a later-generation stack (Next 16/React 19 versus Next 14/React 18), so it is an evolution rather than an exact mirror."
+    },
+    {
+      "id": "anchorflow-lineage",
+      "title": "AnchorFlow placeholder → active app",
+      "confidence": "confirmed",
+      "canonical": "parristechservices-prog/AnchorFlow",
+      "members": [
+        "Parris-Tech-Services/AnchorFlow",
+        "parristechservices-prog/AnchorFlow"
+      ],
+      "evidence": "The Parris-Tech-Services README explicitly says it is an empty placeholder and recommends redirecting/archiving it if active AnchorFlow development exists elsewhere. parristechservices-prog/AnchorFlow contains the implemented local-first wellbeing/professional-growth app."
+    },
+    {
+      "id": "waypoint-lineage",
+      "title": "Waypoint sibling implementations",
+      "confidence": "high-sibling",
+      "canonical": "parristechservices-prog/Waypoint",
+      "members": [
+        "Parris-Tech-Services/Waypoint",
+        "parristechservices-prog/Waypoint"
+      ],
+      "evidence": "Both are local-first decision/growth tools but materially different implementations: Parris-Tech-Services/Waypoint is a compact five-question personal decision navigator; parristechservices-prog/Waypoint is a much broader professional-growth, wellbeing and downtime-readiness hub."
+    }
+  ],
+  "name_collisions": [
+    {
+      "name": "Wild2",
+      "repos": [
+        "Parris-Tech-Services/Wild2",
+        "joshuaparrisdadlan-stack/Wild2"
+      ],
+      "note": "Confirmed collision: Parris-Tech-Services/Wild2 is DOVAHKIIN (Skyrim); dadlan-stack/Wild2 is a Whispering Wilds Twine/Godot workspace. Do not merge."
+    }
+  ],
+  "thematic_clusters": [
+    {
+      "id": "dadlan-laboratory",
+      "title": "DadLAN laboratory",
+      "members": [
+        "joshualparris/Cheappcslaptops",
+        "joshualparris/JoshHub",
+        "joshualparris/JoshMemory",
+        "joshualparris/JoshTapApp",
+        "joshuaparris-max/JoshOS",
+        "joshuaparrisdadlan-stack/JoshHub",
+        "joshuaparrisdadlan-stack/JoshTapApp",
+        "Parris-Tech-Services/Action1",
+        "Parris-Tech-Services/chronos",
+        "Parris-Tech-Services/DadlanControlCentre",
+        "Parris-Tech-Services/DiskCleanupAudit",
+        "Parris-Tech-Services/DubboSDR",
+        "Parris-Tech-Services/ForgeGrid",
+        "Parris-Tech-Services/Game-Booster",
+        "Parris-Tech-Services/hprobooktroubleshoot",
+        "Parris-Tech-Services/JoshBIOS",
+        "Parris-Tech-Services/JoshBooksOnline",
+        "Parris-Tech-Services/JoshCards",
+        "Parris-Tech-Services/JoshChess",
+        "Parris-Tech-Services/JoshCoach",
+        "Parris-Tech-Services/JoshFireAwareness",
+        "Parris-Tech-Services/JoshHorses",
+        "Parris-Tech-Services/JoshNFCAudio",
+        "Parris-Tech-Services/JoshOS-Stage0",
+        "Parris-Tech-Services/JoshPlatform",
+        "Parris-Tech-Services/joshReading",
+        "Parris-Tech-Services/troubleshoot"
+      ]
+    },
+    {
+      "id": "archive-memory",
+      "title": "Archive and memory",
+      "members": [
+        "joshualparris/JoshMemory",
+        "Parris-Tech-Services/FieldNotes",
+        "Parris-Tech-Services/JoshBooksOnline",
+        "Parris-Tech-Services/joshReading",
+        "Parris-Tech-Services/pdfresearch"
+      ]
+    },
+    {
+      "id": "health-provenance",
+      "title": "Health and provenance",
+      "members": [
+        "joshualparris/HealthLens",
+        "Parris-Tech-Services/ColdFluApp",
+        "Parris-Tech-Services/Health-Data-Manager",
+        "Parris-Tech-Services/HealthLens",
+        "Parris-Tech-Services/HeartCalm"
+      ]
+    },
+    {
+      "id": "work-institutions",
+      "title": "Work and institutions",
+      "members": [
+        "joshuaparrisdadlan-stack/DCSCompanion",
+        "Parris-Tech-Services/AnchorFlow",
+        "Parris-Tech-Services/DCSCompanion",
+        "Parris-Tech-Services/DCSPD",
+        "Parris-Tech-Services/DCSPrep",
+        "Parris-Tech-Services/DCSProfessionalDevelopment",
+        "Parris-Tech-Services/ExamsApp",
+        "Parris-Tech-Services/KaseyaFieldOps",
+        "Parris-Tech-Services/openclaw-workspace",
+        "Parris-Tech-Services/Waypoint",
+        "Parris-Tech-Services/Work",
+        "Parris-Tech-Services/WorkPlanner",
+        "parristechservices-prog/AnchorFlow",
+        "parristechservices-prog/Waypoint"
+      ]
+    },
+    {
+      "id": "ai-accountability",
+      "title": "AI, agents and accountability",
+      "members": [
+        "Parris-Tech-Services/AgentCheck",
+        "Parris-Tech-Services/llm",
+        "Parris-Tech-Services/LLMAccountability",
+        "Parris-Tech-Services/openclaw-workspace",
+        "Parris-Tech-Services/Prompt-Linker",
+        "joshuaparris/groqchat",
+        "joshuaparris/groqchat2"
+      ]
+    },
+    {
+      "id": "kingkiller-shards",
+      "title": "Kingkiller story/lore shards",
+      "members": [
+        "Parris-Tech-Services/elodin-deep-lore",
+        "Parris-Tech-Services/ElodinDeepLore",
+        "Parris-Tech-Services/kkc-adventure",
+        "Parris-Tech-Services/rothfuss-kkc-adventure",
+        "Parris-Tech-Services/RothfussMaps"
+      ]
+    },
+    {
+      "id": "story-worlds",
+      "title": "Playable and narrative worlds",
+      "members": [
+        "joshualparris/AshFallen",
+        "joshualparris/buckland-blocks-demo",
+        "joshualparris/the-consultancy-beneath",
+        "joshualparris/Whispering-Wilds",
+        "joshuaparrisdadlan-stack/BucklandGame",
+        "joshuaparrisdadlan-stack/Games",
+        "joshuaparrisdadlan-stack/LetsPlayDnd",
+        "joshuaparrisdadlan-stack/SimpleRPG",
+        "joshuaparrisdadlan-stack/WhirringWilderness",
+        "joshuaparrisdadlan-stack/whispering-wilds",
+        "joshuaparrisdadlan-stack/whispering-wilds-test",
+        "joshuaparrisdadlan-stack/WhisperingWildsReloaded",
+        "joshuaparrisdadlan-stack/Wild2",
+        "Parris-Tech-Services/3layers",
+        "Parris-Tech-Services/Aetheria",
+        "Parris-Tech-Services/Arena",
+        "Parris-Tech-Services/ashfaller",
+        "Parris-Tech-Services/AstraDndGame",
+        "Parris-Tech-Services/awdagaer",
+        "Parris-Tech-Services/bramblewick",
+        "Parris-Tech-Services/breach-command",
+        "Parris-Tech-Services/BucklandBlocks",
+        "Parris-Tech-Services/BucklandBlocks1",
+        "Parris-Tech-Services/CanonRPG",
+        "Parris-Tech-Services/delve",
+        "Parris-Tech-Services/dndgame",
+        "Parris-Tech-Services/drifter",
+        "Parris-Tech-Services/Echo",
+        "Parris-Tech-Services/Eleven-Realms",
+        "Parris-Tech-Services/ElevenRealms",
+        "Parris-Tech-Services/elodin-deep-lore",
+        "Parris-Tech-Services/ElodinDeepLore",
+        "Parris-Tech-Services/energyquest",
+        "Parris-Tech-Services/JoshChess",
+        "Parris-Tech-Services/kkc-adventure",
+        "Parris-Tech-Services/lantern-road",
+        "Parris-Tech-Services/lore",
+        "Parris-Tech-Services/Marsh",
+        "Parris-Tech-Services/Midnight-Line",
+        "Parris-Tech-Services/NeathBound",
+        "Parris-Tech-Services/NebulaDice-Browser",
+        "Parris-Tech-Services/random-play",
+        "Parris-Tech-Services/rothfuss-kkc-adventure",
+        "Parris-Tech-Services/schism",
+        "Parris-Tech-Services/Serenity-Keep-Flying",
+        "Parris-Tech-Services/StarHaven",
+        "Parris-Tech-Services/SwordCoast",
+        "Parris-Tech-Services/TextGame",
+        "Parris-Tech-Services/wastes-courier-roguelike",
+        "Parris-Tech-Services/WhirringWilderness",
+        "Parris-Tech-Services/whispering-wilds",
+        "Parris-Tech-Services/Wild2",
+        "parristechservices-prog/AIDungeonMaster",
+        "topsecretcheese-del/carGame",
+        "topsecretcheese-del/customCars",
+        "topsecretcheese-del/gregGame",
+        "DEPLOY-001",
+        "parristechservices1-beep/campaign-copilot",
+        "joshuaparris/SwordChronicles",
+        "joshuaparris/NewTestGame",
+        "joshuaparris/groqchat",
+        "joshuaparris/groqchat2",
+        "DEPLOY-002",
+        "DEPLOY-003",
+        "DEPLOY-004",
+        "DEPLOY-005",
+        "DEPLOY-006",
+        "DEPLOY-007",
+        "DEPLOY-008",
+        "DEPLOY-012"
+      ]
+    },
+    {
+      "id": "hubs-platforms",
+      "title": "Hubs and platform surfaces",
+      "members": [
+        "joshualparris/JoshHub",
+        "joshuaparrisdadlan-stack/JoshHub",
+        "Parris-Tech-Services/DadlanControlCentre",
+        "Parris-Tech-Services/JoshPlatform",
+        "Parris-Tech-Services/LifeHub",
+        "Parris-Tech-Services/lifehubdashboard"
+      ]
+    },
+    {
+      "id": "deployment-only",
+      "title": "Deployment-only archaeology",
+      "members": [
+        "DEPLOY-002",
+        "DEPLOY-003",
+        "DEPLOY-004",
+        "DEPLOY-005",
+        "DEPLOY-006",
+        "DEPLOY-007",
+        "DEPLOY-008",
+        "DEPLOY-009",
+        "DEPLOY-010",
+        "DEPLOY-011",
+        "DEPLOY-012",
+        "DEPLOY-013"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "PUB-113",
+      "name": "AshFallen",
+      "full_name": "joshualparris/AshFallen",
+      "owner": "joshualparris",
+      "type": "game",
+      "repo_url": "https://github.com/joshualparris/AshFallen",
+      "live_url": null,
+      "story_hook": "Parallel Ashfaller identity",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "ashfaller-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-115",
+      "name": "Buckland Blocks Demo",
+      "full_name": "joshualparris/buckland-blocks-demo",
+      "owner": "joshualparris",
+      "type": "game",
+      "repo_url": "https://github.com/joshualparris/buckland-blocks-demo",
+      "live_url": null,
+      "story_hook": "Playable lineage/demo shard",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "buckland-blocks-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-111",
+      "name": "Cheap PCs & Laptops",
+      "full_name": "joshualparris/Cheappcslaptops",
+      "owner": "joshualparris",
+      "type": "app",
+      "repo_url": "https://github.com/joshualparris/Cheappcslaptops",
+      "live_url": "https://joshualparris.github.io/Cheappcslaptops/",
+      "story_hook": "DadLAN acquisition node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Cheap PCs & Laptops",
+          "url": "https://joshualparris.github.io/Cheappcslaptops/",
+          "verified_http_200": true,
+          "source": "Cheappcslaptops README"
+        }
+      ],
+      "live_url_label": "Cheap PCs & Laptops"
+    },
+    {
+      "id": "PUB-116",
+      "name": "HealthLens",
+      "full_name": "joshualparris/HealthLens",
+      "owner": "joshualparris",
+      "type": "app",
+      "repo_url": "https://github.com/joshualparris/HealthLens",
+      "live_url": "https://health-lens-rust.vercel.app/",
+      "story_hook": "Health provenance/data node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "healthlens-lineage"
+      ],
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "region": "Health",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "HealthLens",
+          "url": "https://health-lens-rust.vercel.app/",
+          "verified_http_200": true,
+          "source": "JoshHealth/ColdFluApp docs"
+        }
+      ],
+      "live_url_label": "HealthLens"
+    },
+    {
+      "id": "PUB-110",
+      "name": "JoshHub",
+      "full_name": "joshualparris/JoshHub",
+      "owner": "joshualparris",
+      "type": "hub",
+      "repo_url": "https://github.com/joshualparris/JoshHub",
+      "live_url": "https://josh-hub-two.vercel.app/games",
+      "story_hook": "Earlier map of playable worlds",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "joshhub-lineage"
+      ],
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "hub"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-117",
+      "name": "JoshMemory",
+      "full_name": "joshualparris/JoshMemory",
+      "owner": "joshualparris",
+      "type": "archive",
+      "repo_url": "https://github.com/joshualparris/JoshMemory",
+      "live_url": "https://joshualparris.github.io/JoshMemory/",
+      "story_hook": "Memory/archive node; offline truth and link rot",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "archive",
+        "memory"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-118",
+      "name": "Josh Tap App",
+      "full_name": "joshualparris/JoshTapApp",
+      "owner": "joshualparris",
+      "type": "app",
+      "repo_url": "https://github.com/joshualparris/JoshTapApp",
+      "live_url": null,
+      "story_hook": "Physical/digital tap portal",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "josh-tap-lineage"
+      ],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-109",
+      "name": "Paul Roe",
+      "full_name": "joshualparris/Paul-Roe",
+      "owner": "joshualparris",
+      "type": "archive",
+      "repo_url": "https://github.com/joshualparris/Paul-Roe",
+      "live_url": "https://remembering-paul-roe.vercel.app/",
+      "story_hook": "Memorial/archive node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Remembering Paul Roe",
+          "url": "https://remembering-paul-roe.vercel.app/",
+          "verified_http_200": true,
+          "source": "Paul-Roe README"
+        }
+      ],
+      "live_url_label": "Remembering Paul Roe"
+    },
+    {
+      "id": "PUB-114",
+      "name": "Sylvie Phonetics",
+      "full_name": "joshualparris/SylviePhonetics",
+      "owner": "joshualparris",
+      "type": "app",
+      "repo_url": "https://github.com/joshualparris/SylviePhonetics",
+      "live_url": null,
+      "story_hook": "Family/learning node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-112",
+      "name": "The Consultancy Beneath",
+      "full_name": "joshualparris/the-consultancy-beneath",
+      "owner": "joshualparris",
+      "type": "game",
+      "repo_url": "https://github.com/joshualparris/the-consultancy-beneath",
+      "live_url": "https://joshualparris.github.io/the-consultancy-beneath/",
+      "story_hook": "Early explicit use of Beneath identifier",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "consultancy-beneath-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-108",
+      "name": "Whispering Wilds (original)",
+      "full_name": "joshualparris/Whispering-Wilds",
+      "owner": "joshualparris",
+      "type": "game",
+      "repo_url": "https://github.com/joshualparris/Whispering-Wilds",
+      "live_url": null,
+      "story_hook": "Original wilderness lineage",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-139",
+      "name": "ideas",
+      "full_name": "joshuaparris-max/ideas",
+      "owner": "joshuaparris-max",
+      "type": "project",
+      "repo_url": "https://github.com/joshuaparris-max/ideas",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-138",
+      "name": "JoshOS",
+      "full_name": "joshuaparris-max/JoshOS",
+      "owner": "joshuaparris-max",
+      "type": "tool",
+      "repo_url": "https://github.com/joshuaparris-max/JoshOS",
+      "live_url": null,
+      "story_hook": "Operating-system metaphor",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "josh-os-lineage"
+      ],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-128",
+      "name": "BucklandGame",
+      "full_name": "joshuaparrisdadlan-stack/BucklandGame",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/BucklandGame",
+      "live_url": "https://josh-hub-two.vercel.app/games/buckland-v2/index.html",
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "buckland-blocks-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Buckland Game",
+          "url": "https://josh-hub-two.vercel.app/games/buckland-v2/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Buckland Game"
+    },
+    {
+      "id": "PUB-134",
+      "name": "campaign-copilot",
+      "full_name": "joshuaparrisdadlan-stack/campaign-copilot",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "project",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/campaign-copilot",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "campaign-copilot-lineage"
+      ],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-131",
+      "name": "DCSCompanion",
+      "full_name": "joshuaparrisdadlan-stack/DCSCompanion",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "work-app",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/DCSCompanion",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "dcs-companion-lineage"
+      ],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-125",
+      "name": "Games",
+      "full_name": "joshuaparrisdadlan-stack/Games",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/Games",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-121",
+      "name": "HugCoach",
+      "full_name": "joshuaparrisdadlan-stack/HugCoach",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "personal-app",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/HugCoach",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-126",
+      "name": "JoshHub",
+      "full_name": "joshuaparrisdadlan-stack/JoshHub",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "hub",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/JoshHub",
+      "live_url": null,
+      "story_hook": "Public mirror of the JoshHub lineage. Use the canonical JoshHub node for the shared live deployment.",
+      "verification": "public-repo-mirror-no-separate-deployment",
+      "default_branch": "main",
+      "family_ids": [
+        "joshhub-lineage"
+      ],
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "hub"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-124",
+      "name": "JoshTapApp",
+      "full_name": "joshuaparrisdadlan-stack/JoshTapApp",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "tool",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/JoshTapApp",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "josh-tap-lineage"
+      ],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-132",
+      "name": "LetsPlayDnd",
+      "full_name": "joshuaparrisdadlan-stack/LetsPlayDnd",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/LetsPlayDnd",
+      "live_url": "https://joshuaparrisdadlan-stack.github.io/LetsPlayDnd/",
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Simple RPG (GH)",
+          "url": "https://joshuaparrisdadlan-stack.github.io/LetsPlayDnd/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Simple RPG (GH)"
+    },
+    {
+      "id": "PUB-129",
+      "name": "MysteriousDepths",
+      "full_name": "joshuaparrisdadlan-stack/MysteriousDepths",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "project",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/MysteriousDepths",
+      "live_url": "https://joshualparris.itch.io/mysterydepths",
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Mystery Depths (itch)",
+          "url": "https://joshualparris.itch.io/mysterydepths",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Mystery Depths (GH)",
+          "url": "https://joshuaparrisdadlan-stack.github.io/MysteriousDepths/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Mystery Depths (itch)"
+    },
+    {
+      "id": "PUB-137",
+      "name": "Null",
+      "full_name": "joshuaparrisdadlan-stack/Null",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "project",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/Null",
+      "live_url": "https://joshualparris.itch.io/null-html-game",
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Null (itch)",
+          "url": "https://joshualparris.itch.io/null-html-game",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Null (GH)",
+          "url": "https://joshuaparrisdadlan-stack.github.io/Null/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Null World (tabletop)",
+          "url": "https://play.fables.gg/worlds/null-etkh1z8zjzhi",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Null (itch)"
+    },
+    {
+      "id": "PUB-130",
+      "name": "OrgScape",
+      "full_name": "joshuaparrisdadlan-stack/OrgScape",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "project",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/OrgScape",
+      "live_url": "https://josh-hub-two.vercel.app/games/infinite-office/index.html",
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Infinite Office (itch)",
+          "url": "https://josh-hub-two.vercel.app/games/infinite-office/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "OrgScape",
+          "url": "https://josh-hub-two.vercel.app/games/orgscape/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Orgscape: The Infinite Office (campaign)",
+          "url": "https://play.fables.gg/worlds/the-infinite-office-xnu26hm454p9",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Infinite Office (itch)"
+    },
+    {
+      "id": "PUB-123",
+      "name": "PartyAI",
+      "full_name": "joshuaparrisdadlan-stack/PartyAI",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "project",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/PartyAI",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-136",
+      "name": "SimpleRPG",
+      "full_name": "joshuaparrisdadlan-stack/SimpleRPG",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/SimpleRPG",
+      "live_url": "https://joshualparris.itch.io/simplerpg",
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "Simple RPG (itch)",
+          "url": "https://joshualparris.itch.io/simplerpg",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Simple RPG (itch)"
+    },
+    {
+      "id": "PUB-122",
+      "name": "the-consultancy-beneath",
+      "full_name": "joshuaparrisdadlan-stack/the-consultancy-beneath",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "project",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/the-consultancy-beneath",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "consultancy-beneath-lineage"
+      ],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-127",
+      "name": "WhirringWilderness",
+      "full_name": "joshuaparrisdadlan-stack/WhirringWilderness",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/WhirringWilderness",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-119",
+      "name": "whispering-wilds",
+      "full_name": "joshuaparrisdadlan-stack/whispering-wilds",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/whispering-wilds",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-120",
+      "name": "whispering-wilds-test",
+      "full_name": "joshuaparrisdadlan-stack/whispering-wilds-test",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/whispering-wilds-test",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-135",
+      "name": "WhisperingWildsReloaded",
+      "full_name": "joshuaparrisdadlan-stack/WhisperingWildsReloaded",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/WhisperingWildsReloaded",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-133",
+      "name": "Wild2",
+      "full_name": "joshuaparrisdadlan-stack/Wild2",
+      "owner": "joshuaparrisdadlan-stack",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparrisdadlan-stack/Wild2",
+      "live_url": null,
+      "story_hook": "Second wilderness fragment",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-073",
+      "name": "3layers",
+      "full_name": "Parris-Tech-Services/3layers",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/3layers",
+      "live_url": null,
+      "story_hook": "Three-layer systems metaphor",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-069",
+      "name": "a",
+      "full_name": "Parris-Tech-Services/a",
+      "owner": "Parris-Tech-Services",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/a",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "master",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-096",
+      "name": "Action1",
+      "full_name": "Parris-Tech-Services/Action1",
+      "owner": "Parris-Tech-Services",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/Action1",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-093",
+      "name": "Aetheria",
+      "full_name": "Parris-Tech-Services/Aetheria",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Aetheria",
+      "live_url": null,
+      "story_hook": "Fantasy shard",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-058",
+      "name": "AgentCheck",
+      "full_name": "Parris-Tech-Services/AgentCheck",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/AgentCheck",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "ai",
+        "accountability"
+      ],
+      "region": "Simulation / AI",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-036",
+      "name": "Alfie",
+      "full_name": "Parris-Tech-Services/alfie",
+      "owner": "Parris-Tech-Services",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/alfie",
+      "live_url": null,
+      "story_hook": "Unclassified character/project node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-054",
+      "name": "analog",
+      "full_name": "Parris-Tech-Services/analog",
+      "owner": "Parris-Tech-Services",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/analog",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-063",
+      "name": "AnchorFlow",
+      "full_name": "Parris-Tech-Services/AnchorFlow",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/AnchorFlow",
+      "live_url": null,
+      "story_hook": "Stability/anchoring node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "anchorflow-lineage"
+      ],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-021",
+      "name": "App Factory",
+      "full_name": "Parris-Tech-Services/AppFactory",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/AppFactory",
+      "live_url": "https://appfactory-inky.vercel.app/",
+      "story_hook": "World-generator / project foundry",
+      "verification": "verified-live-link",
+      "default_branch": "feature/qa-docs-copilot-c2",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "AppFactory",
+          "url": "https://appfactory-inky.vercel.app/",
+          "verified_http_200": true,
+          "source": "AvancePD AppLinks"
+        },
+        {
+          "label": "AppFactory gamma",
+          "url": "https://app-factory-gamma.vercel.app/",
+          "verified_http_200": true,
+          "source": "AvancePD AppLinks"
+        }
+      ],
+      "live_url_label": "AppFactory"
+    },
+    {
+      "id": "PUB-048",
+      "name": "Arena",
+      "full_name": "Parris-Tech-Services/Arena",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Arena",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-090",
+      "name": "Ashfaller",
+      "full_name": "Parris-Tech-Services/ashfaller",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/ashfaller",
+      "live_url": null,
+      "story_hook": "Ash-world shard",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "ashfaller-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-037",
+      "name": "The Hollow Marches / AstraDndGame",
+      "full_name": "Parris-Tech-Services/AstraDndGame",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/AstraDndGame",
+      "live_url": "https://astra-dnd-game.vercel.app/",
+      "story_hook": "A fantasy world whose rules expose deterministic-vs-AI tension",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-006",
+      "name": "SIGNAL BENEATH",
+      "full_name": "Parris-Tech-Services/awdagaer",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/awdagaer",
+      "live_url": "https://parris-tech-services.github.io/awdagaer/",
+      "story_hook": "The stitch connecting the quilt",
+      "verification": "known-live-link",
+      "default_branch": "master",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-038",
+      "name": "bramblewick",
+      "full_name": "Parris-Tech-Services/bramblewick",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/bramblewick",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-019",
+      "name": "Breach Command",
+      "full_name": "Parris-Tech-Services/breach-command",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/breach-command",
+      "live_url": "https://parris-tech-services.github.io/breach-command/",
+      "story_hook": "Tactical containment simulation",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-004",
+      "name": "Buckland Blocks",
+      "full_name": "Parris-Tech-Services/BucklandBlocks",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/BucklandBlocks",
+      "live_url": "https://buckland-blocks.vercel.app/",
+      "story_hook": "Voxel frontier; world-state and graphics anomalies",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "buckland-blocks-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Buckland Blocks",
+          "url": "https://josh-hub-two.vercel.app/games/buckland-blocks/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ]
+    },
+    {
+      "id": "PUB-049",
+      "name": "Buckland Blocks 1",
+      "full_name": "Parris-Tech-Services/BucklandBlocks1",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/BucklandBlocks1",
+      "live_url": null,
+      "story_hook": "Earlier voxel branch / archaeological layer",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "buckland-blocks-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-001",
+      "name": "Campaign Copilot",
+      "full_name": "Parris-Tech-Services/campaign-copilot",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/campaign-copilot",
+      "live_url": "https://joshuaparrisdadlan-stack.github.io/campaign-copilot/",
+      "story_hook": "Campaign/planning support node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "campaign-copilot-lineage"
+      ],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Campaign Copilot",
+          "url": "https://joshuaparrisdadlan-stack.github.io/campaign-copilot/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Campaign Copilot"
+    },
+    {
+      "id": "PUB-100",
+      "name": "Canon RPG",
+      "full_name": "Parris-Tech-Services/CanonRPG",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/CanonRPG",
+      "live_url": null,
+      "story_hook": "Canon-vs-branching-history motif",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-041",
+      "name": "Carl",
+      "full_name": "Parris-Tech-Services/carl",
+      "owner": "Parris-Tech-Services",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/carl",
+      "live_url": null,
+      "story_hook": "Book-related shard",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-013",
+      "name": "chronos",
+      "full_name": "Parris-Tech-Services/chronos",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/chronos",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-088",
+      "name": "ClearCore",
+      "full_name": "Parris-Tech-Services/ClearCore",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/ClearCore",
+      "live_url": null,
+      "story_hook": "System-cleaning/control motif",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-039",
+      "name": "Cold Flu App",
+      "full_name": "Parris-Tech-Services/ColdFluApp",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/ColdFluApp",
+      "live_url": "https://cold-flu-app.vercel.app/",
+      "story_hook": "Health/symptom node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "region": "Health",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "ColdFluApp",
+          "url": "https://cold-flu-app.vercel.app/",
+          "verified_http_200": true,
+          "source": "ColdFluApp sitemap/README"
+        }
+      ],
+      "live_url_label": "ColdFluApp"
+    },
+    {
+      "id": "PUB-009",
+      "name": "DadlanControlCentre",
+      "full_name": "Parris-Tech-Services/DadlanControlCentre",
+      "owner": "Parris-Tech-Services",
+      "type": "hub",
+      "repo_url": "https://github.com/Parris-Tech-Services/DadlanControlCentre",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-020",
+      "name": "DCS Companion",
+      "full_name": "Parris-Tech-Services/DCSCompanion",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSCompanion",
+      "live_url": null,
+      "story_hook": "Work companion",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "dcs-companion-lineage"
+      ],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-056",
+      "name": "DCSPD",
+      "full_name": "Parris-Tech-Services/DCSPD",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSPD",
+      "live_url": "https://dcspd.vercel.app/",
+      "story_hook": "Professional-development institutional node",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-045",
+      "name": "DCS Prep",
+      "full_name": "Parris-Tech-Services/DCSPrep",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSPrep",
+      "live_url": "https://dcs-prep.vercel.app/",
+      "story_hook": "Preparation/work node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "DCS Prep App",
+          "url": "https://dcs-prep.vercel.app/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "DCS Prep App"
+    },
+    {
+      "id": "PUB-066",
+      "name": "DCS Professional Development",
+      "full_name": "Parris-Tech-Services/DCSProfessionalDevelopment",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/DCSProfessionalDevelopment",
+      "live_url": null,
+      "story_hook": "Work learning node",
+      "verification": "public-repo-discovered",
+      "default_branch": "deploy-ready",
+      "family_ids": [],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-082",
+      "name": "Delve",
+      "full_name": "Parris-Tech-Services/delve",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/delve",
+      "live_url": null,
+      "story_hook": "Descent/Archive metaphor",
+      "verification": "public-repo-discovered",
+      "default_branch": "master",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-086",
+      "name": "Dinner Decider",
+      "full_name": "Parris-Tech-Services/Dinner-Decider",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/Dinner-Decider",
+      "live_url": null,
+      "story_hook": "Ordinary-life decision node",
+      "verification": "public-repo-discovered",
+      "default_branch": "local-import-20260703-130408-Dinner-Decider",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-030",
+      "name": "Disk Cleanup Audit",
+      "full_name": "Parris-Tech-Services/DiskCleanupAudit",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/DiskCleanupAudit",
+      "live_url": null,
+      "story_hook": "Forensic maintenance node",
+      "verification": "public-repo-discovered",
+      "default_branch": "master",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-061",
+      "name": "Chronicles of the Sword Coast",
+      "full_name": "Parris-Tech-Services/dndgame",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/dndgame",
+      "live_url": null,
+      "story_hook": "Older fantasy implementation",
+      "verification": "public-repo-discovered",
+      "default_branch": "local-backup-main-20260610-1224",
+      "family_ids": [
+        "sword-coast-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-105",
+      "name": "Drifter",
+      "full_name": "Parris-Tech-Services/drifter",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/drifter",
+      "live_url": null,
+      "story_hook": "Traveller between systems",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-072",
+      "name": "DubboSDR",
+      "full_name": "Parris-Tech-Services/DubboSDR",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/DubboSDR",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "master",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-035",
+      "name": "Echo",
+      "full_name": "Parris-Tech-Services/Echo",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Echo",
+      "live_url": null,
+      "story_hook": "Messages returning from other nodes",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-047",
+      "name": "Eleven-Realms",
+      "full_name": "Parris-Tech-Services/Eleven-Realms",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Eleven-Realms",
+      "live_url": "https://realms-bay.vercel.app/",
+      "story_hook": "Compact exploration realms, relics, gates and score chasing.",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "eleven-realms-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated"
+    },
+    {
+      "id": "PUB-098",
+      "name": "ElevenRealms",
+      "full_name": "Parris-Tech-Services/ElevenRealms",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/ElevenRealms",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "eleven-realms-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-094",
+      "name": "Elodin Deep Lore II",
+      "full_name": "Parris-Tech-Services/elodin-deep-lore",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/elodin-deep-lore",
+      "live_url": null,
+      "story_hook": "Duplicate/variant identity puzzle",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "elodin-lineage"
+      ],
+      "themes": [
+        "story-world",
+        "kingkiller"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-040",
+      "name": "Elodin Deep Lore",
+      "full_name": "Parris-Tech-Services/ElodinDeepLore",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/ElodinDeepLore",
+      "live_url": "https://parris-tech-services.github.io/ElodinDeepLore/",
+      "story_hook": "Lore/archive crossover",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "elodin-lineage"
+      ],
+      "themes": [
+        "story-world",
+        "kingkiller"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "ElodinDeepLore",
+          "url": "https://parris-tech-services.github.io/ElodinDeepLore/",
+          "verified_http_200": true,
+          "source": "production workflow"
+        }
+      ],
+      "live_url_label": "ElodinDeepLore"
+    },
+    {
+      "id": "PUB-007",
+      "name": "Energy Quest",
+      "full_name": "Parris-Tech-Services/energyquest",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/energyquest",
+      "live_url": null,
+      "story_hook": "Resource and energy metaphor",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-092",
+      "name": "EPUB Translate",
+      "full_name": "Parris-Tech-Services/epubtranslate",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/epubtranslate",
+      "live_url": null,
+      "story_hook": "Translation/representation node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-079",
+      "name": "ExamsApp",
+      "full_name": "Parris-Tech-Services/ExamsApp",
+      "owner": "Parris-Tech-Services",
+      "type": "work-app",
+      "repo_url": "https://github.com/Parris-Tech-Services/ExamsApp",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-081",
+      "name": "Exchange Lab Manager",
+      "full_name": "Parris-Tech-Services/ExchangeLabManager",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/ExchangeLabManager",
+      "live_url": null,
+      "story_hook": "Lab/infrastructure node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-089",
+      "name": "exitbackup",
+      "full_name": "Parris-Tech-Services/exitbackup",
+      "owner": "Parris-Tech-Services",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/exitbackup",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-028",
+      "name": "FaithHub",
+      "full_name": "Parris-Tech-Services/FaithHub",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/FaithHub",
+      "live_url": null,
+      "story_hook": "Values/meaning node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-071",
+      "name": "Fedora Crash Doctor",
+      "full_name": "Parris-Tech-Services/FedoraCrashDoctor",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/FedoraCrashDoctor",
+      "live_url": null,
+      "story_hook": "Failure diagnosis node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-042",
+      "name": "Field Notes",
+      "full_name": "Parris-Tech-Services/FieldNotes",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/FieldNotes",
+      "live_url": null,
+      "story_hook": "Evidence notebook",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "archive",
+        "memory"
+      ],
+      "region": "Archive",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-044",
+      "name": "ForgeGrid",
+      "full_name": "Parris-Tech-Services/ForgeGrid",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/ForgeGrid",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-087",
+      "name": "Game Booster",
+      "full_name": "Parris-Tech-Services/Game-Booster",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/Game-Booster",
+      "live_url": null,
+      "story_hook": "Performance versus noise motif",
+      "verification": "public-repo-discovered",
+      "default_branch": "replit-agent",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-080",
+      "name": "GoldFinder",
+      "full_name": "Parris-Tech-Services/GoldFinder",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/GoldFinder",
+      "live_url": null,
+      "story_hook": "Search/treasure metaphor",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-104",
+      "name": "Health-Data-Manager",
+      "full_name": "Parris-Tech-Services/Health-Data-Manager",
+      "owner": "Parris-Tech-Services",
+      "type": "health-app",
+      "repo_url": "https://github.com/Parris-Tech-Services/Health-Data-Manager",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "region": "Health",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-103",
+      "name": "HealthLens",
+      "full_name": "Parris-Tech-Services/HealthLens",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/HealthLens",
+      "live_url": null,
+      "story_hook": "Health provenance/data node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "healthlens-lineage"
+      ],
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "region": "Health",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-031",
+      "name": "HeartCalm",
+      "full_name": "Parris-Tech-Services/HeartCalm",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/HeartCalm",
+      "live_url": "https://heart-calm-vert.vercel.app/",
+      "story_hook": "Calm/health node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "health",
+        "provenance"
+      ],
+      "region": "Health",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "HeartCalm",
+          "url": "https://heart-calm-vert.vercel.app/",
+          "verified_http_200": true,
+          "source": "ColdFluApp README"
+        }
+      ],
+      "live_url_label": "HeartCalm"
+    },
+    {
+      "id": "PUB-097",
+      "name": "Hermes Control",
+      "full_name": "Parris-Tech-Services/HermesControl",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/HermesControl",
+      "live_url": null,
+      "story_hook": "Control-plane node",
+      "verification": "public-repo-discovered",
+      "default_branch": "master",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-002",
+      "name": "hprobooktroubleshoot",
+      "full_name": "Parris-Tech-Services/hprobooktroubleshoot",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/hprobooktroubleshoot",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-010",
+      "name": "JoshBIOS",
+      "full_name": "Parris-Tech-Services/JoshBIOS",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshBIOS",
+      "live_url": null,
+      "story_hook": "Deepest machine identity layer",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "josh-os-lineage"
+      ],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-106",
+      "name": "Josh Books Online",
+      "full_name": "Parris-Tech-Services/JoshBooksOnline",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshBooksOnline",
+      "live_url": null,
+      "story_hook": "Book/archive node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "archive",
+        "memory"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-091",
+      "name": "Josh Cards",
+      "full_name": "Parris-Tech-Services/JoshCards",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshCards",
+      "live_url": null,
+      "story_hook": "Cards/collection node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-018",
+      "name": "Josh Chess",
+      "full_name": "Parris-Tech-Services/JoshChess",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshChess",
+      "live_url": null,
+      "story_hook": "Second chess shard",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "story-world"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-014",
+      "name": "JoshCoach",
+      "full_name": "Parris-Tech-Services/JoshCoach",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshCoach",
+      "live_url": null,
+      "story_hook": "Coaching/advice node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-022",
+      "name": "Josh Fire Awareness",
+      "full_name": "Parris-Tech-Services/JoshFireAwareness",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshFireAwareness",
+      "live_url": null,
+      "story_hook": "Safety/preparedness node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-095",
+      "name": "JoshHorses",
+      "full_name": "Parris-Tech-Services/JoshHorses",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshHorses",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-023",
+      "name": "Josh NFC Audio",
+      "full_name": "Parris-Tech-Services/JoshNFCAudio",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshNFCAudio",
+      "live_url": "https://josh-hub-two.vercel.app/games/josh-nfc-audio/index.html",
+      "story_hook": "Physical-world audio portal",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Josh NFC Audio",
+          "url": "https://josh-hub-two.vercel.app/games/josh-nfc-audio/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Josh NFC Audio"
+    },
+    {
+      "id": "PUB-076",
+      "name": "JoshOS-Stage0",
+      "full_name": "Parris-Tech-Services/JoshOS-Stage0",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshOS-Stage0",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "josh-os-lineage"
+      ],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-051",
+      "name": "Josh Platform",
+      "full_name": "Parris-Tech-Services/JoshPlatform",
+      "owner": "Parris-Tech-Services",
+      "type": "hub",
+      "repo_url": "https://github.com/Parris-Tech-Services/JoshPlatform",
+      "live_url": null,
+      "story_hook": "Platform-level constellation node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "hub"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-012",
+      "name": "joshReading",
+      "full_name": "Parris-Tech-Services/joshReading",
+      "owner": "Parris-Tech-Services",
+      "type": "archive",
+      "repo_url": "https://github.com/Parris-Tech-Services/joshReading",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure",
+        "archive",
+        "memory"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-032",
+      "name": "Kaseya Field Ops",
+      "full_name": "Parris-Tech-Services/KaseyaFieldOps",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/KaseyaFieldOps",
+      "live_url": null,
+      "story_hook": "Field support/work node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-027",
+      "name": "KKC Adventure",
+      "full_name": "Parris-Tech-Services/kkc-adventure",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/kkc-adventure",
+      "live_url": null,
+      "story_hook": "Literary adventure shard",
+      "verification": "public-repo-discovered",
+      "default_branch": "master",
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "kingkiller"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-026",
+      "name": "Lantern Road",
+      "full_name": "Parris-Tech-Services/lantern-road",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/lantern-road",
+      "live_url": "https://parris-tech-services.github.io/lantern-road/",
+      "story_hook": "Road between worlds",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-029",
+      "name": "LifeHub",
+      "full_name": "Parris-Tech-Services/LifeHub",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/LifeHub",
+      "live_url": null,
+      "story_hook": "Life-management node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "hub"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-003",
+      "name": "LifeHub Dashboard",
+      "full_name": "Parris-Tech-Services/lifehubdashboard",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/lifehubdashboard",
+      "live_url": null,
+      "story_hook": "Life systems dashboard",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "hub"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-025",
+      "name": "llm",
+      "full_name": "Parris-Tech-Services/llm",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/llm",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "ai",
+        "accountability"
+      ],
+      "region": "Simulation / AI",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-084",
+      "name": "LLM Accountability",
+      "full_name": "Parris-Tech-Services/LLMAccountability",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/LLMAccountability",
+      "live_url": null,
+      "story_hook": "Integrity/accountability node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "ai",
+        "accountability"
+      ],
+      "region": "Simulation / AI",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-052",
+      "name": "Lore",
+      "full_name": "Parris-Tech-Services/lore",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/lore",
+      "live_url": null,
+      "story_hook": "Lore repository as world",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-053",
+      "name": "Marsh",
+      "full_name": "Parris-Tech-Services/Marsh",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Marsh",
+      "live_url": null,
+      "story_hook": "Wetland boundary world",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-016",
+      "name": "Max",
+      "full_name": "Parris-Tech-Services/Max",
+      "owner": "Parris-Tech-Services",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/Max",
+      "live_url": "https://josh-hub-two.vercel.app/games/max/index.html",
+      "story_hook": "Unknown node; preserve until classified",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Max",
+          "url": "https://josh-hub-two.vercel.app/games/max/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Max"
+    },
+    {
+      "id": "PUB-085",
+      "name": "Midnight Line",
+      "full_name": "Parris-Tech-Services/Midnight-Line",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Midnight-Line",
+      "live_url": "https://josh-hub-two.vercel.app/games/midnight-line/index.html",
+      "story_hook": "Night-route narrative node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Midnight Line",
+          "url": "https://josh-hub-two.vercel.app/games/midnight-line/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Midnight Line"
+    },
+    {
+      "id": "PUB-074",
+      "name": "migration",
+      "full_name": "Parris-Tech-Services/migration",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/migration",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-067",
+      "name": "NeathBound",
+      "full_name": "Parris-Tech-Services/NeathBound",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/NeathBound",
+      "live_url": "https://parris-tech-services.github.io/NeathBound/",
+      "story_hook": "Storylet world that begins mirroring reality",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-099",
+      "name": "NebulaDice Browser",
+      "full_name": "Parris-Tech-Services/NebulaDice-Browser",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/NebulaDice-Browser",
+      "live_url": null,
+      "story_hook": "Chance/dice node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-078",
+      "name": "newfileqqqwertuhvgjkk.py",
+      "full_name": "Parris-Tech-Services/newfileqqqwertuhvgjkk.py",
+      "owner": "Parris-Tech-Services",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/newfileqqqwertuhvgjkk.py",
+      "live_url": "https://josh-hub-two.vercel.app/games/newfileqqqwertuhvgjkk/index.html",
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic",
+      "alternate_live_urls": [
+        {
+          "label": "newfileqqqwertuhvgjkk.py",
+          "url": "https://josh-hub-two.vercel.app/games/newfileqqqwertuhvgjkk/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "newfileqqqwertuhvgjkk.py"
+    },
+    {
+      "id": "PUB-011",
+      "name": "NextJS Expert",
+      "full_name": "Parris-Tech-Services/NextJS-Expert",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/NextJS-Expert",
+      "live_url": null,
+      "story_hook": "Web systems skill node",
+      "verification": "public-repo-discovered",
+      "default_branch": "local-import-20260703-130408-NextJS-Expert",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-101",
+      "name": "openclaw-workspace",
+      "full_name": "Parris-Tech-Services/openclaw-workspace",
+      "owner": "Parris-Tech-Services",
+      "type": "work-app",
+      "repo_url": "https://github.com/Parris-Tech-Services/openclaw-workspace",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "work",
+        "institutions",
+        "ai",
+        "accountability"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-057",
+      "name": "Parris Piano",
+      "full_name": "Parris-Tech-Services/ParrisPiano",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/ParrisPiano",
+      "live_url": null,
+      "story_hook": "Music node / possible soundtrack portal",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-077",
+      "name": "pdfresearch",
+      "full_name": "Parris-Tech-Services/pdfresearch",
+      "owner": "Parris-Tech-Services",
+      "type": "archive",
+      "repo_url": "https://github.com/Parris-Tech-Services/pdfresearch",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "archive",
+        "memory"
+      ],
+      "region": "Archive",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-068",
+      "name": "Power App",
+      "full_name": "Parris-Tech-Services/PowerApp",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/PowerApp",
+      "live_url": "https://power-app-delta.vercel.app/",
+      "story_hook": "Power/resource node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "PowerApp",
+          "url": "https://power-app-delta.vercel.app/",
+          "verified_http_200": true,
+          "source": "PowerApp README"
+        }
+      ],
+      "live_url_label": "PowerApp"
+    },
+    {
+      "id": "PUB-034",
+      "name": "Prompt Linker",
+      "full_name": "Parris-Tech-Services/Prompt-Linker",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/Prompt-Linker",
+      "live_url": null,
+      "story_hook": "Literal link-making node",
+      "verification": "public-repo-discovered",
+      "default_branch": "local-import-20260703-130408-Prompt-Linker",
+      "family_ids": [],
+      "themes": [
+        "ai",
+        "accountability"
+      ],
+      "region": "Simulation / AI",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-065",
+      "name": "Random Play",
+      "full_name": "Parris-Tech-Services/random-play",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/random-play",
+      "live_url": "https://josh-hub-two.vercel.app/games/random-play/index.html",
+      "story_hook": "Experimental arcade node",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Random Play",
+          "url": "https://josh-hub-two.vercel.app/games/random-play/index.html",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "Random Play"
+    },
+    {
+      "id": "PUB-017",
+      "name": "repoclean",
+      "full_name": "Parris-Tech-Services/repoclean",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/repoclean",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "antigravity-push",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-050",
+      "name": "Rothfuss KKC Adventure",
+      "full_name": "Parris-Tech-Services/rothfuss-kkc-adventure",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/rothfuss-kkc-adventure",
+      "live_url": "https://parris-tech-services.github.io/rothfuss-kkc-adventure/",
+      "story_hook": "Parallel literary shard",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "kingkiller"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Rothfuss KKC Adventure",
+          "url": "https://parris-tech-services.github.io/rothfuss-kkc-adventure/",
+          "verified_http_200": true,
+          "source": "production workflow"
+        }
+      ],
+      "live_url_label": "Rothfuss KKC Adventure"
+    },
+    {
+      "id": "PUB-024",
+      "name": "Rothfuss Maps",
+      "full_name": "Parris-Tech-Services/RothfussMaps",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/RothfussMaps",
+      "live_url": null,
+      "story_hook": "Map/navigation node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "kingkiller"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-055",
+      "name": "schism",
+      "full_name": "Parris-Tech-Services/schism",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/schism",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-075",
+      "name": "Serenity: Keep Flying",
+      "full_name": "Parris-Tech-Services/Serenity-Keep-Flying",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Serenity-Keep-Flying",
+      "live_url": null,
+      "story_hook": "Keep-going theme",
+      "verification": "public-repo-discovered",
+      "default_branch": "local-import-20260703-130408-Serenity-Keep-Flying",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-064",
+      "name": "Skills",
+      "full_name": "Parris-Tech-Services/skills",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/skills",
+      "live_url": null,
+      "story_hook": "Learned abilities become literal RPG skills",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-107",
+      "name": "StarHaven",
+      "full_name": "Parris-Tech-Services/StarHaven",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/StarHaven",
+      "live_url": "https://josh-hub-two.vercel.app/games/starhaven/",
+      "story_hook": "Off-world refuge",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "StarHaven",
+          "url": "https://josh-hub-two.vercel.app/games/starhaven/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ],
+      "live_url_label": "StarHaven"
+    },
+    {
+      "id": "PUB-062",
+      "name": "Sword Coast",
+      "full_name": "Parris-Tech-Services/SwordCoast",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/SwordCoast",
+      "live_url": null,
+      "story_hook": "Fantasy shard",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "sword-coast-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-046",
+      "name": "TextGame",
+      "full_name": "Parris-Tech-Services/TextGame",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/TextGame",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-060",
+      "name": "Transfer",
+      "full_name": "Parris-Tech-Services/Transfer",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/Transfer",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-083",
+      "name": "troubleshoot",
+      "full_name": "Parris-Tech-Services/troubleshoot",
+      "owner": "Parris-Tech-Services",
+      "type": "tool",
+      "repo_url": "https://github.com/Parris-Tech-Services/troubleshoot",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "dadlan",
+        "infrastructure"
+      ],
+      "region": "DadLAN / Workbench",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-008",
+      "name": "Wastes Courier",
+      "full_name": "Parris-Tech-Services/wastes-courier-roguelike",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/wastes-courier-roguelike",
+      "live_url": "https://wastes-courier-roguelike.vercel.app/",
+      "story_hook": "Courier routes carry fragments between isolated systems",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-059",
+      "name": "Waypoint",
+      "full_name": "Parris-Tech-Services/Waypoint",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/Waypoint",
+      "live_url": null,
+      "story_hook": "Navigation/checkpoint node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "waypoint-lineage"
+      ],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-005",
+      "name": "Whirring Wilderness",
+      "full_name": "Parris-Tech-Services/WhirringWilderness",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/WhirringWilderness",
+      "live_url": "https://parris-tech-services.github.io/WhirringWilderness/",
+      "story_hook": "Wild node outside managed infrastructure",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward",
+      "alternate_live_urls": [
+        {
+          "label": "Whispering Wilds v2",
+          "url": "https://joshuaparrisdadlan-stack.github.io/whispering-wilds/",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        },
+        {
+          "label": "Whispering Wilds (itch)",
+          "url": "https://joshualparris.itch.io/whisperingwilds",
+          "verified_http_200": true,
+          "source": "joshualparris/JoshHub src/data/apps.ts"
+        }
+      ]
+    },
+    {
+      "id": "PUB-070",
+      "name": "whispering-wilds",
+      "full_name": "Parris-Tech-Services/whispering-wilds",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/whispering-wilds",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "whispering-wilds-lineage"
+      ],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-033",
+      "name": "Wild2",
+      "full_name": "Parris-Tech-Services/Wild2",
+      "owner": "Parris-Tech-Services",
+      "type": "game",
+      "repo_url": "https://github.com/Parris-Tech-Services/Wild2",
+      "live_url": null,
+      "story_hook": "Second wilderness fragment",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-015",
+      "name": "Work",
+      "full_name": "Parris-Tech-Services/Work",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/Work",
+      "live_url": null,
+      "story_hook": "Work-world root",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-102",
+      "name": "Work Planner",
+      "full_name": "Parris-Tech-Services/WorkPlanner",
+      "owner": "Parris-Tech-Services",
+      "type": "app",
+      "repo_url": "https://github.com/Parris-Tech-Services/WorkPlanner",
+      "live_url": null,
+      "story_hook": "Attention allocation node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-043",
+      "name": "WPHI",
+      "full_name": "Parris-Tech-Services/WPHI",
+      "owner": "Parris-Tech-Services",
+      "type": "project",
+      "repo_url": "https://github.com/Parris-Tech-Services/WPHI",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-140",
+      "name": "AI Dungeon Master",
+      "full_name": "parristechservices-prog/AIDungeonMaster",
+      "owner": "parristechservices-prog",
+      "type": "game",
+      "repo_url": "https://github.com/parristechservices-prog/AIDungeonMaster",
+      "live_url": "https://ai-dungeon-master-azure.vercel.app/",
+      "story_hook": "Ancestor AI-RPG experiment",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-146",
+      "name": "AnchorFlow",
+      "full_name": "parristechservices-prog/AnchorFlow",
+      "owner": "parristechservices-prog",
+      "type": "app",
+      "repo_url": "https://github.com/parristechservices-prog/AnchorFlow",
+      "live_url": null,
+      "story_hook": "Stability/anchoring node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "anchorflow-lineage"
+      ],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-143",
+      "name": "interview",
+      "full_name": "parristechservices-prog/interview",
+      "owner": "parristechservices-prog",
+      "type": "project",
+      "repo_url": "https://github.com/parristechservices-prog/interview",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-141",
+      "name": "interview2",
+      "full_name": "parristechservices-prog/interview2",
+      "owner": "parristechservices-prog",
+      "type": "project",
+      "repo_url": "https://github.com/parristechservices-prog/interview2",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-145",
+      "name": "money1",
+      "full_name": "parristechservices-prog/money1",
+      "owner": "parristechservices-prog",
+      "type": "project",
+      "repo_url": "https://github.com/parristechservices-prog/money1",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-144",
+      "name": "money2",
+      "full_name": "parristechservices-prog/money2",
+      "owner": "parristechservices-prog",
+      "type": "project",
+      "repo_url": "https://github.com/parristechservices-prog/money2",
+      "live_url": null,
+      "story_hook": "Unclassified public node. Its role in the Quilt should be discovered from its actual contents before stronger lore is assigned.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "name-heuristic"
+    },
+    {
+      "id": "PUB-142",
+      "name": "Waypoint",
+      "full_name": "parristechservices-prog/Waypoint",
+      "owner": "parristechservices-prog",
+      "type": "app",
+      "repo_url": "https://github.com/parristechservices-prog/Waypoint",
+      "live_url": null,
+      "story_hook": "Navigation/checkpoint node",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "waypoint-lineage"
+      ],
+      "themes": [
+        "work",
+        "institutions"
+      ],
+      "region": "Work / Institutions",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-148",
+      "name": "Car Builder + Racing",
+      "full_name": "topsecretcheese-del/carGame",
+      "owner": "topsecretcheese-del",
+      "type": "game",
+      "repo_url": "https://github.com/topsecretcheese-del/carGame",
+      "live_url": "https://topsecretcheese-del.github.io/carGame/",
+      "story_hook": "Garage node; mechanical choices become literal power",
+      "verification": "known-live-link",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-147",
+      "name": "Custom Cars",
+      "full_name": "topsecretcheese-del/customCars",
+      "owner": "topsecretcheese-del",
+      "type": "game",
+      "repo_url": "https://github.com/topsecretcheese-del/customCars",
+      "live_url": null,
+      "story_hook": "Car ecosystem extension",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "PUB-149",
+      "name": "Greg Game",
+      "full_name": "topsecretcheese-del/gregGame",
+      "owner": "topsecretcheese-del",
+      "type": "game",
+      "repo_url": "https://github.com/topsecretcheese-del/gregGame",
+      "live_url": null,
+      "story_hook": "Parallel account world",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-or-carried-forward"
+    },
+    {
+      "id": "DEPLOY-001",
+      "name": "Grandmaster Path",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://chess-kappa-five.vercel.app/",
+      "story_hook": "Strategy node; prediction without certainty",
+      "verification": "known-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "public-deployment"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated"
+    },
+    {
+      "id": "PUB-150",
+      "name": "Test",
+      "full_name": "parristechservices1-beep/Test",
+      "owner": "parristechservices1-beep",
+      "type": "project",
+      "repo_url": "https://github.com/parristechservices1-beep/Test",
+      "live_url": null,
+      "story_hook": "Historical public test repository. Keep as an archaeological node rather than inventing a larger role.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-151",
+      "name": "JoshTapApp",
+      "full_name": "parristechservices1-beep/JoshTapApp",
+      "owner": "parristechservices1-beep",
+      "type": "app",
+      "repo_url": "https://github.com/parristechservices1-beep/JoshTapApp",
+      "live_url": null,
+      "story_hook": "Historical JoshTapApp mirror/variant; provenance is weaker because top-level README/package metadata is absent.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "josh-tap-lineage"
+      ],
+      "themes": [
+        "audio",
+        "nfc"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-152",
+      "name": "Campaign Copilot",
+      "full_name": "parristechservices1-beep/campaign-copilot",
+      "owner": "parristechservices1-beep",
+      "type": "app",
+      "repo_url": "https://github.com/parristechservices1-beep/campaign-copilot",
+      "live_url": null,
+      "story_hook": "Confirmed public mirror of the Campaign Copilot D&D session helper.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "campaign-copilot-lineage"
+      ],
+      "themes": [
+        "story-world",
+        "ttrpg"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-153",
+      "name": "Chronicles of the Sword Coast",
+      "full_name": "joshuaparris/SwordChronicles",
+      "owner": "joshuaparris",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparris/SwordChronicles",
+      "live_url": "https://sword-coast.vercel.app/",
+      "story_hook": "Canonical public repository named by the SwordCoast variant for the rebuilt legacy browser RPG.",
+      "verification": "verified-live-link",
+      "default_branch": "main",
+      "family_ids": [
+        "sword-coast-lineage"
+      ],
+      "themes": [
+        "story-world",
+        "fantasy"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-after-metadata-review",
+      "alternate_live_urls": [
+        {
+          "label": "Chronicles of the Sword Coast",
+          "url": "https://sword-coast.vercel.app/",
+          "verified_http_200": true,
+          "source": "JoshHub deployment audit"
+        }
+      ],
+      "live_url_label": "Chronicles of the Sword Coast"
+    },
+    {
+      "id": "PUB-154",
+      "name": "NewTestGame",
+      "full_name": "joshuaparris/NewTestGame",
+      "owner": "joshuaparris",
+      "type": "game",
+      "repo_url": "https://github.com/joshuaparris/NewTestGame",
+      "live_url": null,
+      "story_hook": "Historical public game experiment with insufficient metadata for a stronger classification.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [],
+      "themes": [
+        "story-world"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-155",
+      "name": "GROQCHAT",
+      "full_name": "joshuaparris/groqchat",
+      "owner": "joshuaparris",
+      "type": "tool",
+      "repo_url": "https://github.com/joshuaparris/groqchat",
+      "live_url": null,
+      "story_hook": "First public Groq-powered Dungeon Master chatbot generation.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "groqchat-lineage"
+      ],
+      "themes": [
+        "ai",
+        "story-world"
+      ],
+      "region": "Simulation / AI",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "PUB-156",
+      "name": "GROQCHAT 2",
+      "full_name": "joshuaparris/groqchat2",
+      "owner": "joshuaparris",
+      "type": "tool",
+      "repo_url": "https://github.com/joshuaparris/groqchat2",
+      "live_url": null,
+      "story_hook": "Later GroqChat generation using newer Next.js/React while preserving the same DM-chat concept.",
+      "verification": "public-repo-discovered",
+      "default_branch": "main",
+      "family_ids": [
+        "groqchat-lineage"
+      ],
+      "themes": [
+        "ai",
+        "story-world"
+      ],
+      "region": "Simulation / AI",
+      "classification_confidence": "curated-after-metadata-review"
+    },
+    {
+      "id": "DEPLOY-002",
+      "name": "Signal Garden (3D prototype)",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/simple-rpg-gh/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-003",
+      "name": "AA Game Adventure",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/aa-game-adventure/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-004",
+      "name": "A Module DnD",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/amodule-dnd/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-005",
+      "name": "Tile Game",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/tile-game/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-006",
+      "name": "D&D RPG Dungeon (Python)",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/dnd-rpg-dungeon/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-007",
+      "name": "Classic D&D Text Adventure",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/classic-dnd-text/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-008",
+      "name": "NewGame JS Prototype",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/newgame/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-009",
+      "name": "The Drowned Expanse",
+      "full_name": null,
+      "owner": null,
+      "type": "app",
+      "repo_url": null,
+      "live_url": "https://play.fables.gg/worlds/the-drowned-expanse-l2bvcyceke6o",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public app recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "deployment-only"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-010",
+      "name": "Titanscape",
+      "full_name": null,
+      "owner": null,
+      "type": "app",
+      "repo_url": null,
+      "live_url": "https://play.fables.gg/worlds/019a60ce-282e-7a84-9cd3-b333f28dd69b",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public app recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "deployment-only"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-011",
+      "name": "Senseless",
+      "full_name": null,
+      "owner": null,
+      "type": "app",
+      "repo_url": null,
+      "live_url": "https://play.fables.gg/worlds/senseless-43j7b59vfz54",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public app recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "deployment-only"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-012",
+      "name": "Forbidden Quests",
+      "full_name": null,
+      "owner": null,
+      "type": "game",
+      "repo_url": null,
+      "live_url": "https://josh-hub-two.vercel.app/games/forbidden-quests/index.html",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public playable world recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "story-world",
+        "deployment-only"
+      ],
+      "region": "Project Quilt / Story Worlds",
+      "classification_confidence": "deployment-verified"
+    },
+    {
+      "id": "DEPLOY-013",
+      "name": "HugCoach",
+      "full_name": null,
+      "owner": null,
+      "type": "app",
+      "repo_url": null,
+      "live_url": "https://hug-coach.vercel.app/",
+      "live_url_label": "Play",
+      "alternate_live_urls": [],
+      "story_hook": "Public app recovered from the JoshHub catalogue. No public source repository is confidently mapped to this deployment.",
+      "verification": "verified-live-link-source-not-publicly-mapped",
+      "default_branch": null,
+      "family_ids": [],
+      "themes": [
+        "deployment-only"
+      ],
+      "region": "Project Quilt",
+      "classification_confidence": "deployment-verified"
+    }
+  ],
+  "verified_portal_count": 85
+}
